@@ -272,7 +272,6 @@ Ce diagramme représente le processus d'authentification d'un utilisateur sur la
     \label{fig:interface6}
 \end{figure}
 
-Ce diagramme de séquence représente les échanges entre l'utilisateur, l'interface et le système lors du processus d'authentification, depuis la saisie des identifiants jusqu'à l'affichage du tableau de bord ou l'affichage d'un message d'erreur en cas d'identifiants invalides.
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation « Réinitialiser le mot de passe »}
 
@@ -297,7 +296,6 @@ Ce diagramme présente le processus d'inscription d'un nouveau Responsable RH su
     \caption{Diagramme de séquence du cas d'utilisation « S'inscrire »}
 \end{figure}
 
-Ce diagramme présente les échanges entre le Responsable RH et le système lors de l'inscription, en montrant la vérification des données saisies, l'enregistrement dans la base de données et la redirection vers le tableau de bord.
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation « Créer compte employé »}
 
@@ -309,7 +307,6 @@ Ce diagramme démontre la création d'un compte par le Responsable RH. Il entre 
     \caption{Diagramme de séquence du cas d'utilisation « Créer compte employé »}
 \end{figure}
 
-Ce diagramme illustre les interactions entre le Responsable RH et le système lors de la création d'un compte employé, incluant la validation des données saisies, l'enregistrement du compte et l'envoi automatique du lien d'activation par e-mail.
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation « Supprimer compte employé »}
 
@@ -321,7 +318,6 @@ Ce diagramme présente la suppression d'un compte employé par le Responsable RH
     \caption{Diagramme de séquence du cas d'utilisation « Supprimer compte employé »}
 \end{figure}
 
-Ce diagramme représente le processus de suppression d'un compte employé, en mettant en évidence l'étape de demande de confirmation par le système avant de procéder à la suppression définitive des données associées.
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation « Modifier compte Responsable RH »}
 
@@ -333,7 +329,6 @@ Ce diagramme décrit la modification des informations d'un compte Responsable RH
     \caption{Diagramme de séquence du cas d'utilisation « Modifier compte Responsable RH »}
 \end{figure}
 
-Ce diagramme décrit les échanges entre l'Administrateur et le système lors de la modification d'un compte Responsable RH, depuis la sélection du compte et la mise à jour des champs souhaités jusqu'à l'enregistrement des modifications par le système.
 
 \subsubsection{Diagramme de classe du sprint 1}
 
@@ -346,7 +341,6 @@ Ce diagramme de classe illustre la structure du module de gestion des accès et 
     \label{fig:classe1}
 \end{figure}
 
-Ce diagramme de classe présente la structure statique du module d'authentification et de gestion des comptes, avec les attributs et méthodes des classes Administrateur, Responsable RH et Employé, ainsi que leurs relations d'héritage et d'association.
 
 %============================================================
 \subsection{Interfaces réalisées pour le sprint 1}
@@ -363,7 +357,6 @@ Cette interface présente la page d'authentification. En effet, chaque utilisate
     \label{fig:interface1}
 \end{figure}
 
-Cette figure présente la page de connexion de la plateforme, permettant à chaque utilisateur de saisir ses identifiants afin d'accéder à son espace personnel selon son rôle.
 
 \subsubsection*{Interface d'inscription}
 
@@ -376,7 +369,6 @@ Cette interface présente la page d'inscription. En effet, le Responsable RH doi
     \label{fig:interface2}
 \end{figure}
 
-Cette figure illustre le formulaire d'inscription destiné au Responsable RH, présentant les champs nécessaires à la création d'un nouveau compte sur la plateforme.
 
 \subsubsection*{Interface Réinitialiser mot de passe}
 
@@ -389,7 +381,6 @@ Cette interface permet à l'utilisateur de récupérer l'accès à son compte en
     \label{fig:interface3}
 \end{figure}
 
-Cette figure montre la page de réinitialisation du mot de passe, permettant à l'utilisateur de saisir son adresse e-mail pour recevoir un nouveau mot de passe et récupérer l'accès à son compte.
 
 \subsubsection*{Interface Gérer les comptes employés}
 
@@ -402,7 +393,6 @@ Cette interface permet au Responsable RH de gérer les comptes des employés (cr
     \label{fig:interface4}
 \end{figure}
 
-Cette figure présente l'interface de gestion des comptes employés, offrant au Responsable RH un tableau de bord centralisé pour créer, modifier et supprimer les comptes des employés.
 
 \subsubsection*{Interface Gérer les comptes Responsables RH}
 
@@ -415,7 +405,6 @@ Cette interface permet à l'Administrateur de gérer les comptes des responsable
     \label{fig:interface5}
 \end{figure}
 
-Cette figure illustre l'interface d'administration dédiée à la gestion des comptes Responsables RH, permettant à l'Administrateur d'effectuer les opérations de création, modification et suppression de ces comptes.
 
 %============================================================
 \section{Sprint 2 : Pointage Intelligent et Suivi de Présence}
@@ -620,7 +609,6 @@ Ce diagramme illustre la configuration et la connexion des caméras à la platef
     \caption{Diagramme de séquence du cas d'utilisation « Connecter la plateforme aux caméras »}
 \end{figure}
 
-Ce diagramme illustre les interactions entre le Responsable RH, la plateforme et les caméras lors de la configuration, montrant les étapes de détection, de paramétrage des caméras d'entrée et de sortie, et d'activation du module de pointage automatique.
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation « Enregistrer le visage »}
 
@@ -632,7 +620,6 @@ Ce diagramme décrit le processus d'enregistrement du visage d'un employé pour 
     \caption{Diagramme de séquence du cas d'utilisation « Enregistrer le visage »}
 \end{figure}
 
-Ce diagramme représente le flux d'enregistrement biométrique, depuis la capture du visage par la caméra jusqu'au traitement par le module d'intelligence artificielle et le stockage des données faciales dans la base de données.
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation « Modifier infos personnelles »}
 
@@ -644,8 +631,6 @@ Ce diagramme illustre la mise à jour des informations personnelles par l'employ
     \caption{Diagramme de séquence du cas d'utilisation « Modifier infos personnelles »}
 \end{figure}
 
-Ce diagramme présente les échanges entre l'employé et le système lors de la mise à jour de ses informations personnelles, incluant la vérification de la validité des données saisies et la confirmation de l'enregistrement des modifications.
-
 \subsubsection*{Diagramme de séquence du cas d'utilisation « Consulter ses absences »}
 
 Ce diagramme décrit la consultation par l'employé de son historique d'absences et de retards. Il accède à la section dédiée de son tableau de bord, le système interroge la base de données et affiche la liste détaillée des occurrences enregistrées.
@@ -656,7 +641,6 @@ Ce diagramme décrit la consultation par l'employé de son historique d'absences
     \caption{Diagramme de séquence du cas d'utilisation « Consulter ses absences et retards »}
 \end{figure}
 
-Ce diagramme illustre la consultation de l'historique des absences et retards par l'employé, montrant la requête envoyée vers la base de données et l'affichage des résultats dans la section dédiée du tableau de bord.
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation « Pointage facial »}
 
@@ -668,11 +652,10 @@ Le diagramme de pointage facial illustre le processus d'enregistrement de la pr�
     \caption{Diagramme de séquence du cas d'utilisation « Pointage facial »}
 \end{figure}
 
-Ce diagramme représente le processus complet de pointage facial, depuis l'activation de la caméra lors du check-in jusqu'à la vérification de l'identité par reconnaissance faciale et l'enregistrement des heures d'entrée et de sortie dans le système.
 
 \subsubsection{Diagramme de classe du sprint 2}
 
-Ce diagramme de classe représente les composants relatifs au pointage intelligent et au suivi de présence, notamment la configuration des caméras, la reconnaissance faciale, les présences, les absences et les informations personnelles des employés.
+Ce diagramme de classe illustre la structure des composants liés au pointage intelligent, en montrant les classes Camera, Présence, Absence et leurs attributs respectifs, ainsi que leurs relations avec la classe Employé au sein du système.
 
 \begin{figure}[H]
     \centering
@@ -681,7 +664,6 @@ Ce diagramme de classe représente les composants relatifs au pointage intellige
     \label{fig:classe2}
 \end{figure}
 
-Ce diagramme de classe illustre la structure des composants liés au pointage intelligent, en montrant les classes Camera, Présence, Absence et leurs attributs respectifs, ainsi que leurs relations avec la classe Employé au sein du système.
 
 %============================================================
 \subsection{Interfaces réalisées pour le sprint 2}
@@ -698,7 +680,6 @@ Cette interface permet de connecter le système aux caméras afin d'activer la c
     \label{fig:interface6}
 \end{figure}
 
-Cette figure présente l'interface de configuration des caméras, permettant au Responsable RH de détecter les caméras disponibles et de définir les caméras d'entrée et de sortie pour activer le pointage automatique.
 
 \subsubsection*{Enregistrer le visage}
 
@@ -711,7 +692,6 @@ Cette interface permet d'enregistrer les données faciales d'un utilisateur pour
     \label{fig:interface7}
 \end{figure}
 
-Cette figure illustre l'interface d'enregistrement du visage, activée lors de la première connexion de l'employé, permettant la capture et le stockage des données biométriques faciales nécessaires au pointage automatique.
 
 \subsubsection*{Modifier infos personnelles}
 
@@ -724,7 +704,6 @@ Cette interface permet à l'utilisateur de modifier ses informations personnelle
     \label{fig:interface8}
 \end{figure}
 
-Cette figure présente la page de profil de l'employé, offrant la possibilité de consulter et de modifier ses informations personnelles telles que le nom, l'adresse e-mail et le mot de passe.
 
 \subsubsection*{Consulter mes absences}
 
@@ -737,7 +716,6 @@ Cette interface permet à l'utilisateur de consulter l'historique et les détail
     \label{fig:interface9}
 \end{figure}
 
-Cette figure illustre l'interface de suivi des absences, affichant à l'employé l'historique détaillé de ses absences et retards enregistrés par le système de pointage.
 
 \subsubsection*{Interface de pointage facial}
 
@@ -750,7 +728,6 @@ L'interface de pointage facial permet aux employés d'enregistrer automatiquemen
     \label{fig:pointage_facial}
 \end{figure}
 
-Cette figure présente l'interface de pointage facial, permettant à l'employé en télétravail d'enregistrer ses heures d'arrivée et de départ via les boutons « Check In » et « Check Out », en utilisant la reconnaissance faciale pour valider son identité.
 
 %============================================================
 \section{Conclusion}

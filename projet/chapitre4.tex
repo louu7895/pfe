@@ -22,7 +22,7 @@ primes et salaires, ainsi que la validation, le rejet et le dépôt des document
 \end{itemize}
 
 \subsection{Backlog de sprint 3}
-Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-joint.
+Le backlog du sprint 3 regroupe l’ensemble des user stories liées à la gestion des congés, des documents administratifs ainsi qu’aux éléments de paie tels que les primes, les déductions et les salaires. Il permet de prioriser les fonctionnalités à implémenter en fonction de leur importance métier et de leur complexité, tout en assurant une meilleure organisation du travail de développement.
 \begin{longtable}{|>{\centering\arraybackslash}m{0.5cm}|
     >{\centering\arraybackslash}m{3cm}|
     >{\centering\arraybackslash}m{2.5cm}|
@@ -52,10 +52,9 @@ Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-j
 
 \subsection{Spécification fonctionnelle détaillée}
 
-\begin{itemize}
 
-\item \textbf{Diagramme de cas d'utilisation du sprint 3}
-
+\subsubsection*{Diagramme de cas d'utilisation du sprint 3}
+Ce diagramme représente les principales fonctionnalités du sprint 3, qui sont centrées sur la gestion des ressources humaines. Il met en évidence les interactions entre les acteurs, notamment le Responsable RH et l’Employé, et le système, à travers les processus de gestion des congés, des documents administratifs ainsi que des éléments de paie.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{projet/images/usecase/sprint 3/use_case_s3.png}
@@ -63,8 +62,8 @@ Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-j
     \label{fig:usecase_sprint3}
 \end{figure}
 
-\item \textbf{Raffinement du cas d'utilisation "Gérer congé"}
-
+\subsubsection*{Raffinement du cas d'utilisation "Gérer congé"}
+Ce diagramme détaille les différentes fonctionnalités associées à la gestion des congésIl illustre notamment les opérations de validation et de refus de congé.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{projet/images/usecase/sprint 3/raffinement_gerer_conges.png}
@@ -72,8 +71,8 @@ Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-j
     \label{fig:raffinement_gerer_conge}
 \end{figure}
 
-\item \textbf{Description textuelle : cas d'utilisation «~Valider congé~»}
-
+\subsubsection*{Description textuelle : cas d'utilisation «~Valider congé~»}
+Ce cas d'utilisation décrit le processus permettant au Responsable RH d'examiner une demande de congé soumise par un employé et de l'approuver. Cette fonctionnalité garantit une gestion structurée des absences tout en assurant la mise à jour du statut de la demande dans le système.
 \begin{center}
 \begin{longtable}{|p{5cm}|p{11cm}|}
 \hline
@@ -92,8 +91,8 @@ Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-j
 \end{longtable}
 \end{center}
 
-\item \textbf{Description textuelle : cas d'utilisation «~Refuser congé~»}
-
+\subsubsection*{Description textuelle : cas d'utilisation «~Refuser congé~»}
+Ce cas d'utilisation présente les étapes permettant au Responsable RH de refuser une demande de congé lorsqu'elle ne respecte pas les conditions requises. Le système enregistre le motif du refus afin d'assurer la transparence du processus.
 \begin{center}
 \begin{longtable}{|p{5cm}|p{11cm}|}
 \hline
@@ -113,8 +112,8 @@ Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-j
 \end{longtable}
 \end{center}
 
-\item \textbf{Raffinement du cas d'utilisation "Gérer les salaires"}
-
+\subsubsection*{Raffinement du cas d'utilisation "Gérer les salaires"}
+Ce diagramme présente les fonctionnalités liées à la gestion des salaires. Il met en évidence les opérations d’attribution de primes, de déductions ainsi que la mise à jour du salaire des employés, réalisées par le Responsable RH dans le cadre de la gestion de la paie.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{projet/images/usecase/sprint 3/refinnement_gere_salaire.png}
@@ -122,8 +121,8 @@ Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-j
     \label{fig:raffinement_gerer_salaires}
 \end{figure}
 
-\item \textbf{Description textuelle : cas d'utilisation «~Attribuer déduction~»}
-
+\subsubsection*{Description textuelle : cas d'utilisation «~Attribuer déduction~»}
+Ce cas d'utilisation permet au Responsable RH d'appliquer une déduction sur le salaire d'un employé. Cette fonctionnalité contribue à une gestion précise de la paie en prenant en compte les retenues justifiées.
 \begin{center}
 \begin{longtable}{|p{5cm}|p{11cm}|}
 \hline
@@ -144,8 +143,8 @@ Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-j
 \end{longtable}
 \end{center}
 
-\item \textbf{Description textuelle : cas d'utilisation «~Attribuer prime~»}
-
+\subsubsection*{Description textuelle : cas d'utilisation «~Attribuer prime~»}
+Ce cas d'utilisation décrit le processus d'attribution d'une prime à un employé. Il permet de valoriser les performances ou les réalisations particulières des employés à travers une récompense financière.
 \begin{center}
 \begin{longtable}{|p{5cm}|p{11cm}|}
 \hline
@@ -168,8 +167,8 @@ Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-j
 
 
 
-\item \textbf{Description textuelle : cas d'utilisation «~Mettre à jour statut salaire~»}
-
+\subsubsection*{Description textuelle : cas d'utilisation «~Mettre à jour statut salaire~»}
+Ce cas d'utilisation permet au Responsable RH de modifier le statut de paiement d'un salaire. Il assure le suivi des opérations de paie et permet aux employés de consulter l'état de leurs rémunérations
 \begin{center}
 \begin{longtable}{|p{5cm}|p{11cm}|}
 \hline
@@ -189,8 +188,8 @@ Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-j
 \end{longtable}
 \end{center}
 
-\item \textbf{Description textuelle : cas d'utilisation «~Modifier salaire~»}
-
+\subsubsection*{Description textuelle : cas d'utilisation «~Modifier salaire~»}
+Ce cas d'utilisation décrit les opérations permettant au Responsable RH de modifier le salaire de base d'un employé. Cette fonctionnalité est nécessaire pour prendre en compte les évolutions contractuelles ou les ajustements salariaux.
 \begin{center}
 \begin{longtable}{|p{5cm}|p{11cm}|}
 \hline
@@ -211,8 +210,8 @@ Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-j
 \end{longtable}
 \end{center}
 
-\item \textbf{Raffinement du cas d'utilisation "Gérer documents"}
-
+\subsubsection*{Raffinement du cas d'utilisation "Gérer documents"}
+Ce diagramme décrit le processus de gestion des documents administratifs en mettant en évidence les différentes étapes de leur traitement. Après consultation, les documents sont examinés par le Responsable RH, qui décide de leur validation ou de leur rejet selon leur niveau de conformité.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{projet/images/usecase/sprint 3/gerer_document.png}
@@ -220,8 +219,8 @@ Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-j
     \label{fig:raffinement_gerer_documents}
 \end{figure}
 
-\item \textbf{Description textuelle : cas d'utilisation «~Consulter documents~»}
-
+\subsubsection*{Description textuelle : cas d'utilisation «~Consulter documents~»}
+Ce cas d'utilisation permet au Responsable RH d'accéder aux documents administratifs déposés par les employés. Il facilite la vérification des pièces justificatives et le suivi administratif.
 \begin{center}
 \begin{longtable}{|p{5cm}|p{11cm}|}
 \hline
@@ -239,8 +238,8 @@ Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-j
 \end{longtable}
 \end{center}
 
-\item \textbf{Description textuelle : cas d'utilisation «~Valider document~»}
-
+\subsubsection*{Description textuelle : cas d'utilisation «~Valider document~»}
+Ce cas d'utilisation décrit le processus par lequel le Responsable RH approuve un document soumis par un employé. Une fois validé, le document est considéré comme conforme et intégré au dossier administratif.
 \begin{center}
 \begin{longtable}{|p{5cm}|p{11cm}|}
 \hline
@@ -259,8 +258,8 @@ Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-j
 \end{longtable}
 \end{center}
 
-\item \textbf{Description textuelle : cas d'utilisation «~Rejeter document~»}
-
+\subsubsection*{Description textuelle : cas d'utilisation «~Rejeter document~»}
+Ce cas d'utilisation permet au Responsable RH de refuser un document lorsqu'il est incomplet ou non conforme. Le système met alors à jour son statut afin d'informer l'employé concerné.
 \begin{center}
 \begin{longtable}{|p{5cm}|p{11cm}|}
 \hline
@@ -279,16 +278,17 @@ Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-j
 \end{longtable}
 \end{center}
 
-\item \textbf{Raffinement du cas d'utilisation "Consulter  son salaire"}
-
+\subsubsection*{Raffinement du cas d'utilisation "Consulter  son salaire"}
+Ce diagramme détaille les différentes options offertes à l’employé pour consulter les informations relatives à sa rémunération, notamment le salaire, les primes et les déductions. Il illustre les interactions entre l’employé et le système pour le suivi de sa paie.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{projet/images/usecase/sprint 3/CS.png}
     \caption{Raffinement du cas d'utilisation "Gérer les salaires"}
     \label{fig:raffinement_gerer_salaires}
 \end{figure}
-\item \textbf{Description textuelle : cas d'utilisation «~Consulter primes~»}
 
+\subsubsection*{Description textuelle : cas d'utilisation «~Consulter primes~»}
+Ce cas d'utilisation permet à l'employé de consulter les différentes primes qui lui ont été attribuées. Il favorise la transparence des éléments de rémunération complémentaires.
 \begin{center}
 \begin{longtable}{|p{5cm}|p{11cm}|}
 \hline
@@ -306,8 +306,8 @@ Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-j
 \end{longtable}
 \end{center}
 
-\item \textbf{Description textuelle : cas d'utilisation «~Consulter déductions~»}
-
+\subsubsection*{Description textuelle : cas d'utilisation «~Consulter déductions~»}
+Ce cas d'utilisation permet à l'employé d'accéder à la liste des déductions appliquées à son salaire. Il contribue à une meilleure compréhension des montants figurant sur sa fiche de paie
 \begin{center}
 \begin{longtable}{|p{5cm}|p{11cm}|}
 \hline
@@ -325,8 +325,8 @@ Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-j
 \end{longtable}
 \end{center}
 
-\item \textbf{Description textuelle : cas d'utilisation «~Consulter salaire~»}
-
+\subsubsection*{Description textuelle : cas d'utilisation «~Consulter salaire~»}
+Ce cas d'utilisation permet à l'employé de consulter les informations relatives à son salaire ainsi que son statut de paiement. Cette fonctionnalité facilite le suivi de sa rémunération.
 \begin{center}
 \begin{longtable}{|p{5cm}|p{11cm}|}
 \hline
@@ -344,8 +344,8 @@ Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-j
 \end{longtable}
 \end{center}
 
-\item \textbf{Description textuelle : cas d'utilisation «~Demander un congé~»}
-
+\subsubsection*{Description textuelle : cas d'utilisation «~Demander un congé~»}
+Ce cas d'utilisation décrit le processus permettant à l'employé de soumettre une demande de congé. Les informations saisies sont transmises au Responsable RH pour validation ou refus.
 \begin{center}
 \begin{longtable}{|p{5cm}|p{11cm}|}
 \hline
@@ -365,8 +365,8 @@ Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-j
 \end{longtable}
 \end{center}
 
-\item \textbf{Description textuelle : cas d'utilisation «~Déposer document~»}
-
+\subsubsection*{Description textuelle : cas d'utilisation «~Déposer document~»}
+Ce cas d'utilisation permet à l'employé de transmettre des documents administratifs ou justificatifs via la plateforme. Les documents déposés sont ensuite examinés par le Responsable RH.
 \begin{center}
 \begin{longtable}{|p{5cm}|p{11cm}|}
 \hline
@@ -386,16 +386,16 @@ Le  backlog du sprint relatif à ce sprint est représenté dans le tableau ci-j
 \end{longtable}
 \end{center}
 
-\end{itemize}
+
 
 \subsection{Conception}
 Cette section présente les différents diagrammes UML réalisés afin de modéliser le fonctionnement du système, notamment les diagrammes de séquence et les diagrammes de classes, permettant de décrire les interactions entre les acteurs ainsi que la structure globale de l'application.
 
 \subsubsection{Diagramme de séquence du sprint 3}
 
-\begin{itemize}
 
-\item[$\bullet$] \textbf{Diagramme de séquence du cas d'utilisation «~Valider congé~»}
+
+\subsubsection*{Diagramme de séquence du cas d'utilisation «~Valider congé~»}
 
 Ce diagramme illustre la validation d'une demande de congé par le Responsable RH. Il consulte la liste des demandes en attente, sélectionne celle à traiter et le système met à jour son statut en approuvé et notifie l'employé concerné.
 
@@ -405,7 +405,7 @@ Ce diagramme illustre la validation d'une demande de congé par le Responsable R
     \caption{Diagramme de séquence du cas d'utilisation «~Valider congé~»}
 \end{figure}
 
-\item[$\bullet$] \textbf{Diagramme de séquence du cas d'utilisation «~Refuser congé~»}
+\subsubsection*{Diagramme de séquence du cas d'utilisation «~Refuser congé~»}
 
 Ce diagramme décrit le refus d'une demande de congé par le Responsable RH. Après sélection de la demande, il saisit un motif de refus obligatoire et le système met à jour le statut en refusé avant de notifier l'employé.
 
@@ -415,7 +415,7 @@ Ce diagramme décrit le refus d'une demande de congé par le Responsable RH. Apr
     \caption{Diagramme de séquence du cas d'utilisation «~Refuser congé~»}
 \end{figure}
 
-\item[$\bullet$] \textbf{Diagramme de séquence du cas d'utilisation «~Attribuer prime~»}
+\subsubsection*{Diagramme de séquence du cas d'utilisation «~Attribuer prime~»}
 
 Ce diagramme présente l'attribution d'une prime à un employé par le Responsable RH. Il sélectionne l'employé, saisit le montant et la raison de la prime, et le système enregistre l'opération qui devient alors consultable par l'employé concerné.
 
@@ -425,7 +425,7 @@ Ce diagramme présente l'attribution d'une prime à un employé par le Responsab
     \caption{Diagramme de séquence du cas d'utilisation «~Attribuer prime~»}
 \end{figure}
 
-\item[$\bullet$] \textbf{Diagramme de séquence du cas d'utilisation «~Attribuer déduction~»}
+\subsubsection*{Diagramme de séquence du cas d'utilisation «~Attribuer déduction~»}
 
 Ce diagramme illustre l'application d'une déduction sur le salaire d'un employé par le Responsable RH. Il sélectionne l'employé, saisit le montant et le motif de la déduction, et le système enregistre l'opération pour qu'elle soit reflétée dans la fiche de paie.
 
@@ -435,7 +435,7 @@ Ce diagramme illustre l'application d'une déduction sur le salaire d'un employ�
     \caption{Diagramme de séquence du cas d'utilisation «~Attribuer déductions~»}
 \end{figure}
 
-\item[$\bullet$] \textbf{Diagramme de séquence du cas d'utilisation «~Mettre à jour statut salaire~»}
+\subsubsection*{Diagramme de séquence du cas d'utilisation «~Mettre à jour statut salaire~»}
 
 Ce diagramme décrit la mise à jour du statut de paiement du salaire d'un employé par le Responsable RH. Il sélectionne l'employé, choisit le nouveau statut (versé ou non versé) et le système enregistre la modification pour la rendre visible à l'employé.
 
@@ -445,7 +445,7 @@ Ce diagramme décrit la mise à jour du statut de paiement du salaire d'un emplo
     \caption{Diagramme de séquence du cas d'utilisation «~Mettre à jour statut salaire~»}
 \end{figure}
 
-\item[$\bullet$] \textbf{Diagramme de séquence du cas d'utilisation «~Modifier salaire~»}
+\subsubsection*{Diagramme de séquence du cas d'utilisation «~Modifier salaire~»}
 
 Ce diagramme décrit la mise à jour du statut de paiement du salaire d'un employé par le Responsable RH. Il sélectionne l'employé, choisit le nouveau statut (versé ou non versé) et le système enregistre la modification pour la rendre visible à l'employé.
 
@@ -455,7 +455,7 @@ Ce diagramme décrit la mise à jour du statut de paiement du salaire d'un emplo
     \caption{Diagramme de séquence du cas d'utilisation «~Modifier salaire~»}
 \end{figure}
 
-\item[$\bullet$] \textbf{Diagramme de séquence du cas d'utilisation «~Consulter documents~»}
+\subsubsection*{Diagramme de séquence du cas d'utilisation «~Consulter documents~»}
 
 Ce diagramme présente la consultation des documents soumis par les employés. Le Responsable RH accède à l'interface des documents, sélectionne un document et le système affiche ses détails ou indique son indisponibilité.
 
@@ -465,7 +465,7 @@ Ce diagramme présente la consultation des documents soumis par les employés. L
     \caption{Diagramme de séquence du cas d'utilisation «~Consulter documents~»}
 \end{figure}
 
-\item[$\bullet$] \textbf{Diagramme de séquence du cas d'utilisation «~Valider ou Rejeter document~»}
+\subsubsection*{Diagramme de séquence du cas d'utilisation «~Valider ou Rejeter document~»}
 
 Ce diagramme illustre la validation ou le rejet d'un document soumis par un employé. Le Responsable RH sélectionne le document, clique sur valider ou rejeter et le système met à jour son statut en approuvé, le rendant officiellement accepté dans le dossier de l'employé.
 
@@ -475,7 +475,7 @@ Ce diagramme illustre la validation ou le rejet d'un document soumis par un empl
     \caption{Diagramme de séquence du cas d'utilisation «~Valider ou Rejeter document~»}
 \end{figure}
 
-\item[$\bullet$] \textbf{Diagramme de séquence du cas d'utilisation «~Consulter prime~»}
+\subsubsection*{Diagramme de séquence du cas d'utilisation «~Consulter prime~»}
 
 Ce diagramme présente la consultation par l'employé de la liste de ses primes attribuées. Il accède à son espace personnel, le système récupère l'historique des primes depuis la base de données et les affiche avec les montants et les dates correspondants.
 
@@ -485,7 +485,7 @@ Ce diagramme présente la consultation par l'employé de la liste de ses primes 
     \caption{Diagramme de séquence du cas d'utilisation «~Consulter prime~»}
 \end{figure}
 
-\item[$\bullet$] \textbf{Diagramme de séquence du cas d'utilisation «~Consulter déduction~»}
+\subsubsection*{Diagramme de séquence du cas d'utilisation «~Consulter déduction~»}
 
 Ce diagramme illustre la consultation par l'employé de ses déductions appliquées. Il accède à la section dédiée de son espace personnel, le système récupère les données et les affiche avec les montants et les motifs associés à chaque déduction.
 
@@ -495,7 +495,7 @@ Ce diagramme illustre la consultation par l'employé de ses déductions appliqu�
     \caption{Diagramme de séquence du cas d'utilisation «~Consulter déduction~»}
 \end{figure}
 
-\item[$\bullet$] \textbf{Diagramme de séquence du cas d'utilisation «~Consulter salaire~»}
+\subsubsection*{Diagramme de séquence du cas d'utilisation «~Consulter salaire~»}
 
 Ce diagramme décrit la consultation par l'employé du statut de son salaire mensuel. Il accède à son espace personnel, le système interroge la base de données et affiche le statut actuel du salaire, indiquant s'il a été versé ou non.
 
@@ -505,7 +505,7 @@ Ce diagramme décrit la consultation par l'employé du statut de son salaire men
     \caption{Diagramme de séquence du cas d'utilisation «~Consulter salaire~»}
 \end{figure}
 
-\item[$\bullet$] \textbf{Diagramme de séquence du cas d'utilisation «~Faire une demande de congé~»}
+\subsubsection*{Diagramme de séquence du cas d'utilisation «~Faire une demande de congé~»}
 
 Ce diagramme présente le processus de soumission d'une demande de congé par l'employé. Il saisit les dates de début et de fin ainsi que le motif, le système enregistre la demande et la transmet au Responsable RH pour traitement.
 
@@ -515,7 +515,7 @@ Ce diagramme présente le processus de soumission d'une demande de congé par l'
     \caption{Diagramme de séquence du cas d'utilisation «~Faire une demande de congé~»}
 \end{figure}
 
-\item[$\bullet$] \textbf{Diagramme de séquence du cas d'utilisation «~Déposer document~»}
+\subsubsection*{Diagramme de séquence du cas d'utilisation «~Déposer document~»}
 
 Ce diagramme décrit le dépôt d'un document justificatif par l'employé. Il sélectionne le fichier à soumettre, saisit les informations nécessaires et le système enregistre le document avant de notifier le Responsable RH de son arrivée.
 
@@ -525,7 +525,7 @@ Ce diagramme décrit le dépôt d'un document justificatif par l'employé. Il s�
     \caption{Diagramme de séquence du cas d'utilisation «~Déposer document~»}
 \end{figure}
 
-\end{itemize}
+
 
 \subsubsection{Diagramme de classe de sprint 3}
 
@@ -539,9 +539,10 @@ Le diagramme de classe montre la structure des fonctionnalités de gestion des r
 \end{figure}
 
 \subsection{Interfaces réalisées pour le sprint 3}
-\begin{itemize}
 
-\item \textbf{Gestion des congés}
+
+
+\subsubsection*{Gestion des congés}
 
 Cette interface permet au Responsable RH de consulter les demandes de congé soumises par les employés. Elle offre la possibilité de visualiser les détails de chaque demande, de l’approuver ou de la refuser tout en précisant, si nécessaire, le motif du refus.
 
@@ -551,7 +552,7 @@ Cette interface permet au Responsable RH de consulter les demandes de congé sou
     \caption{Gestion des congés}
 \end{figure}
 
-\item \textbf{Gestion des salaires}
+\subsubsection*{Gestion des salaires}
 Cette interface permet au Responsable RH de gérer les informations salariales des employés. Elle offre des fonctionnalités de modification du salaire de base, de mise à jour du statut de paiement et de suivi des opérations liées à la paie. Elle permet également l’attribution de primes ainsi que de déductions salariales.
 
 \begin{figure}[H]
@@ -562,7 +563,7 @@ Cette interface permet au Responsable RH de gérer les informations salariales d
 
 
 
-\item \textbf{Gestion des documents administratifs}
+\subsubsection*{Gestion des documents administratifs}
 
 Cette interface permet au Responsable RH de consulter les documents déposés par les employés, d’accéder à leurs détails et de les valider ou de les rejeter selon leur conformité.
 
@@ -572,7 +573,7 @@ Cette interface permet au Responsable RH de consulter les documents déposés pa
     \caption{Gestion des documents administratifs}
 \end{figure}
 
-\item \textbf{Mon salaire}
+\subsubsection*{Mon salaire}
 
 Cette interface permet à l’employé de consulter les informations relatives à sa rémunération, notamment le statut du salaire, les primes et les déductions associées.
 
@@ -582,7 +583,7 @@ Cette interface permet à l’employé de consulter les informations relatives �
     \caption{Mon salaire}
 \end{figure}
 
-\item \textbf{Consultation des primes}
+\subsubsection*{Consultation des primes}
 
 Cette interface permet à l’employé de visualiser l’ensemble des primes qui lui ont été attribuées ainsi que leurs montants et motifs.
 
@@ -592,7 +593,7 @@ Cette interface permet à l’employé de visualiser l’ensemble des primes qui
     \caption{Consultation des primes}
 \end{figure}
 
-\item \textbf{Consultation des déductions}
+\subsubsection*{Consultation des déductions}
 
 Cette interface permet à l’employé de consulter les déductions appliquées à son salaire avec les montants et les motifs correspondants.
 
@@ -602,7 +603,7 @@ Cette interface permet à l’employé de consulter les déductions appliquées 
     \caption{Consultation des déductions}
 \end{figure}
 
-\item \textbf{Demande de congé}
+\subsubsection*{Demande de congé}
 
 Cette interface permet à l’employé de soumettre une demande de congé en renseignant les dates concernées ainsi que le motif de l’absence.
 
@@ -612,7 +613,7 @@ Cette interface permet à l’employé de soumettre une demande de congé en ren
     \caption{Demande de congé}
 \end{figure}
 
-\item \textbf{Dépôt de document}
+\subsubsection*{Dépôt de document}
 
 Cette interface permet à l’employé de déposer des documents administratifs ou justificatifs directement sur la plateforme afin qu’ils soient traités par le Responsable RH.
 
@@ -622,7 +623,7 @@ Cette interface permet à l’employé de déposer des documents administratifs 
     \caption{Dépôt de document}
 \end{figure}
 
-\end{itemize}
+
 %==============================================================
 \section{Sprint 4: Pilotage RH, Reporting, Paiement et Traçabilité}
 
@@ -633,12 +634,12 @@ L'objectif de ce sprint est l'implémentation des tableaux de bord de l'Administ
 
 \subsection{Durée de sprint 4}
 \begin{itemize}
-    \item \textbf{Date de début du sprint} : 03/05/2026
+   \item \textbf{Date de début du sprint} : 03/05/2026
     \item \textbf{Date de fin du sprint} : 29/05/2026
 \end{itemize}
 
 \subsection{Backlog de sprint 4}
-Le sprint backlog relatif à ce sprint est représenté dans le tableau ci-joint.
+Le backlog du sprint 4 regroupe les user stories relatives au pilotage RH, au reporting et à la traçabilité. Il met l’accent sur les fonctionnalités de supervision du système à travers les tableaux de bord, la génération de rapports et la consultation de l’historique des actions.
 \begin{longtable}{|>{\centering\arraybackslash}m{0.5cm}|
     >{\centering\arraybackslash}m{3cm}|
     >{\centering\arraybackslash}m{2.5cm}|
@@ -661,10 +662,11 @@ Le sprint backlog relatif à ce sprint est représenté dans le tableau ci-joint
 
 \subsection{Spécification fonctionnelle détaillée}
 
-\begin{itemize}
 
-\item \textbf{Diagramme de cas d'utilisation du sprint 4}
 
+
+\subsubsection*{Diagramme de cas d'utilisation du sprint 4}
+Ce diagramme illustre les fonctionnalités de supervision et de pilotage du système RH. Il met en évidence les interactions entre les acteurs et le système pour la visualisation des tableaux de bord, la génération de rapports et la consultation de l’historique des opérations.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{projet/images/usecase/sprint 4/uses4.drawio.png}
@@ -672,19 +674,19 @@ Le sprint backlog relatif à ce sprint est représenté dans le tableau ci-joint
     \label{fig:usecase_sprint4}
 \end{figure}
 
-\item \textbf{Description textuelle : cas d'utilisation «~Visualiser le Dashboard Administrateur~»}
-
+\subsubsection*{Description textuelle : cas d'utilisation «~Visualiser le Dashboard Administrateur~»}
+Ce cas d'utilisation permet à l'administrateur d'accéder au tableau de bord principal du système. Il offre une vue globale des indicateurs et statistiques nécessaires à la supervision de la plateforme
 \begin{center} \begin{longtable}{|p{5cm}|p{11cm}|} \hline \textbf{Nom du cas d'utilisation} & Visualiser tableau de bord administrateur \\ \hline \textbf{Acteurs} & Administrateur \\ \hline \textbf{Objectif} & Permettre à l’administrateur de visualiser le tableau de bord du système \\ \hline \textbf{Préconditions} & L’administrateur est déjà authentifié dans le système \\ \hline \textbf{Scénario nominal} & 1. L’administrateur accède à l’application. \newline 2. Le système détecte une session administrateur active. \newline 3. Le système charge automatiquement les données nécessaires. \newline 4. Le tableau de bord administrateur s’affiche avec les différentes fonctionnalités disponibles. \\ \hline \textbf{Scénario d'exception} & Session inexistante ou expirée $\rightarrow$ redirection vers la page de connexion. \\ \hline \textbf{Post-condition} & Le tableau de bord administrateur est affiché et prêt à être utilisé. \\ \hline \caption{Description textuelle du cas d'utilisation «~Visualiser tableau de bord administrateur~»} \end{longtable} \end{center}
 
 
-\item \textbf{Description textuelle : cas d'utilisation «~Visualiser le Dashboard RH~»}
+\subsubsection*{Description textuelle : cas d'utilisation «~Visualiser le Dashboard RH~»}
 
 \begin{center} \begin{longtable}{|p{5cm}|p{11cm}|} \hline \textbf{Nom du cas d'utilisation} & Visualiser tableau de bord RH \\ \hline \textbf{Acteurs} & Responsable RH \\ \hline \textbf{Objectif} & Permettre au responsable RH de visualiser le tableau de bord des ressources humaines \\ \hline \textbf{Préconditions} & Le responsable RH est déjà authentifié dans le système \\ \hline \textbf{Scénario nominal} & 1. Le responsable RH accède à l’application. \newline 2. Le système détecte une session RH active. \newline 3. Le système charge automatiquement les données et fonctionnalités RH. \newline 4. Le tableau de bord RH s’affiche avec les différentes options disponibles. \\ \hline \textbf{Scénario d'exception} & Session inexistante ou expirée $\rightarrow$ redirection vers la page de connexion. \\ \hline \textbf{Post-condition} & Le tableau de bord RH est affiché et prêt à être utilisé. \\ \hline \caption{Description textuelle du cas d'utilisation «~Visualiser tableau de bord RH~»} \end{longtable} \end{center}
 
 
 
-\item \textbf{Description textuelle : cas d'utilisation «~Consulter historique~»}
-
+\subsubsection*{Description textuelle : cas d'utilisation «~Consulter historique~»}
+Ce cas d'utilisation décrit le processus permettant au Responsable RH d'accéder à l'historique des actions réalisées sur la plateforme. Il garantit la traçabilité et le suivi des opérations effectuées.
 \begin{center}
 \begin{longtable}{|p{5cm}|p{11cm}|}
 \hline
@@ -715,8 +717,8 @@ Le fichier d’historique est exporté et disponible sur l’appareil. \\ \hline
 \end{longtable}
 \end{center}
 
-\item \textbf{Description textuelle : cas d'utilisation «~Exporter rapport~»}
-
+\subsubsection*{Description textuelle : cas d'utilisation «~Exporter rapport~»}
+Ce cas d'utilisation permet au Responsable RH de générer et d'exporter des rapports contenant les données RH de l'entreprise. Les rapports produits facilitent l'analyse et la prise de décision grâce à une présentation structurée des informations.
 \begin{center}
 \begin{longtable}{|p{5cm}|p{11cm}|}
 \hline
@@ -750,14 +752,13 @@ Le rapport est généré et disponible pour consultation ou téléchargement. \\
 
 
 
-\end{itemize}
+
 
 \subsection{Conception}
 \subsubsection{Diagrammes de séquence}
 
-\begin{itemize}
 
-\item[$\bullet$] \textbf{Diagramme de séquence du cas d'utilisation «~Visualiser le Dashboard (Administrateur)~»}
+\subsubsection*{Diagramme de séquence du cas d'utilisation «~Visualiser le Dashboard (Administrateur)~»}
 
 
 
@@ -768,10 +769,10 @@ Le rapport est généré et disponible pour consultation ou téléchargement. \\
     \caption{Diagramme de séquence du cas d'utilisation «~Visualiser le Dashboard (Responsable Administrateur )»}
 \end{figure}
 
-\item[$\bullet$] \textbf{Diagramme de séquence du cas d'utilisation «~Visualiser le Dashboard (Responsable RH)~»}
+\subsubsection*{Diagramme de séquence du cas d'utilisation «~Visualiser le Dashboard (Responsable RH)~»}
 
 
-
+Ce cas d'utilisation permet au Responsable RH de consulter un tableau de bord dédié aux activités des ressources humaines. Il fournit des indicateurs facilitant le suivi des employés, des congés et des opérations de paie.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{projet/images/sequence s4/bash rh.drawio.png}
@@ -779,7 +780,7 @@ Le rapport est généré et disponible pour consultation ou téléchargement. \\
 \end{figure}
 
 
-\item[$\bullet$] \textbf{Diagramme de séquence du cas d'utilisation «Consulter historique »}
+\subsubsection*{Diagramme de séquence du cas d'utilisation «Consulter historique »}
 
 
 
@@ -789,7 +790,7 @@ Le rapport est généré et disponible pour consultation ou téléchargement. \\
     \caption{Diagramme de séquence du cas d'utilisation «~Consulter historique~»}
 \end{figure}
 
-\item[$\bullet$] \textbf{Diagramme de séquence du cas d'utilisation «~Exporter rapport~»}
+\subsubsection*{Diagramme de séquence du cas d'utilisation «~Exporter rapport~»}
 
 
 
@@ -799,13 +800,12 @@ Le rapport est généré et disponible pour consultation ou téléchargement. \\
     \caption{Diagramme de séquence du cas d'utilisation «~Exporter rapport~»}
 \end{figure}
 
-\end{itemize}
 
 \subsection{Interfaces réalisées pour le sprint 4}
 
-\begin{itemize}
 
-\item[$\bullet$] \textbf{Dashboard Administrateur}
+
+\subsubsection*{Dashboard Administrateur}
 
 Cette page permet à l’administrateur de surveiller le fonctionnement global de la plateforme RH.  
 Elle affiche les statistiques principales, les activités récentes et les informations importantes du système afin d’assurer une bonne gestion de la plateforme.
@@ -818,7 +818,7 @@ Elle affiche les statistiques principales, les activités récentes et les infor
     \end{figure}
 \end{center}
 
-\item[$\bullet$] \textbf{Dashboard Responsable RH}
+\subsubsection*{Dashboard Responsable RH}
 
 Cette page permet au responsable RH de visualiser les indicateurs liés aux employés, aux absences, aux congés et aux salaires.  
 Elle facilite le suivi et le pilotage des activités RH de l’entreprise.
@@ -831,7 +831,7 @@ Elle facilite le suivi et le pilotage des activités RH de l’entreprise.
     \end{figure}
 \end{center}
 
-\item[$\bullet$] \textbf{Exportation des Rapports}
+\subsubsection*{Exportation des Rapports}
 
 Cette page permet de générer et télécharger différents rapports RH sous plusieurs formats.  
 Elle aide à analyser les données administratives et à produire des documents de suivi.
@@ -845,7 +845,7 @@ Elle aide à analyser les données administratives et à produire des documents 
 \end{center}
 
 
-\item[$\bullet$] \textbf{ Consulter historique }
+\subsubsection*{ Consulter historique }
 
 Cette page permet de consulter l’historique des actions effectuées sur la plateforme RH.  
 Elle assure la traçabilité et le suivi des opérations réalisées par les utilisateurs.
@@ -858,7 +858,7 @@ Elle assure la traçabilité et le suivi des opérations réalisées par les uti
     \end{figure}
 \end{center}
 
-\end{itemize}
+
 
 \section{Conclusion}
 Dans ce chapitre, nous avons présenté les livraisons des sprints 3 et 4, correspondant à la Release 2 du projet. Les fonctionnalités de gestion RH (congés, documents, primes, salaires) ainsi que les modules de statistiques, rapports et abonnement ont été détaillés à travers les backlog, spécifications fonctionnelles, conceptions et interfaces réalisées. Cette release constitue le produit final fonctionnel et complet du projet.

@@ -1,7 +1,7 @@
 \babel@toc {french}{}\relax 
 \contentsline {chapter}{Dédicaces}{i}{Doc-Start}%
 \contentsline {chapter}{Remerciements}{ii}{Doc-Start}%
-\contentsline {xchapter}{}{x}{Doc-Start}%
+\contentsline {xchapter}{}{v}{Doc-Start}%
 \contentsline {chapter}{Introduction Générale}{1}{Doc-Start}%
 \contentsline {xchapter}{}{3}{Doc-Start}%
 \contentsline {xchapter}{}{3}{Doc-Start}%
@@ -52,39 +52,39 @@
 \contentsline {subsection}{\numberline {3.2.1}Objectif du sprint 1}{28}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Durée du sprint 1}{28}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Backlog du sprint 1}{28}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Spécification fonctionnelle détaillée}{30}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.4}Spécification fonctionnelle détaillée}{29}{subsection.3.2.4}%
 \contentsline {subsection}{\numberline {3.2.5}Conception}{36}{subsection.3.2.5}%
-\contentsline {subsubsection}{\numberline {3.2.5.1}Diagrammes de séquence du sprint 1}{37}{subsubsection.3.2.5.1}%
+\contentsline {subsubsection}{\numberline {3.2.5.1}Diagrammes de séquence du sprint 1}{36}{subsubsection.3.2.5.1}%
 \contentsline {subsubsection}{\numberline {3.2.5.2}Diagramme de classe du sprint 1}{42}{subsubsection.3.2.5.2}%
 \contentsline {subsection}{\numberline {3.2.6}Interfaces réalisées pour le sprint 1}{43}{subsection.3.2.6}%
-\contentsline {section}{\numberline {3.3}Sprint 2 : Pointage Intelligent et Suivi de Présence}{47}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Objectif du sprint 2}{47}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Durée du sprint 2}{47}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Backlog du sprint 2}{47}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Spécification fonctionnelle détaillée}{48}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.3}Sprint 2 : Pointage Intelligent et Suivi de Présence}{46}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Objectif du sprint 2}{46}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Durée du sprint 2}{46}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Backlog du sprint 2}{46}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Spécification fonctionnelle détaillée}{47}{subsection.3.3.4}%
 \contentsline {subsection}{\numberline {3.3.5}Conception}{51}{subsection.3.3.5}%
-\contentsline {subsubsection}{\numberline {3.3.5.1}Diagrammes de séquence du sprint 2}{52}{subsubsection.3.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.3.5.1}Diagrammes de séquence du sprint 2}{51}{subsubsection.3.3.5.1}%
 \contentsline {subsubsection}{\numberline {3.3.5.2}Diagramme de classe du sprint 2}{56}{subsubsection.3.3.5.2}%
 \contentsline {subsection}{\numberline {3.3.6}Interfaces réalisées pour le sprint 2}{57}{subsection.3.3.6}%
-\contentsline {section}{\numberline {3.4}Conclusion}{61}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Release 2}{62}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{63}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Sprint 3: Gestion des Congés et des Documents Administratifs}{63}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Objectif de sprint 3}{63}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Durée de sprint 3}{63}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Backlog de sprint 3}{63}{subsection.4.2.3}%
+\contentsline {section}{\numberline {3.4}Conclusion}{60}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Release 2}{61}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{62}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Sprint 3: Gestion des Congés et des Documents Administratifs}{62}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Objectif de sprint 3}{62}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Durée de sprint 3}{62}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Backlog de sprint 3}{62}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Spécification fonctionnelle détaillée}{64}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Conception}{73}{subsection.4.2.5}%
-\contentsline {subsubsection}{\numberline {4.2.5.1}Diagramme de séquence du sprint 3}{73}{subsubsection.4.2.5.1}%
-\contentsline {subsubsection}{\numberline {4.2.5.2}Diagramme de classe de sprint 3}{86}{subsubsection.4.2.5.2}%
-\contentsline {subsection}{\numberline {4.2.6}Interfaces réalisées pour le sprint 3}{87}{subsection.4.2.6}%
-\contentsline {section}{\numberline {4.3}Sprint 4: Pilotage RH, Reporting, Paiement et Traçabilité}{91}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Objectif de sprint 4}{92}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Durée de sprint 4}{92}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Backlog de sprint 4}{92}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Spécification fonctionnelle détaillée}{92}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Conception}{95}{subsection.4.3.5}%
-\contentsline {subsubsection}{\numberline {4.3.5.1}Diagrammes de séquence}{95}{subsubsection.4.3.5.1}%
-\contentsline {subsection}{\numberline {4.3.6}Interfaces réalisées pour le sprint 4}{99}{subsection.4.3.6}%
-\contentsline {section}{\numberline {4.4}Conclusion}{102}{section.4.4}%
-\contentsline {chapter}{Conclusion générale et Perspectives}{103}{section.4.4}%
+\contentsline {subsection}{\numberline {4.2.5}Conception}{74}{subsection.4.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.5.1}Diagramme de séquence du sprint 3}{75}{subsubsection.4.2.5.1}%
+\contentsline {subsubsection}{\numberline {4.2.5.2}Diagramme de classe de sprint 3}{87}{subsubsection.4.2.5.2}%
+\contentsline {subsection}{\numberline {4.2.6}Interfaces réalisées pour le sprint 3}{88}{subsection.4.2.6}%
+\contentsline {section}{\numberline {4.3}Sprint 4: Pilotage RH, Reporting, Paiement et Traçabilité}{92}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Objectif de sprint 4}{93}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Durée de sprint 4}{93}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Backlog de sprint 4}{93}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Spécification fonctionnelle détaillée}{93}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Conception}{97}{subsection.4.3.5}%
+\contentsline {subsubsection}{\numberline {4.3.5.1}Diagrammes de séquence}{97}{subsubsection.4.3.5.1}%
+\contentsline {subsection}{\numberline {4.3.6}Interfaces réalisées pour le sprint 4}{100}{subsection.4.3.6}%
+\contentsline {section}{\numberline {4.4}Conclusion}{104}{section.4.4}%
+\contentsline {chapter}{Conclusion générale et Perspectives}{105}{section.4.4}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.29)  1 JUN 2026 13:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.29)  1 JUN 2026 15:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -761,38 +761,6 @@ Package minitoc(hints) Warning: W0023
 
 Package minitoc Info: I0024
 (minitoc)             PREPARING MINITOCS FROM main.toc on input line 90.
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc1.
-\openout3 = `main.mtc1'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc2.
-\openout3 = `main.mtc2'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc3.
-\openout3 = `main.mtc3'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc4.
-\openout3 = `main.mtc4'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc5.
-\openout3 = `main.mtc5'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc6.
-\openout3 = `main.mtc6'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc7.
-\openout3 = `main.mtc7'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc8.
-\openout3 = `main.mtc8'.
-
 (front_matter/dedicaces.tex
 LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line
  39.
@@ -826,32 +794,28 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 {C:/Users/louay/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/loua
 y/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]) [2
 
-] (main.toc
-Package babel Info: 'french' activates 'french' shorthands.
-(babel)             Reported on input line 37.
- [3
-
-] [4])
+] (main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [5] (main.lof
+Package babel Info: 'french' activates 'french' shorthands.
+(babel)             Reported on input line 100.
+ [3
 
-LaTeX Warning: Citation `scrum_guide' on page vi undefined on input line 8.
-
-[6
-
-] [7])
+] (main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [8] (main.lot [9
+ [4
 
-])
+] (main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [10] (projet/introduction.tex
+ [5
+
+]
+(projet/introduction.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
@@ -872,7 +836,10 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 
 
 ]
-<projet/images/logo_unibro-removebg-preview.png, id=614, 501.875pt x 501.875pt>
+
+LaTeX Warning: Citation `ref1' on page 4 undefined on input line 13.
+
+<projet/images/logo_unibro-removebg-preview.png, id=257, 501.875pt x 501.875pt>
 
 File: projet/images/logo_unibro-removebg-preview.png Graphic file (type png)
 <use projet/images/logo_unibro-removebg-preview.png>
@@ -1097,7 +1064,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Warning: Citation `scrum_guide' on page 9 undefined on input line 246.
 
-<projet/images/scrum.png, id=644, 770.88pt x 316.93407pt>
+<projet/images/scrum.png, id=291, 770.88pt x 316.93407pt>
 File: projet/images/scrum.png Graphic file (type png)
 <use projet/images/scrum.png>
 Package pdftex.def Info: projet/images/scrum.png  used on input line 250.
@@ -1128,7 +1095,7 @@ Chapitre 2.
 
 pdfTeX warning: pdflatex.exe (file ./projet/images/usecase/use.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<projet/images/usecase/use.pdf, id=669, 1195.5867pt x 1689.19081pt>
+<projet/images/usecase/use.pdf, id=316, 1195.5867pt x 1689.19081pt>
 File: projet/images/usecase/use.pdf Graphic file (type pdf)
 <use projet/images/usecase/use.pdf>
 Package pdftex.def Info: projet/images/usecase/use.pdf  used on input line 96.
@@ -1212,7 +1179,7 @@ Overfull \hbox (67.19583pt too wide) in alignment at lines 274--288
  []
 
 ignored error: Infinite glue shrinkage found in box being split [20]
-<projet/images/daigramme_de_gant.jpeg, id=721, 913.4125pt x 271.0125pt>
+<projet/images/daigramme_de_gant.jpeg, id=373, 913.4125pt x 271.0125pt>
 File: projet/images/daigramme_de_gant.jpeg Graphic file (type jpg)
 <use projet/images/daigramme_de_gant.jpeg>
 Package pdftex.def Info: projet/images/daigramme_de_gant.jpeg  used on input li
@@ -1222,31 +1189,44 @@ ne 297.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21 <./projet/images/daigramme_de_gant.jpeg>]
-<projet/images/Figma-logo.png, id=727, 501.875pt x 752.8125pt>
+<projet/images/Figma-logo.png, id=379, 501.875pt x 752.8125pt>
 File: projet/images/Figma-logo.png Graphic file (type png)
 <use projet/images/Figma-logo.png>
 Package pdftex.def Info: projet/images/Figma-logo.png  used on input line 358.
 (pdftex.def)             Requested size: 37.93pt x 56.9055pt.
-<projet/images/ps adobe.png, id=729, 225.84375pt x 225.84375pt>
+
+
+LaTeX Warning: Citation `figma' on page 22 undefined on input line 363.
+
+<projet/images/ps adobe.png, id=380, 225.84375pt x 225.84375pt>
 File: projet/images/ps adobe.png Graphic file (type png)
 <use projet/images/ps adobe.png>
 Package pdftex.def Info: projet/images/ps adobe.png  used on input line 367.
 (pdftex.def)             Requested size: 56.90533pt x 56.9055pt.
-<projet/images/draw io.png, id=731, 225.84375pt x 225.84375pt>
+
+LaTeX Warning: Citation `photoshop' on page 22 undefined on input line 371.
+
+<projet/images/draw io.png, id=381, 225.84375pt x 225.84375pt>
 File: projet/images/draw io.png Graphic file (type png)
 <use projet/images/draw io.png>
 Package pdftex.def Info: projet/images/draw io.png  used on input line 375.
 (pdftex.def)             Requested size: 56.90533pt x 56.9055pt.
-<projet/images/overlef.png, id=733, 210.7875pt x 240.9pt>
+
+LaTeX Warning: Citation `drawio' on page 22 undefined on input line 379.
+
+<projet/images/overlef.png, id=382, 210.7875pt x 240.9pt>
 File: projet/images/overlef.png Graphic file (type png)
 <use projet/images/overlef.png>
 Package pdftex.def Info: projet/images/overlef.png  used on input line 385.
 (pdftex.def)             Requested size: 49.79237pt x 56.9055pt.
 
+LaTeX Warning: Citation `overleaf' on page 22 undefined on input line 389.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
-<projet/images/vs.jpeg, id=740, 225.84375pt x 225.84375pt>
+<projet/images/vs.jpeg, id=390, 225.84375pt x 225.84375pt>
 File: projet/images/vs.jpeg Graphic file (type jpg)
 <use projet/images/vs.jpeg>
 Package pdftex.def Info: projet/images/vs.jpeg  used on input line 407.
@@ -1256,7 +1236,7 @@ Package pdftex.def Info: projet/images/vs.jpeg  used on input line 407.
 LaTeX Warning: Citation `Visual Studio Code' on page 23 undefined on input line
  410.
 
-<projet/images/tt.jpeg, id=741, 224.84pt x 224.84pt>
+<projet/images/tt.jpeg, id=391, 224.84pt x 224.84pt>
 File: projet/images/tt.jpeg Graphic file (type jpg)
 <use projet/images/tt.jpeg>
 Package pdftex.def Info: projet/images/tt.jpeg  used on input line 413.
@@ -1269,7 +1249,7 @@ Underfull \hbox (badness 1817) in paragraph at lines 415--417
 \T1/ptm/m/n/12 à sto-cker et gé-rer le code, à suivre et contrô-ler les
  []
 
-<projet/images/postamn.jpeg, id=742, 200.75pt x 200.75pt>
+<projet/images/postamn.jpeg, id=392, 200.75pt x 200.75pt>
 File: projet/images/postamn.jpeg Graphic file (type jpg)
 <use projet/images/postamn.jpeg>
 Package pdftex.def Info: projet/images/postamn.jpeg  used on input line 419.
@@ -1311,6 +1291,9 @@ LaTeX Warning: Citation `Flask' on page 24 undefined on input line 466.
 LaTeX Warning: Citation `OpenCV' on page 24 undefined on input line 468.
 
 
+LaTeX Warning: Citation `MediaPipe' on page 24 undefined on input line 470.
+
+
 LaTeX Warning: Citation `TensorFlow' on page 24 undefined on input line 472.
 
 
@@ -1322,7 +1305,7 @@ Overfull \hbox (5.43037pt too wide) in paragraph at lines 484--492
 ls né-ces-saires à l'im-plé-men-ta-tion d'une
  []
 
-<projet/images/architecture logique.jpg, id=764, 1241.63875pt x 700.6175pt>
+<projet/images/architecture logique.jpg, id=412, 1241.63875pt x 700.6175pt>
 File: projet/images/architecture logique.jpg Graphic file (type jpg)
 <use projet/images/architecture logique.jpg>
 Package pdftex.def Info: projet/images/architecture logique.jpg  used on input 
@@ -1335,7 +1318,7 @@ elle dé-cou-plée orien-tée API\T1/ptm/m/n/12 , dans la-quelle chaque
  []
 
 [25 <./projet/images/architecture logique.jpg>]
-<projet/images/xc.png, id=769, 835.32076pt x 407.121pt>
+<projet/images/xc.png, id=418, 835.32076pt x 407.121pt>
 File: projet/images/xc.png Graphic file (type png)
 <use projet/images/xc.png>
 Package pdftex.def Info: projet/images/xc.png  used on input line 531.
@@ -1357,13 +1340,18 @@ a-tion du sys-tème, la ges-tion des comptes
  []
 
 
-Overfull \hbox (18.91301pt too wide) in alignment at lines 40--44
+Overfull \hbox (18.91301pt too wide) in alignment at lines 39--43
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (18.91301pt too wide) in alignment at lines 44--48
+Overfull \hbox (18.91301pt too wide) in alignment at lines 43--47
  [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.5271pt too wide) in paragraph at lines 48--48
+ []|\T1/ptm/m/n/12 Administrateur| 
  []
 
 
@@ -1377,515 +1365,517 @@ Overfull \hbox (1.5271pt too wide) in paragraph at lines 50--50
  []
 
 
-Overfull \hbox (1.5271pt too wide) in paragraph at lines 51--51
- []|\T1/ptm/m/n/12 Administrateur| 
- []
-
-
-Overfull \hbox (18.91301pt too wide) in alignment at lines 48--59
+Overfull \hbox (18.91301pt too wide) in alignment at lines 47--58
  [] [] [] [] [] [] [] 
  []
 
 ignored error: Infinite glue shrinkage found in box being split [28]
-<projet/images/usecase/sprint1/use_case_sprint1.png, id=784, 2728.1925pt x 1589
+<projet/images/usecase/sprint1/use_case_sprint1.png, id=435, 2728.1925pt x 1589
 .94pt>
 File: projet/images/usecase/sprint1/use_case_sprint1.png Graphic file (type png
 )
 <use projet/images/usecase/sprint1/use_case_sprint1.png>
 Package pdftex.def Info: projet/images/usecase/sprint1/use_case_sprint1.png  us
-ed on input line 69.
+ed on input line 68.
 (pdftex.def)             Requested size: 409.71692pt x 238.77184pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
-Overfull \hbox (25.19995pt too wide) in alignment at lines 80--106
+Overfull \hbox (25.19995pt too wide) in alignment at lines 79--105
  [] [] 
  []
 
 ignored error: Infinite glue shrinkage found in box being split [30 <./projet/i
 mages/usecase/sprint1/use_case_sprint1.png>]
-Overfull \hbox (25.19995pt too wide) in alignment at lines 112--132
+Overfull \hbox (25.19995pt too wide) in alignment at lines 110--130
  [] [] 
  []
 
 ignored error: Infinite glue shrinkage found in box being split [31]
-Overfull \hbox (25.19995pt too wide) in alignment at lines 138--156
+Overfull \hbox (25.19995pt too wide) in alignment at lines 137--155
  [] [] 
  []
 
 ignored error: Infinite glue shrinkage found in box being split [32]
-<projet/images/usecase/sprint1/gerer_compte_employe.png, id=806, 1115.16624pt x
+<projet/images/usecase/sprint1/gerer_compte_employe.png, id=462, 1115.16624pt x
  372.39125pt>
 File: projet/images/usecase/sprint1/gerer_compte_employe.png Graphic file (type
  png)
 <use projet/images/usecase/sprint1/gerer_compte_employe.png>
 Package pdftex.def Info: projet/images/usecase/sprint1/gerer_compte_employe.png
-  used on input line 164.
+  used on input line 163.
 (pdftex.def)             Requested size: 409.71692pt x 136.81662pt.
 
-Overfull \hbox (25.19995pt too wide) in alignment at lines 173--205
+Overfull \hbox (25.19995pt too wide) in alignment at lines 172--204
  [] [] 
  []
 
 ignored error: Infinite glue shrinkage found in box being split [33 <./projet/i
 mages/usecase/sprint1/gerer_compte_employe.png>]
-<projet/images/usecase/sprint1/gere_compte_rh.png, id=815, 3513.125pt x 1047.91
+<projet/images/usecase/sprint1/gere_compte_rh.png, id=472, 3513.125pt x 1047.91
 5pt>
 File: projet/images/usecase/sprint1/gere_compte_rh.png Graphic file (type png)
 <use projet/images/usecase/sprint1/gere_compte_rh.png>
 Package pdftex.def Info: projet/images/usecase/sprint1/gere_compte_rh.png  used
- on input line 213.
+ on input line 212.
 (pdftex.def)             Requested size: 409.71692pt x 122.2106pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34]
-Overfull \hbox (25.19995pt too wide) in alignment at lines 222--254
+Overfull \hbox (25.19995pt too wide) in alignment at lines 221--253
  [] [] 
  []
 
 ignored error: Infinite glue shrinkage found in box being split [35 <./projet/i
-mages/usecase/sprint1/gere_compte_rh.png>] [36]
-<projet/images/img sequence s1/auth.drawio.png, id=831, 2863.69875pt x 2562.573
+mages/usecase/sprint1/gere_compte_rh.png>]
+<projet/images/img sequence s1/auth.drawio.png, id=486, 2863.69875pt x 2562.573
 75pt>
 File: projet/images/img sequence s1/auth.drawio.png Graphic file (type png)
 <use projet/images/img sequence s1/auth.drawio.png>
 Package pdftex.def Info: projet/images/img sequence s1/auth.drawio.png  used on
- input line 272.
+ input line 270.
 (pdftex.def)             Requested size: 409.71692pt x 366.61732pt.
-<projet/images/img sequence s1/m.png, id=832, 3495.0575pt x 3878.49pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+<projet/images/img sequence s1/m.png, id=493, 3495.0575pt x 3878.49pt>
 File: projet/images/img sequence s1/m.png Graphic file (type png)
 <use projet/images/img sequence s1/m.png>
 Package pdftex.def Info: projet/images/img sequence s1/m.png  used on input lin
-e 285.
+e 282.
 (pdftex.def)             Requested size: 409.71692pt x 454.62779pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [37 <./projet/images/img sequence s1/auth.drawio.png>]
-<projet/images/img sequence s1/sinscrire.drawio.png, id=841, 1085.05376pt x 107
+<projet/images/img sequence s1/sinscrire.drawio.png, id=501, 1085.05376pt x 107
 5.01625pt>
 File: projet/images/img sequence s1/sinscrire.drawio.png Graphic file (type png
 )
 <use projet/images/img sequence s1/sinscrire.drawio.png>
 Package pdftex.def Info: projet/images/img sequence s1/sinscrire.drawio.png  us
-ed on input line 298.
+ed on input line 295.
 (pdftex.def)             Requested size: 409.71692pt x 405.91869pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [38 <./projet/images/img sequence s1/m.png>]
-<projet/images/img sequence s1/creer_compte_employe.png, id=848, 4730.67375pt x
+<projet/images/img sequence s1/creer_compte_employe.png, id=510, 4730.67375pt x
  4309.09875pt>
 File: projet/images/img sequence s1/creer_compte_employe.png Graphic file (type
  png)
 <use projet/images/img sequence s1/creer_compte_employe.png>
 Package pdftex.def Info: projet/images/img sequence s1/creer_compte_employe.png
-  used on input line 310.
+  used on input line 306.
 (pdftex.def)             Requested size: 409.71692pt x 373.20534pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39 <./projet/images/img sequence s1/sinscrire.drawio.png>]
-<projet/images/img sequence s1/sup.drawio.png, id=856, 1366.10374pt x 1195.4662
+<projet/images/img sequence s1/sup.drawio.png, id=518, 1366.10374pt x 1195.4662
 5pt>
 File: projet/images/img sequence s1/sup.drawio.png Graphic file (type png)
 <use projet/images/img sequence s1/sup.drawio.png>
 Package pdftex.def Info: projet/images/img sequence s1/sup.drawio.png  used on 
-input line 322.
+input line 317.
 (pdftex.def)             Requested size: 409.71692pt x 358.53319pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40 <./projet/images/img sequence s1/creer_compte_employe.png>]
-<projet/images/img sequence s1/modifier_compte_rhg.drawio.png, id=863, 1427.332
+<projet/images/img sequence s1/modifier_compte_rhg.drawio.png, id=526, 1427.332
 5pt x 1266.7325pt>
 File: projet/images/img sequence s1/modifier_compte_rhg.drawio.png Graphic file
  (type png)
 <use projet/images/img sequence s1/modifier_compte_rhg.drawio.png>
 Package pdftex.def Info: projet/images/img sequence s1/modifier_compte_rhg.draw
-io.png  used on input line 334.
+io.png  used on input line 328.
 (pdftex.def)             Requested size: 409.71692pt x 363.61256pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41 <./projet/images/img sequence s1/sup.drawio.png>]
-<projet/images/classe finale/diagramme_de_classe_s1.png, id=870, 2533.465pt x 2
+<projet/images/classe finale/diagramme_de_classe_s1.png, id=534, 2533.465pt x 2
 135.98pt>
 File: projet/images/classe finale/diagramme_de_classe_s1.png Graphic file (type
  png)
 <use projet/images/classe finale/diagramme_de_classe_s1.png>
 Package pdftex.def Info: projet/images/classe finale/diagramme_de_classe_s1.png
-  used on input line 346.
+  used on input line 339.
 (pdftex.def)             Requested size: 409.71692pt x 345.41414pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [42 <./projet/images/img sequence s1/modifier_compte_rhg.drawio.png>]
-<projet/images/interface/s1/connexion.jpeg, id=877, 1606.0pt x 892.33376pt>
+<projet/images/interface/s1/connexion.jpeg, id=542, 1606.0pt x 892.33376pt>
 File: projet/images/interface/s1/connexion.jpeg Graphic file (type jpg)
 <use projet/images/interface/s1/connexion.jpeg>
 Package pdftex.def Info: projet/images/interface/s1/connexion.jpeg  used on inp
-ut line 363.
+ut line 355.
 (pdftex.def)             Requested size: 409.71692pt x 227.64421pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43 <./projet/images/classe finale/diagramme_de_classe_s1.png>]
-<projet/images/interface/s1/ins.jpeg, id=884, 1606.0pt x 1119.18124pt>
+<projet/images/interface/s1/ins.jpeg, id=550, 1606.0pt x 1119.18124pt>
 File: projet/images/interface/s1/ins.jpeg Graphic file (type jpg)
 <use projet/images/interface/s1/ins.jpeg>
 Package pdftex.def Info: projet/images/interface/s1/ins.jpeg  used on input lin
-e 376.
+e 367.
 (pdftex.def)             Requested size: 409.71692pt x 285.51552pt.
-
-Underfull \vbox (badness 1867) has occurred while \output is active []
-
- [44 <./projet/images/interface/s1/connexion.jpeg> <./projet/images/interface/s
-1/ins.jpeg>]
-<projet/images/interface/s1/motdepasee oblie.jpeg, id=890, 1606.0pt x 892.33376
+<projet/images/interface/s1/motdepasee oblie.jpeg, id=551, 1606.0pt x 892.33376
 pt>
 File: projet/images/interface/s1/motdepasee oblie.jpeg Graphic file (type jpg)
 <use projet/images/interface/s1/motdepasee oblie.jpeg>
 Package pdftex.def Info: projet/images/interface/s1/motdepasee oblie.jpeg  used
- on input line 389.
+ on input line 379.
 (pdftex.def)             Requested size: 409.71692pt x 227.64421pt.
-<projet/images/interface/s1/gestion employe.jpeg, id=891, 1606.0pt x 762.85pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44 <./projet/images/interface/s1/connexion.jpeg> <./projet/images/interface/s
+1/ins.jpeg>]
+<projet/images/interface/s1/gestion employe.jpeg, id=560, 1606.0pt x 762.85pt>
 File: projet/images/interface/s1/gestion employe.jpeg Graphic file (type jpg)
 <use projet/images/interface/s1/gestion employe.jpeg>
 Package pdftex.def Info: projet/images/interface/s1/gestion employe.jpeg  used 
-on input line 402.
+on input line 391.
 (pdftex.def)             Requested size: 409.71692pt x 194.61148pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [45 <./projet/images/interface/s1/motdepasee oblie.jpeg>]
-<projet/images/interface/s1/gestion rh.jpeg, id=899, 1606.0pt x 762.85pt>
+<projet/images/interface/s1/gestion rh.jpeg, id=561, 1606.0pt x 762.85pt>
 File: projet/images/interface/s1/gestion rh.jpeg Graphic file (type jpg)
 <use projet/images/interface/s1/gestion rh.jpeg>
 Package pdftex.def Info: projet/images/interface/s1/gestion rh.jpeg  used on in
-put line 415.
+put line 403.
 (pdftex.def)             Requested size: 409.71692pt x 194.61148pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [46 <./projet/images/interface/s1/gestion employe.jpeg> <./projet/images/inter
-face/s1/gestion rh.jpeg>]
-Overfull \hbox (18.91301pt too wide) in alignment at lines 447--451
+ [45 <./projet/images/interface/s1/motdepasee oblie.jpeg> <./projet/images/inte
+rface/s1/gestion employe.jpeg>]
+Overfull \hbox (18.91301pt too wide) in alignment at lines 435--439
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (18.91301pt too wide) in alignment at lines 451--455
+Overfull \hbox (18.91301pt too wide) in alignment at lines 439--443
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (18.91301pt too wide) in alignment at lines 455--462
+Overfull \hbox (18.91301pt too wide) in alignment at lines 443--450
  [] [] [] [] [] [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [47]
-<projet/images/usecase/sprint2/sprint2.drawio.png, id=909, 2190.1825pt x 1168.3
+[46 <./projet/images/interface/s1/gestion rh.jpeg>]
+<projet/images/usecase/sprint2/sprint2.drawio.png, id=576, 2190.1825pt x 1168.3
 65pt>
 File: projet/images/usecase/sprint2/sprint2.drawio.png Graphic file (type png)
 <use projet/images/usecase/sprint2/sprint2.drawio.png>
 Package pdftex.def Info: projet/images/usecase/sprint2/sprint2.drawio.png  used
- on input line 474.
+ on input line 462.
 (pdftex.def)             Requested size: 409.71692pt x 218.55089pt.
 
-Overfull \hbox (25.19995pt too wide) in alignment at lines 483--499
- [] [] 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-ignored error: Infinite glue shrinkage found in box being split [48 <./projet/i
-mages/usecase/sprint2/sprint2.drawio.png>]
-Overfull \hbox (25.19995pt too wide) in alignment at lines 505--523
- [] [] 
- []
-
-
-Overfull \hbox (25.19995pt too wide) in alignment at lines 529--545
- [] [] 
- []
-
-[49]
-Overfull \hbox (25.19995pt too wide) in alignment at lines 551--565
+ [47]
+Overfull \hbox (25.19995pt too wide) in alignment at lines 471--487
  [] [] 
  []
 
 
-Underfull \vbox (badness 2521) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
-Overfull \hbox (25.19995pt too wide) in alignment at lines 572--602
+ [48 <./projet/images/usecase/sprint2/sprint2.drawio.png>]
+Overfull \hbox (25.19995pt too wide) in alignment at lines 493--511
  [] [] 
  []
 
-[51]
-<projet/images/img diag sprint 2/connecter_cameras.png, id=934, 3920.6475pt x 3
+
+Overfull \hbox (25.19995pt too wide) in alignment at lines 517--533
+ [] [] 
+ []
+
+ignored error: Infinite glue shrinkage found in box being split [49]
+Overfull \hbox (25.19995pt too wide) in alignment at lines 539--553
+ [] [] 
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in alignment at lines 560--590
+ [] [] 
+ []
+
+[50]
+<projet/images/img diag sprint 2/connecter_cameras.png, id=607, 3920.6475pt x 3
 920.6475pt>
 File: projet/images/img diag sprint 2/connecter_cameras.png Graphic file (type 
 png)
 <use projet/images/img diag sprint 2/connecter_cameras.png>
 Package pdftex.def Info: projet/images/img diag sprint 2/connecter_cameras.png 
- used on input line 621.
+ used on input line 608.
 (pdftex.def)             Requested size: 386.96027pt x 386.94284pt.
-<projet/images/img diag sprint 2/enregister_visage.png, id=935, 1367.1075pt x 1
+
+Underfull \vbox (badness 1226) has occurred while \output is active []
+
+ [51]
+<projet/images/img diag sprint 2/enregister_visage.png, id=615, 1367.1075pt x 1
 205.50375pt>
 File: projet/images/img diag sprint 2/enregister_visage.png Graphic file (type 
 png)
 <use projet/images/img diag sprint 2/enregister_visage.png>
 Package pdftex.def Info: projet/images/img diag sprint 2/enregister_visage.png 
- used on input line 633.
+ used on input line 619.
 (pdftex.def)             Requested size: 386.96027pt x 341.21765pt.
 
-Underfull \vbox (badness 1400) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [52 <./projet/images/img diag sprint 2/connecter_cameras.png>]
-<projet/images/img diag sprint 2/modifier_infos.png, id=944, 1366.10374pt x 112
+<projet/images/img diag sprint 2/modifier_infos.png, id=623, 1366.10374pt x 112
 5.20375pt>
 File: projet/images/img diag sprint 2/modifier_infos.png Graphic file (type png
 )
 <use projet/images/img diag sprint 2/modifier_infos.png>
 Package pdftex.def Info: projet/images/img diag sprint 2/modifier_infos.png  us
-ed on input line 645.
+ed on input line 630.
 (pdftex.def)             Requested size: 386.96027pt x 318.71194pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53 <./projet/images/img diag sprint 2/enregister_visage.png>]
-<projet/images/img diag sprint 2/consulter_retard.png, id=951, 1367.1075pt x 10
+<projet/images/img diag sprint 2/consulter_retard.png, id=631, 1367.1075pt x 10
 05.7575pt>
 File: projet/images/img diag sprint 2/consulter_retard.png Graphic file (type p
 ng)
 <use projet/images/img diag sprint 2/consulter_retard.png>
 Package pdftex.def Info: projet/images/img diag sprint 2/consulter_retard.png  
-used on input line 657.
+used on input line 640.
 (pdftex.def)             Requested size: 386.96027pt x 284.6795pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [54 <./projet/images/img diag sprint 2/modifier_infos.png>]
-<projet/images/img diag sprint 2/pointage_facial.png, id=958, 2380.895pt x 2712
+<projet/images/img diag sprint 2/pointage_facial.png, id=639, 2380.895pt x 2712
 .1325pt>
 File: projet/images/img diag sprint 2/pointage_facial.png Graphic file (type pn
 g)
 <use projet/images/img diag sprint 2/pointage_facial.png>
 Package pdftex.def Info: projet/images/img diag sprint 2/pointage_facial.png  u
-sed on input line 669.
+sed on input line 651.
 (pdftex.def)             Requested size: 386.96027pt x 440.7784pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [55 <./projet/images/img diag sprint 2/consulter_retard.png>]
-<projet/images/classe finale/daigramme_de_classe_s2.png, id=965, 2680.0125pt x 
+<projet/images/classe finale/daigramme_de_classe_s2.png, id=647, 2680.0125pt x 
 2294.5725pt>
 File: projet/images/classe finale/daigramme_de_classe_s2.png Graphic file (type
  png)
 <use projet/images/classe finale/daigramme_de_classe_s2.png>
 Package pdftex.def Info: projet/images/classe finale/daigramme_de_classe_s2.png
-  used on input line 681.
+  used on input line 662.
 (pdftex.def)             Requested size: 386.96027pt x 331.2865pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [56 <./projet/images/img diag sprint 2/pointage_facial.png>]
-<projet/images/interface/s2/connecter camera.jpeg, id=972, 1606.0pt x 1244.65pt
+<projet/images/interface/s2/connecter camera.jpeg, id=656, 1606.0pt x 1244.65pt
 >
 File: projet/images/interface/s2/connecter camera.jpeg Graphic file (type jpg)
 <use projet/images/interface/s2/connecter camera.jpeg>
 Package pdftex.def Info: projet/images/interface/s2/connecter camera.jpeg  used
- on input line 698.
+ on input line 678.
 (pdftex.def)             Requested size: 409.71692pt x 317.52399pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [57 <./projet/images/classe finale/daigramme_de_classe_s2.png>]
-<projet/images/interface/s2/enregister visage.jpeg, id=980, 1606.0pt x 884.3037
+<projet/images/interface/s2/enregister visage.jpeg, id=664, 1606.0pt x 884.3037
 6pt>
 File: projet/images/interface/s2/enregister visage.jpeg Graphic file (type jpg)
 
 <use projet/images/interface/s2/enregister visage.jpeg>
 Package pdftex.def Info: projet/images/interface/s2/enregister visage.jpeg  use
-d on input line 711.
+d on input line 690.
 (pdftex.def)             Requested size: 409.71692pt x 225.59567pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [58 <./projet/images/interface/s2/connecter camera.jpeg>]
-Overfull \hbox (16.89091pt too wide) in paragraph at lines 716--717
-[]\T1/ptm/m/n/12 Cette fi-gure illustre l'in-ter-face d'en-re-gis-tre-ment du v
-i-sage, ac-ti-vée lors de la pre-mière connexion
- []
-
-<projet/images/interface/s2/modifier profile.jpeg, id=986, 1606.0pt x 762.85pt>
+<projet/images/interface/s2/modifier profile.jpeg, id=665, 1606.0pt x 762.85pt>
 
 File: projet/images/interface/s2/modifier profile.jpeg Graphic file (type jpg)
 <use projet/images/interface/s2/modifier profile.jpeg>
 Package pdftex.def Info: projet/images/interface/s2/modifier profile.jpeg  used
- on input line 724.
+ on input line 702.
 (pdftex.def)             Requested size: 409.71692pt x 194.61148pt.
-<projet/images/interface/s2/absence.jpeg, id=987, 1606.0pt x 1162.3425pt>
-File: projet/images/interface/s2/absence.jpeg Graphic file (type jpg)
-<use projet/images/interface/s2/absence.jpeg>
-Package pdftex.def Info: projet/images/interface/s2/absence.jpeg  used on input
- line 737.
-(pdftex.def)             Requested size: 409.71692pt x 296.52644pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59 <./projet/images/interface/s2/enregister visage.jpeg> <./projet/images/int
-erface/s2/modifier profile.jpeg>]
-<projet/images/interface/s2/pointage_facial.jpeg, id=993, 1523.6925pt x 1606.0p
+ [58 <./projet/images/interface/s2/connecter camera.jpeg> <./projet/images/inte
+rface/s2/enregister visage.jpeg>]
+<projet/images/interface/s2/absence.jpeg, id=673, 1606.0pt x 1162.3425pt>
+File: projet/images/interface/s2/absence.jpeg Graphic file (type jpg)
+<use projet/images/interface/s2/absence.jpeg>
+Package pdftex.def Info: projet/images/interface/s2/absence.jpeg  used on input
+ line 714.
+(pdftex.def)             Requested size: 409.71692pt x 296.52644pt.
+<projet/images/interface/s2/pointage_facial.jpeg, id=674, 1523.6925pt x 1606.0p
 t>
 File: projet/images/interface/s2/pointage_facial.jpeg Graphic file (type jpg)
 <use projet/images/interface/s2/pointage_facial.jpeg>
 Package pdftex.def Info: projet/images/interface/s2/pointage_facial.jpeg  used 
-on input line 750.
+on input line 726.
 (pdftex.def)             Requested size: 409.71692pt x 431.8369pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [60 <./projet/images/interface/s2/absence.jpeg>]) (projet/chapitre4.tex [61 <.
-/projet/images/interface/s2/pointage_facial.jpeg>]
+ [59 <./projet/images/interface/s2/modifier profile.jpeg> <./projet/images/inte
+rface/s2/absence.jpeg>]) (projet/chapitre4.tex [60 <./projet/images/interface/s
+2/pointage_facial.jpeg>]
 Chapitre 4.
-[62
+[61
 
 ]
 Overfull \hbox (18.91301pt too wide) in alignment at lines 32--51
  [] [] [] [] [] [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [63]
-<projet/images/usecase/sprint 3/use_case_s3.png, id=1013, 2425.06pt x 1547.7825
-pt>
+ignored error: Infinite glue shrinkage found in box being split [62]
+<projet/images/usecase/sprint 3/use_case_s3.png, id=699, 2425.06pt x 1547.7825p
+t>
 File: projet/images/usecase/sprint 3/use_case_s3.png Graphic file (type png)
 <use projet/images/usecase/sprint 3/use_case_s3.png>
 Package pdftex.def Info: projet/images/usecase/sprint 3/use_case_s3.png  used o
-n input line 61.
+n input line 60.
 (pdftex.def)             Requested size: 409.71692pt x 261.48996pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64]
-<projet/images/usecase/sprint 3/raffinement_gerer_conges.png, id=1018, 1034.866
-26pt x 322.20375pt>
+ [63]
+<projet/images/usecase/sprint 3/raffinement_gerer_conges.png, id=704, 1034.8662
+6pt x 322.20375pt>
 File: projet/images/usecase/sprint 3/raffinement_gerer_conges.png Graphic file 
 (type png)
 <use projet/images/usecase/sprint 3/raffinement_gerer_conges.png>
 Package pdftex.def Info: projet/images/usecase/sprint 3/raffinement_gerer_conge
-s.png  used on input line 70.
+s.png  used on input line 69.
 (pdftex.def)             Requested size: 409.71692pt x 127.56653pt.
 
-Overfull \hbox (25.19995pt too wide) in alignment at lines 78--92
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64 <./projet/images/usecase/sprint 3/use_case_s3.png> <./projet/images/usecas
+e/sprint 3/raffinement_gerer_conges.png>]
+Overfull \hbox (25.19995pt too wide) in alignment at lines 77--91
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [65 <./projet/i
-mages/usecase/sprint 3/use_case_s3.png> <./projet/images/usecase/sprint 3/raffi
-nement_gerer_conges.png>]
-Overfull \hbox (25.19995pt too wide) in alignment at lines 98--113
+
+Overfull \hbox (25.19995pt too wide) in alignment at lines 97--112
  [] [] 
  []
 
-<projet/images/usecase/sprint 3/refinnement_gere_salaire.png, id=1025, 3340.48p
-t x 847.165pt>
+ignored error: Infinite glue shrinkage found in box being split [65]
+<projet/images/usecase/sprint 3/refinnement_gere_salaire.png, id=723, 3340.48pt
+ x 847.165pt>
 File: projet/images/usecase/sprint 3/refinnement_gere_salaire.png Graphic file 
 (type png)
 <use projet/images/usecase/sprint 3/refinnement_gere_salaire.png>
 Package pdftex.def Info: projet/images/usecase/sprint 3/refinnement_gere_salair
-e.png  used on input line 120.
+e.png  used on input line 119.
 (pdftex.def)             Requested size: 409.71692pt x 103.90465pt.
 
-Overfull \hbox (25.19995pt too wide) in alignment at lines 128--144
+Overfull \hbox (25.19995pt too wide) in alignment at lines 127--143
  [] [] 
  []
 
 ignored error: Infinite glue shrinkage found in box being split [66 <./projet/i
 mages/usecase/sprint 3/refinnement_gere_salaire.png>]
-Overfull \hbox (25.19995pt too wide) in alignment at lines 150--166
+Overfull \hbox (25.19995pt too wide) in alignment at lines 149--165
  [] [] 
  []
 
 
-Overfull \hbox (25.19995pt too wide) in alignment at lines 174--189
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67]
+Overfull \hbox (25.19995pt too wide) in alignment at lines 173--188
  [] [] 
  []
 
-[67]
-Overfull \hbox (25.19995pt too wide) in alignment at lines 195--211
+
+Overfull \hbox (25.19995pt too wide) in alignment at lines 194--210
  [] [] 
  []
 
-<projet/images/usecase/sprint 3/gerer_document.png, id=1035, 954.56625pt x 443.
-6575pt>
+ignored error: Infinite glue shrinkage found in box being split [68]
+<projet/images/usecase/sprint 3/gerer_document.png, id=748, 954.56625pt x 443.6
+575pt>
 File: projet/images/usecase/sprint 3/gerer_document.png Graphic file (type png)
 
 <use projet/images/usecase/sprint 3/gerer_document.png>
 Package pdftex.def Info: projet/images/usecase/sprint 3/gerer_document.png  use
-d on input line 218.
+d on input line 217.
 (pdftex.def)             Requested size: 409.71692pt x 190.42374pt.
-[68]
-Overfull \hbox (25.19995pt too wide) in alignment at lines 226--239
- [] [] 
- []
 
-
-Overfull \hbox (25.19995pt too wide) in alignment at lines 245--259
+Overfull \hbox (25.19995pt too wide) in alignment at lines 225--238
  [] [] 
  []
 
 ignored error: Infinite glue shrinkage found in box being split [69 <./projet/i
 mages/usecase/sprint 3/gerer_document.png>]
-Overfull \hbox (25.19995pt too wide) in alignment at lines 265--279
+Overfull \hbox (25.19995pt too wide) in alignment at lines 244--258
  [] [] 
  []
 
-<projet/images/usecase/sprint 3/CS.png, id=1046, 3045.3775pt x 847.165pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [70]
+Overfull \hbox (25.19995pt too wide) in alignment at lines 264--278
+ [] [] 
+ []
+
+<projet/images/usecase/sprint 3/CS.png, id=764, 3045.3775pt x 847.165pt>
 File: projet/images/usecase/sprint 3/CS.png Graphic file (type png)
 <use projet/images/usecase/sprint 3/CS.png>
 Package pdftex.def Info: projet/images/usecase/sprint 3/CS.png  used on input l
-ine 286.
+ine 285.
 (pdftex.def)             Requested size: 409.71692pt x 113.97453pt.
 
 Overfull \hbox (25.19995pt too wide) in alignment at lines 293--306
  [] [] 
  []
 
-[70 <./projet/images/usecase/sprint 3/CS.png>]
+[71 <./projet/images/usecase/sprint 3/CS.png>]
 Overfull \hbox (25.19995pt too wide) in alignment at lines 312--325
  [] [] 
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72]
 Overfull \hbox (25.19995pt too wide) in alignment at lines 331--344
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [71]
+
 Overfull \hbox (25.19995pt too wide) in alignment at lines 350--365
  [] [] 
  []
 
-
+ignored error: Infinite glue shrinkage found in box being split [73]
 Overfull \hbox (25.19995pt too wide) in alignment at lines 371--386
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [72]
-<projet/images/sequence s3/valider conger.drawio.png, id=1060, 1367.1075pt x 10
-24.82875pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [74]
+<projet/images/sequence s3/valider conger.drawio.png, id=797, 1367.1075pt x 102
+4.82875pt>
 File: projet/images/sequence s3/valider conger.drawio.png Graphic file (type pn
 g)
 <use projet/images/sequence s3/valider conger.drawio.png>
 Package pdftex.def Info: projet/images/sequence s3/valider conger.drawio.png  u
 sed on input line 404.
 (pdftex.def)             Requested size: 409.71692pt x 307.13824pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [73]
-<projet/images/sequence s3/refuser conges.drawio.png, id=1066, 1366.10374pt x 1
-085.05376pt>
+<projet/images/sequence s3/refuser conges.drawio.png, id=798, 1366.10374pt x 10
+85.05376pt>
 File: projet/images/sequence s3/refuser conges.drawio.png Graphic file (type pn
 g)
 <use projet/images/sequence s3/refuser conges.drawio.png>
@@ -1895,9 +1885,9 @@ sed on input line 414.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [74 <./projet/images/sequence s3/valider conger.drawio.png>]
-<projet/images/sequence s3/attribuer bounuses.drawio.png, id=1072, 1367.1075pt 
-x 1105.12875pt>
+ [75 <./projet/images/sequence s3/valider conger.drawio.png>]
+<projet/images/sequence s3/attribuer bounuses.drawio.png, id=808, 1367.1075pt x
+ 1105.12875pt>
 File: projet/images/sequence s3/attribuer bounuses.drawio.png Graphic file (typ
 e png)
 <use projet/images/sequence s3/attribuer bounuses.drawio.png>
@@ -1907,9 +1897,9 @@ g  used on input line 424.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75 <./projet/images/sequence s3/refuser conges.drawio.png>]
-<projet/images/sequence s3/attribuer deduction.drawio.png, id=1079, 1366.10374p
-t x 1105.12875pt>
+ [76 <./projet/images/sequence s3/refuser conges.drawio.png>]
+<projet/images/sequence s3/attribuer deduction.drawio.png, id=816, 1366.10374pt
+ x 1105.12875pt>
 File: projet/images/sequence s3/attribuer deduction.drawio.png Graphic file (ty
 pe png)
 <use projet/images/sequence s3/attribuer deduction.drawio.png>
@@ -1919,9 +1909,9 @@ ng  used on input line 434.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76 <./projet/images/sequence s3/attribuer bounuses.drawio.png>]
-<projet/images/sequence s3/mis_ajour_salaire.png, id=1085, 2049.6575pt x 1628.0
-825pt>
+ [77 <./projet/images/sequence s3/attribuer bounuses.drawio.png>]
+<projet/images/sequence s3/mis_ajour_salaire.png, id=824, 2049.6575pt x 1628.08
+25pt>
 File: projet/images/sequence s3/mis_ajour_salaire.png Graphic file (type png)
 <use projet/images/sequence s3/mis_ajour_salaire.png>
 Package pdftex.def Info: projet/images/sequence s3/mis_ajour_salaire.png  used 
@@ -1930,9 +1920,9 @@ on input line 444.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77 <./projet/images/sequence s3/attribuer deduction.drawio.png>]
-<projet/images/sequence s3/Modifier salaire.drawio.png, id=1091, 1367.1075pt x 
-1106.1325pt>
+ [78 <./projet/images/sequence s3/attribuer deduction.drawio.png>]
+<projet/images/sequence s3/Modifier salaire.drawio.png, id=832, 1367.1075pt x 1
+106.1325pt>
 File: projet/images/sequence s3/Modifier salaire.drawio.png Graphic file (type 
 png)
 <use projet/images/sequence s3/Modifier salaire.drawio.png>
@@ -1942,9 +1932,9 @@ Package pdftex.def Info: projet/images/sequence s3/Modifier salaire.drawio.png
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [78 <./projet/images/sequence s3/mis_ajour_salaire.png>]
-<projet/images/sequence s3/_consulter documents.drawio.png, id=1097, 1367.1075p
-t x 1025.8325pt>
+ [79 <./projet/images/sequence s3/mis_ajour_salaire.png>]
+<projet/images/sequence s3/_consulter documents.drawio.png, id=840, 1367.1075pt
+ x 1025.8325pt>
 File: projet/images/sequence s3/_consulter documents.drawio.png Graphic file (t
 ype png)
 <use projet/images/sequence s3/_consulter documents.drawio.png>
@@ -1954,9 +1944,9 @@ png  used on input line 464.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79 <./projet/images/sequence s3/Modifier salaire.drawio.png>]
-<projet/images/sequence s3/Valider document.drawio.png, id=1103, 4098.31125pt x
- 3405.72375pt>
+ [80 <./projet/images/sequence s3/Modifier salaire.drawio.png>]
+<projet/images/sequence s3/Valider document.drawio.png, id=849, 4098.31125pt x 
+3405.72375pt>
 File: projet/images/sequence s3/Valider document.drawio.png Graphic file (type 
 png)
 <use projet/images/sequence s3/Valider document.drawio.png>
@@ -1966,9 +1956,9 @@ Package pdftex.def Info: projet/images/sequence s3/Valider document.drawio.png
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80 <./projet/images/sequence s3/_consulter documents.drawio.png>]
-<projet/images/sequence s3/consulter_primes_et_deductions.png, id=1109, 1367.10
-75pt x 1004.75375pt>
+ [81 <./projet/images/sequence s3/_consulter documents.drawio.png>]
+<projet/images/sequence s3/consulter_primes_et_deductions.png, id=857, 1367.107
+5pt x 1004.75375pt>
 File: projet/images/sequence s3/consulter_primes_et_deductions.png Graphic file
  (type png)
 <use projet/images/sequence s3/consulter_primes_et_deductions.png>
@@ -1978,9 +1968,9 @@ ns.png  used on input line 484.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [81 <./projet/images/sequence s3/Valider document.drawio.png>]
-<projet/images/sequence s3/consulter_deductions.png, id=1116, 1367.1075pt x 100
-4.75375pt>
+ [82 <./projet/images/sequence s3/Valider document.drawio.png>]
+<projet/images/sequence s3/consulter_deductions.png, id=865, 1367.1075pt x 1004
+.75375pt>
 File: projet/images/sequence s3/consulter_deductions.png Graphic file (type png
 )
 <use projet/images/sequence s3/consulter_deductions.png>
@@ -1990,9 +1980,9 @@ ed on input line 494.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [82 <./projet/images/sequence s3/consulter_primes_et_deductions.png>]
-<projet/images/sequence s3/consulter_salaires.png, id=1122, 2049.6575pt x 1538.
-74875pt>
+ [83 <./projet/images/sequence s3/consulter_primes_et_deductions.png>]
+<projet/images/sequence s3/consulter_salaires.png, id=873, 2049.6575pt x 1538.7
+4875pt>
 File: projet/images/sequence s3/consulter_salaires.png Graphic file (type png)
 <use projet/images/sequence s3/consulter_salaires.png>
 Package pdftex.def Info: projet/images/sequence s3/consulter_salaires.png  used
@@ -2001,9 +1991,9 @@ Package pdftex.def Info: projet/images/sequence s3/consulter_salaires.png  used
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83 <./projet/images/sequence s3/consulter_deductions.png>]
-<projet/images/sequence s3/demander conges.drawio.png, id=1128, 1367.1075pt x 1
-135.24126pt>
+ [84 <./projet/images/sequence s3/consulter_deductions.png>]
+<projet/images/sequence s3/demander conges.drawio.png, id=881, 1367.1075pt x 11
+35.24126pt>
 File: projet/images/sequence s3/demander conges.drawio.png Graphic file (type p
 ng)
 <use projet/images/sequence s3/demander conges.drawio.png>
@@ -2013,9 +2003,9 @@ used on input line 514.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [84 <./projet/images/sequence s3/consulter_salaires.png>]
-<projet/images/sequence s3/deposer documents.drawio.png, id=1134, 1367.1075pt x
- 1125.20375pt>
+ [85 <./projet/images/sequence s3/consulter_salaires.png>]
+<projet/images/sequence s3/deposer documents.drawio.png, id=889, 1367.1075pt x 
+1125.20375pt>
 File: projet/images/sequence s3/deposer documents.drawio.png Graphic file (type
  png)
 <use projet/images/sequence s3/deposer documents.drawio.png>
@@ -2025,8 +2015,8 @@ Package pdftex.def Info: projet/images/sequence s3/deposer documents.drawio.png
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [85 <./projet/images/sequence s3/demander conges.drawio.png>]
-<projet/images/classe finale/s3.png, id=1140, 6525.37875pt x 7525.11375pt>
+ [86 <./projet/images/sequence s3/demander conges.drawio.png>]
+<projet/images/classe finale/s3.png, id=898, 6525.37875pt x 7525.11375pt>
 File: projet/images/classe finale/s3.png Graphic file (type png)
 <use projet/images/classe finale/s3.png>
 Package pdftex.def Info: projet/images/classe finale/s3.png  used on input line
@@ -2035,161 +2025,160 @@ Package pdftex.def Info: projet/images/classe finale/s3.png  used on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [86 <./projet/images/sequence s3/deposer documents.drawio.png>]
-<projet/images/interface/s3/gestion_congee.jpeg, id=1147, 1606.0pt x 762.85pt>
+ [87 <./projet/images/sequence s3/deposer documents.drawio.png>]
+<projet/images/interface/s3/gestion_congee.jpeg, id=906, 1606.0pt x 762.85pt>
 File: projet/images/interface/s3/gestion_congee.jpeg Graphic file (type jpg)
 <use projet/images/interface/s3/gestion_congee.jpeg>
 Package pdftex.def Info: projet/images/interface/s3/gestion_congee.jpeg  used o
-n input line 550.
+n input line 551.
 (pdftex.def)             Requested size: 409.71692pt x 194.61148pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87 <./projet/images/classe finale/s3.png>]
-<projet/images/interface/s3/gestion_slaires.jpeg, id=1154, 1606.0pt x 762.85pt>
-
+ [88 <./projet/images/classe finale/s3.png>]
+<projet/images/interface/s3/gestion_slaires.jpeg, id=915, 1606.0pt x 762.85pt>
 File: projet/images/interface/s3/gestion_slaires.jpeg Graphic file (type jpg)
 <use projet/images/interface/s3/gestion_slaires.jpeg>
 Package pdftex.def Info: projet/images/interface/s3/gestion_slaires.jpeg  used 
-on input line 559.
+on input line 560.
 (pdftex.def)             Requested size: 409.71692pt x 194.61148pt.
-<projet/images/interface/s3/document.jpeg, id=1155, 1606.0pt x 762.85pt>
+<projet/images/interface/s3/document.jpeg, id=916, 1606.0pt x 762.85pt>
 File: projet/images/interface/s3/document.jpeg Graphic file (type jpg)
 <use projet/images/interface/s3/document.jpeg>
 Package pdftex.def Info: projet/images/interface/s3/document.jpeg  used on inpu
-t line 571.
+t line 572.
 (pdftex.def)             Requested size: 409.71692pt x 194.61148pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [88 <./projet/images/interface/s3/gestion_congee.jpeg> <./projet/images/interf
+ [89 <./projet/images/interface/s3/gestion_congee.jpeg> <./projet/images/interf
 ace/s3/gestion_slaires.jpeg>]
-<projet/images/interface/s3/monsalaire.jpeg, id=1160, 1606.0pt x 762.85pt>
+<projet/images/interface/s3/monsalaire.jpeg, id=925, 1606.0pt x 762.85pt>
 File: projet/images/interface/s3/monsalaire.jpeg Graphic file (type jpg)
 <use projet/images/interface/s3/monsalaire.jpeg>
 Package pdftex.def Info: projet/images/interface/s3/monsalaire.jpeg  used on in
-put line 581.
+put line 582.
 (pdftex.def)             Requested size: 409.71692pt x 194.61148pt.
-<projet/images/interface/s3/mes_document.jpeg, id=1161, 1606.0pt x 825.0825pt>
+<projet/images/interface/s3/mes_document.jpeg, id=926, 1606.0pt x 825.0825pt>
 File: projet/images/interface/s3/mes_document.jpeg Graphic file (type jpg)
 <use projet/images/interface/s3/mes_document.jpeg>
 Package pdftex.def Info: projet/images/interface/s3/mes_document.jpeg  used on 
-input line 591.
+input line 592.
 (pdftex.def)             Requested size: 409.71692pt x 210.48767pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [89 <./projet/images/interface/s3/document.jpeg> <./projet/images/interface/s3
+ [90 <./projet/images/interface/s3/document.jpeg> <./projet/images/interface/s3
 /monsalaire.jpeg>]
 File: projet/images/interface/s3/mes_document.jpeg Graphic file (type jpg)
 <use projet/images/interface/s3/mes_document.jpeg>
 Package pdftex.def Info: projet/images/interface/s3/mes_document.jpeg  used on 
-input line 601.
+input line 602.
 (pdftex.def)             Requested size: 409.71692pt x 210.48767pt.
-<projet/images/interface/s3/congeÃ©.jpeg, id=1166, 1606.0pt x 787.94376pt>
+<projet/images/interface/s3/congeÃ©.jpeg, id=935, 1606.0pt x 787.94376pt>
 File: projet/images/interface/s3/congeÃ©.jpeg Graphic file (type jpg)
 <use projet/images/interface/s3/congeÃ©.jpeg>
 Package pdftex.def Info: projet/images/interface/s3/congeÃ©.jpeg  used on input
- line 611.
+ line 612.
 (pdftex.def)             Requested size: 409.71692pt x 201.01317pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90 <./projet/images/interface/s3/mes_document.jpeg>]
+ [91 <./projet/images/interface/s3/mes_document.jpeg>]
 File: projet/images/interface/s3/mes_document.jpeg Graphic file (type jpg)
 <use projet/images/interface/s3/mes_document.jpeg>
 Package pdftex.def Info: projet/images/interface/s3/mes_document.jpeg  used on 
-input line 621.
+input line 622.
 (pdftex.def)             Requested size: 409.71692pt x 210.48767pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2310) has occurred while \output is active []
 
- [91 <./projet/images/interface/s3/congeÃ©.jpeg>]
-Overfull \hbox (1.5271pt too wide) in paragraph at lines 652--652
+ [92 <./projet/images/interface/s3/congeÃ©.jpeg>]
+Overfull \hbox (1.5271pt too wide) in paragraph at lines 653--653
  []|\T1/ptm/m/n/12 Administrateur| 
  []
 
 
-Overfull \hbox (18.91301pt too wide) in alignment at lines 648--660
+Overfull \hbox (18.91301pt too wide) in alignment at lines 649--661
  [] [] [] [] [] [] [] 
  []
 
-<projet/images/usecase/sprint 4/uses4.drawio.png, id=1175, 2029.5825pt x 1198.4
-775pt>
+<projet/images/usecase/sprint 4/uses4.drawio.png, id=953, 2029.5825pt x 1198.47
+75pt>
 File: projet/images/usecase/sprint 4/uses4.drawio.png Graphic file (type png)
 <use projet/images/usecase/sprint 4/uses4.drawio.png>
 Package pdftex.def Info: projet/images/usecase/sprint 4/uses4.drawio.png  used 
-on input line 670.
+on input line 672.
 (pdftex.def)             Requested size: 409.71692pt x 241.94058pt.
+[93]
+Overfull \hbox (25.19995pt too wide) in alignment at lines 679--679
+ [] [] 
+ []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [92]
-Overfull \hbox (25.19995pt too wide) in alignment at lines 677--677
+[94 <./projet/images/usecase/sprint 4/uses4.drawio.png>]
+Overfull \hbox (25.19995pt too wide) in alignment at lines 684--684
  [] [] 
  []
 
 
-Overfull \hbox (25.19995pt too wide) in alignment at lines 682--682
+Overfull \hbox (25.19995pt too wide) in alignment at lines 691--717
  [] [] 
  []
 
-[93 <./projet/images/usecase/sprint 4/uses4.drawio.png>]
-Overfull \hbox (25.19995pt too wide) in alignment at lines 689--715
+ignored error: Infinite glue shrinkage found in box being split [95]
+Overfull \hbox (25.19995pt too wide) in alignment at lines 723--750
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [94]
-Overfull \hbox (25.19995pt too wide) in alignment at lines 721--748
- [] [] 
- []
-
-<projet/images/sequence s4/dachbordad.drawio.png, id=1190, 2714.14pt x 2029.582
-5pt>
+[96]
+<projet/images/sequence s4/dachbordad.drawio.png, id=986, 2714.14pt x 2029.5825
+pt>
 File: projet/images/sequence s4/dachbordad.drawio.png Graphic file (type png)
 <use projet/images/sequence s4/dachbordad.drawio.png>
 Package pdftex.def Info: projet/images/sequence s4/dachbordad.drawio.png  used 
-on input line 767.
+on input line 768.
 (pdftex.def)             Requested size: 409.71692pt x 306.37527pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (0.34308pt too wide) in paragraph at lines 772--772
+[][]\T1/ptm/b/n/12 Diagramme de sé-quence du cas d'uti-li-sa-tion ^^S Vi-sua-li
+-ser le Da-sh-board (Res-pon-sable RH) ^^T 
+ []
 
- [95]
-<projet/images/sequence s4/bash rh.drawio.png, id=1196, 2714.14pt x 2029.5825pt
->
+<projet/images/sequence s4/bash rh.drawio.png, id=987, 2714.14pt x 2029.5825pt>
+
 File: projet/images/sequence s4/bash rh.drawio.png Graphic file (type png)
 <use projet/images/sequence s4/bash rh.drawio.png>
 Package pdftex.def Info: projet/images/sequence s4/bash rh.drawio.png  used on 
-input line 777.
+input line 778.
 (pdftex.def)             Requested size: 409.71692pt x 306.37527pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [96 <./projet/images/sequence s4/dachbordad.drawio.png>]
-<projet/images/sequence s4/c historique.drawio.png, id=1202, 2714.14pt x 2190.1
-825pt>
+ [97 <./projet/images/sequence s4/dachbordad.drawio.png>]
+<projet/images/sequence s4/c historique.drawio.png, id=998, 2714.14pt x 2190.18
+25pt>
 File: projet/images/sequence s4/c historique.drawio.png Graphic file (type png)
 
 <use projet/images/sequence s4/c historique.drawio.png>
 Package pdftex.def Info: projet/images/sequence s4/c historique.drawio.png  use
-d on input line 788.
+d on input line 789.
 (pdftex.def)             Requested size: 409.71692pt x 330.61862pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [97 <./projet/images/sequence s4/bash rh.drawio.png>]
-<projet/images/sequence s4/exporte.drawio.png, id=1208, 2712.1325pt x 2270.4825
+ [98 <./projet/images/sequence s4/bash rh.drawio.png>]
+<projet/images/sequence s4/exporte.drawio.png, id=1006, 2712.1325pt x 2270.4825
 pt>
 File: projet/images/sequence s4/exporte.drawio.png Graphic file (type png)
 <use projet/images/sequence s4/exporte.drawio.png>
 Package pdftex.def Info: projet/images/sequence s4/exporte.drawio.png  used on 
-input line 798.
+input line 799.
 (pdftex.def)             Requested size: 409.71692pt x 342.98282pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [98 <./projet/images/sequence s4/c historique.drawio.png>]
-<projet/images/interface/s4/dashbord_admin.jpg, id=1214, 1606.0pt x 928.46875pt
+ [99 <./projet/images/sequence s4/c historique.drawio.png>]
+<projet/images/interface/s4/dashbord_admin.jpg, id=1014, 1606.0pt x 928.46875pt
 >
 File: projet/images/interface/s4/dashbord_admin.jpg Graphic file (type jpg)
 <use projet/images/interface/s4/dashbord_admin.jpg>
@@ -2199,32 +2188,36 @@ Package pdftex.def Info: projet/images/interface/s4/dashbord_admin.jpg  used on
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [99 <./projet/images/sequence s4/exporte.drawio.png>]
-<projet/images/interface/s4/rh.jpeg, id=1221, 1606.0pt x 1135.24126pt>
+ [100 <./projet/images/sequence s4/exporte.drawio.png>]
+<projet/images/interface/s4/rh.jpeg, id=1024, 1606.0pt x 1135.24126pt>
 File: projet/images/interface/s4/rh.jpeg Graphic file (type jpg)
 <use projet/images/interface/s4/rh.jpeg>
 Package pdftex.def Info: projet/images/interface/s4/rh.jpeg  used on input line
  829.
 (pdftex.def)             Requested size: 409.71692pt x 289.61261pt.
- [100 <./projet/images/interface/s4/dashbord_admin.jpg> <./projet/images/interf
-ace/s4/rh.jpeg>]
-<projet/images/interface/s4/rapport.jpg, id=1226, 1606.0pt x 1141.26375pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [101 <./projet/images/interface/s4/dashbord_admin.jpg>]
+<projet/images/interface/s4/rapport.jpg, id=1031, 1606.0pt x 1141.26375pt>
 File: projet/images/interface/s4/rapport.jpg Graphic file (type jpg)
 <use projet/images/interface/s4/rapport.jpg>
 Package pdftex.def Info: projet/images/interface/s4/rapport.jpg  used on input 
 line 842.
 (pdftex.def)             Requested size: 409.71692pt x 291.14902pt.
-<projet/images/interface/s4/historique.jpg, id=1227, 1606.0pt x 872.25874pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [102 <./projet/images/interface/s4/rh.jpeg>]
+<projet/images/interface/s4/historique.jpg, id=1038, 1606.0pt x 872.25874pt>
 File: projet/images/interface/s4/historique.jpg Graphic file (type jpg)
 <use projet/images/interface/s4/historique.jpg>
 Package pdftex.def Info: projet/images/interface/s4/historique.jpg  used on inp
 ut line 856.
 (pdftex.def)             Requested size: 409.71692pt x 222.52286pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [101 <./projet/images/interface/s4/rapport.jpg>]) (projet/conclusion.tex [102 
-<./projet/images/interface/s4/historique.jpg>]) [103
+) [103 <./projet/images/interface/s4/rapport.jpg> <./projet/images/interface/s4
+/historique.jpg>] (projet/conclusion.tex
+[104]) [105
 
 ] (projet/references.tex
 Underfull \hbox (badness 10000) in paragraph at lines 23--24
@@ -2238,7 +2231,7 @@ Underfull \hbox (badness 5417) in paragraph at lines 43--44
 guage Spe-ci-fi-ca-tion\T1/ptm/m/n/12 , []$\T1/pcr/m/n/12 https : / / www .
  []
 
-[104
+[106
 
 
 ])
@@ -2268,7 +2261,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-[105] (main.aux)
+[107] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -2280,17 +2273,23 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BA4A91A0960C165468CB6DD215BAD6A5;11833.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: DA039CBE6B453ECA4FFB11007952CE7D;9719
+(rerunfilecheck)             After:  BA4A91A0960C165468CB6DD215BAD6A5;11833.
  ) 
 Here is how much of TeX's memory you used:
- 19625 strings out of 467871
- 343159 string characters out of 5418376
- 818959 words of memory out of 5000000
- 47806 multiletter control sequences out of 15000+600000
+ 19658 strings out of 467871
+ 343582 string characters out of 5418376
+ 817959 words of memory out of 5000000
+ 47797 multiletter control sequences out of 15000+600000
  681201 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,15n,117p,1944b,819s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,15n,117p,1944b,679s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/louay/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/louay/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courie
 r/ucrr8a.pfb><C:/Users/louay/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helv
@@ -2298,9 +2297,9 @@ etic/uhvr8a.pfb><C:/Users/louay/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
 imes/utmb8a.pfb><C:/Users/louay/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Users/louay/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
 imes/utmri8a.pfb>
-Output written on main.pdf (115 pages, 8744319 bytes).
+Output written on main.pdf (112 pages, 8703816 bytes).
 PDF statistics:
- 1397 PDF objects out of 1440 (max. 8388607)
- 374 named destinations out of 1000 (max. 500000)
- 891 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1227 PDF objects out of 1440 (max. 8388607)
+ 424 named destinations out of 1000 (max. 500000)
+ 811 words of extra memory for PDF output out of 10000 (max. 10000000)
 
