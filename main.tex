@@ -1,0 +1,123 @@
+%================================================================
+%  RAPPORT DE FIN D'ÉTUDES — Fichier principal
+%================================================================
+\documentclass[12pt,a4paper,twoside]{report}
+\setcounter{secnumdepth}{4}
+
+%----------------------------------------------------------------
+%  1. Encodage et langue
+%----------------------------------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+
+%----------------------------------------------------------------
+%  2. Mise en page
+%----------------------------------------------------------------
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage[hidelinks]{hyperref}
+\usepackage[final]{pdfpages}
+\usepackage{float}
+\usepackage{pslatex}
+\usepackage[table]{xcolor}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{minitoc}
+\usepackage[Glenn]{fncychap}
+\usepackage{tabularx}
+
+%----------------------------------------------------------------
+%  3. En-têtes et pieds de page
+%----------------------------------------------------------------
+\usepackage{fancyhdr}
+
+\setlength{\headheight}{15.5pt}
+\addtolength{\topmargin}{-3.5pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% Header
+\fancyhead[LE,RO]{\nouppercase{\leftmark}}
+
+% Footer
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[L]{HR FaceTime — Rapport PFE}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% IMPORTANT : style des pages "plain" (chapitres, TOC, etc.)
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyhead[LE,RO]{\nouppercase{\leftmark}}
+  \fancyfoot[LE,RO]{\thepage}
+  \fancyfoot[L]{HR FaceTime — Rapport PFE}
+  \renewcommand{\headrulewidth}{0.4pt}
+  \renewcommand{\footrulewidth}{0.4pt}
+}
+
+%----------------------------------------------------------------
+%  4. Espacement
+%----------------------------------------------------------------
+\onehalfspacing
+\setlength{\parindent}{1.5em}
+\setlength{\parskip}{2pt}
+
+\setlength{\floatsep}{6pt}
+\setlength{\textfloatsep}{8pt}
+\setlength{\intextsep}{6pt}
+
+\setlength{\abovecaptionskip}{3pt}
+\setlength{\belowcaptionskip}{1pt}
+
+\setlength{\LTpre}{3pt}
+\setlength{\LTpost}{3pt}
+
+%----------------------------------------------------------------
+%  5. DOCUMENT
+%----------------------------------------------------------------
+\begin{document}
+
+\dominitoc
+
+%==================== FRONT MATTER ====================
+\cleardoublepage
+\pagenumbering{roman}
+\pagestyle{fancy}
+
+\input{front_matter/dedicaces}
+\input{front_matter/remerciements}
+
+\tableofcontents
+\listoffigures
+\listoftables
+\mtcaddchapter
+
+%==================== MAIN MATTER ====================
+\clearpage
+\pagenumbering{arabic}
+\pagestyle{fancy}
+
+\input{projet/introduction}
+\mtcaddchapter
+
+\input{projet/chapitre1}
+\input{projet/chapitre2}
+\input{projet/chapitre3}
+\input{projet/chapitre4}
+
+%==================== CONCLUSION ====================
+\input{projet/conclusion}
+
+\clearpage
+\input{projet/references}
+
+\end{document}

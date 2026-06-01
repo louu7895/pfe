@@ -1,0 +1,55 @@
+\babel@toc {french}{}\relax 
+\contentsline {xchapter}{}{x}{Doc-Start}%
+\contentsline {xchapter}{}{3}{Doc-Start}%
+\contentsline {xchapter}{}{3}{Doc-Start}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Présentation du cadre du projet}{3}{chapter.1}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces Comparaison entre les méthodes traditionnelles et les méthodes agiles}}{7}{table.1.1}%
+\contentsline {table}{\numberline {1.2}{\ignorespaces Comparaison entre les frameworks Agile : Scrum, Kanban et Extreme Programming (XP)}}{8}{table.1.2}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Analyse et spécification des besoins}{11}{chapter.2}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Backlog de produit}}{19}{table.2.1}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Release 1}}{20}{table.2.2}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Release 2}}{21}{table.2.3}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces Environnement matériel 1}}{22}{table.caption.7}%
+\contentsline {table}{\numberline {2.5}{\ignorespaces Environnement matériel 2}}{22}{table.caption.8}%
+\contentsline {table}{\numberline {2.6}{\ignorespaces Environnement logiciel de conception}}{23}{table.caption.9}%
+\contentsline {table}{\numberline {2.7}{\ignorespaces Environnement logiciel de développement}}{23}{table.caption.10}%
+\contentsline {table}{\numberline {2.8}{\ignorespaces Langages de développement}}{24}{table.2.8}%
+\contentsline {table}{\numberline {2.9}{\ignorespaces Frameworks et bibliothèques}}{24}{table.2.9}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Release 1}{27}{chapter.3}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Backlog Sprint 1 — Accès \& Identités}}{29}{table.3.1}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Description textuelle du cas d'utilisation « Réinitialiser le mot de passe »}}{31}{table.3.2}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Description textuelle du cas d'utilisation « S'authentifier »}}{32}{table.3.3}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Description textuelle du cas d'utilisation « S'inscrire »}}{33}{table.3.4}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Description textuelle du cas d'utilisation « Gérer compte employé »}}{34}{table.3.5}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Description textuelle du cas d'utilisation « Gérer compte Responsable RH »}}{36}{table.3.6}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Backlog Sprint 2 — Pointage Intelligent \& Présence}}{48}{table.3.7}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Description textuelle du cas d'utilisation « Connecter la plateforme aux caméras »}}{49}{table.3.8}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces Description textuelle du cas d'utilisation « Enregistrer le visage »}}{49}{table.3.9}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces Description textuelle du cas d'utilisation « Modifier infos personnelles »}}{50}{table.3.10}%
+\contentsline {table}{\numberline {3.11}{\ignorespaces Description textuelle du cas d'utilisation « Consulter mes absences et retards »}}{50}{table.3.11}%
+\contentsline {table}{\numberline {3.12}{\ignorespaces Description textuelle du cas d'utilisation « Pointage Facial en Télétravail »}}{51}{table.3.12}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Release 2}{62}{chapter.4}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Backlog Sprint 3}}{64}{table.4.1}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Description textuelle du cas d'utilisation «~Valider congé~»}}{66}{table.4.2}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Description textuelle du cas d'utilisation «~Refuser congé~»}}{66}{table.4.3}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Description textuelle du cas d'utilisation «~Attribuer déduction~»}}{67}{table.4.4}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Description textuelle du cas d'utilisation «~Attribuer prime~»}}{67}{table.4.5}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Description textuelle du cas d'utilisation «~Mettre à jour statut salaire~»}}{68}{table.4.6}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Description textuelle du cas d'utilisation «~Modifier salaire~»}}{68}{table.4.7}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Description textuelle du cas d'utilisation «~Consulter documents~»}}{69}{table.4.8}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Description textuelle du cas d'utilisation «~Valider document~»}}{70}{table.4.9}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces Description textuelle du cas d'utilisation «~Rejeter document~»}}{70}{table.4.10}%
+\contentsline {table}{\numberline {4.11}{\ignorespaces Description textuelle du cas d'utilisation «~Consulter primes~»}}{71}{table.4.11}%
+\contentsline {table}{\numberline {4.12}{\ignorespaces Description textuelle du cas d'utilisation «~Consulter déductions~»}}{71}{table.4.12}%
+\contentsline {table}{\numberline {4.13}{\ignorespaces Description textuelle du cas d'utilisation «~Consulter statut du salaire~»}}{72}{table.4.13}%
+\contentsline {table}{\numberline {4.14}{\ignorespaces Description textuelle du cas d'utilisation «~Demander un congé~»}}{72}{table.4.14}%
+\contentsline {table}{\numberline {4.15}{\ignorespaces Description textuelle du cas d'utilisation «~Déposer document~»}}{73}{table.4.15}%
+\contentsline {table}{\numberline {4.16}{\ignorespaces Backlog Sprint 4 --- Pilotage RH, Reporting \& Gestion des Paiements}}{92}{table.4.16}%
+\contentsline {table}{\numberline {4.17}{\ignorespaces Description textuelle du cas d'utilisation «~Visualiser tableau de bord administrateur~»}}{93}{table.4.17}%
+\contentsline {table}{\numberline {4.18}{\ignorespaces Description textuelle du cas d'utilisation «~Visualiser tableau de bord RH~»}}{94}{table.4.18}%
+\contentsline {table}{\numberline {4.19}{\ignorespaces Description textuelle du cas d'utilisation «~Exporter l'historique~»}}{95}{table.4.19}%
+\contentsline {table}{\numberline {4.20}{\ignorespaces Description textuelle du cas d'utilisation «~Exporter rapport~»}}{95}{table.4.20}%

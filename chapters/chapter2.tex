@@ -1,0 +1,532 @@
+﻿\chapter{Analyse et spÃ©cification des besoins}
+
+\newpage
+
+%============================================================
+\section{Introduction}
+%============================================================
+
+Le prÃ©sent chapitre est dÃ©diÃ© Ã  la description des exigences fonctionnelles et non
+fonctionnelles du logiciel de gestion des ressources humaines et de pointage automatique
+par reconnaissance faciale. Ce chapitre contient l'information relative Ã  l'environnement
+logiciel, matÃ©riel et technologique requis pour le dÃ©veloppement et l'utilisation du
+logiciel proposÃ©. Aussi, le chapitre contient la description de la mÃ©thodologie du travail
+utilisÃ©e et basÃ©e sur la mÃ©thode Agile Scrum.
+
+%============================================================
+\section{Analyse des besoins}
+%============================================================
+
+Dans cette partie, nous dÃ©taillons les besoins du systÃ¨me, en identifiant les
+fonctionnalitÃ©s attendues ainsi que les contraintes techniques, sÃ©curitaires et
+ergonomiques associÃ©es.
+
+\subsection{Besoins fonctionnels}
+
+Les besoins fonctionnels du systÃ¨me de gestion RH et de pointage basÃ© sur la reconnaissance
+faciale correspondent aux diffÃ©rentes actions que chaque utilisateur doit pouvoir rÃ©aliser
+pour que le systÃ¨me remplisse ses objectifs. Pour les formaliser, nous avons identifiÃ© les
+acteurs et les cas d'utilisation du systÃ¨me conformÃ©ment aux standards UML.
+
+\subsubsection{Identification des acteurs}
+
+L'analyse du systÃ¨me a permis de dÃ©finir trois acteurs principaux :
+
+\begin{itemize}
+  \item \textbf{EmployÃ© :} Personne travaillant dans l'entreprise.
+  \item \textbf{Responsable RH :} Membre du personnel ayant des droits spÃ©cifiques pour
+        gÃ©rer les employÃ©s, les dossiers RH et gÃ©nÃ©rer des rapports.
+  \item \textbf{Administrateur du logiciel :} Personne chargÃ©e de superviser la plateforme,
+        de gÃ©rer les utilisateurs et leurs accÃ¨s.
+\end{itemize}
+
+\subsubsection{Identification des cas d'utilisation}
+
+Pour chaque acteur, les objectifs et fonctionnalitÃ©s du systÃ¨me sont les suivants :
+
+\paragraph{FonctionnalitÃ©s pour l'employÃ©}
+
+\begin{itemize}
+  \item Enregistrer son visage
+  \item Modifier ses informations personnelles
+  \item Consulter ses absences et retards
+  \item Consulter ses primes
+  \item Consulter ses dÃ©ductions
+  \item Consulter son salaire
+  \item Faire une demande de congÃ©
+  \item Consulter historique
+  \item DÃ©poser un document
+  \item RÃ©initialiser mot de passe
+\end{itemize}
+
+\paragraph{FonctionnalitÃ©s pour le responsable RH}
+
+\begin{itemize}
+  \item S'inscrire
+  \item Visualiser le Dashboard RH
+  \item Connexion de la plateforme aux camÃ©ras
+  \item GÃ©rer les comptes employÃ©s
+  \item GÃ©rer les congÃ©s (validation / refus)
+  \item Attribuer prime
+  \item Attribuer dÃ©duction
+  \item GÃ©rer les salaires
+  \item GÃ©rer Documents
+  \item GÃ©rer historique et rapports
+\end{itemize}
+
+\paragraph{FonctionnalitÃ©s pour l'administrateur}
+
+\begin{itemize}
+  \item GÃ©rer les comptes des utilisateurs (responsable RH) du systÃ¨me
+  \item Visualiser le Dashboard Administrateur
+  \item RÃ©initialiser mot de passe
+\end{itemize}
+
+\subsubsection{Diagramme de cas d'utilisation global}
+
+Toutes les fonctionnalitÃ©s mentionnÃ©es prÃ©cÃ©demment pour les diffÃ©rents acteurs (EmployÃ©,
+Responsable RH et Administrateur du logiciel) ont Ã©tÃ© regroupÃ©es dans un diagramme de cas
+d'utilisation. Ce diagramme structurÃ© permet de visualiser les interactions entre les
+acteurs et le systÃ¨me. La figure~\ref{fig:usecase} prÃ©sente ce diagramme de cas d'utilisation.
+
+\begin{figure}[p]
+  \centering
+  \includegraphics[
+    width=0.8\paperwidth,
+    height=1\textheight,
+    keepaspectratio
+  ]{projet/images/usecase/usegobale.pdf}
+  \caption{Diagramme de cas d'utilisation du systÃ¨me}
+  \label{fig:usecase}
+\end{figure}
+
+\subsection{Besoins non fonctionnels}
+
+Les besoins non fonctionnels dÃ©finissent les contraintes et qualitÃ©s attendues du systÃ¨me.
+
+\begin{enumerate}[label=\alph*)]
+  \item \textbf{Contraintes techniques :}
+    \begin{itemize}
+      \item CompatibilitÃ© avec les camÃ©ras standard.
+      \item Temps de reconnaissance infÃ©rieur Ã  2 secondes.
+      \item Base de donnÃ©es sÃ©curisÃ©e et performante.
+    \end{itemize}
+
+  \item \textbf{Contraintes de sÃ©curitÃ© :}
+    \begin{itemize}
+      \item Chiffrement des donnÃ©es sensibles.
+      \item Authentification et autorisation des utilisateurs.
+      \item ConfidentialitÃ© des donnÃ©es biomÃ©triques.
+    \end{itemize}
+
+  \item \textbf{Contraintes ergonomiques et esthÃ©tiques :}
+    \begin{itemize}
+      \item Interface intuitive et facile Ã  utiliser.
+      \item Navigation simple entre les fonctionnalitÃ©s.
+      \item Tableau de bord clair et lisible avec indicateurs visuels.
+      \item Respect de l'identitÃ© visuelle de l'application et cohÃ©rence graphique.
+    \end{itemize}
+\end{enumerate}
+
+%============================================================
+\section{Pilotage de projet avec Scrum}
+%============================================================
+
+Cette section prÃ©sente l'application de la mÃ©thode Scrum dans le cadre du projet, en
+dÃ©taillant l'organisation de l'Ã©quipe, la gestion du backlog ainsi que la planification
+des diffÃ©rentes releases.
+
+\subsection{Affectation des rÃ´les Scrum}
+
+L'Ã©quipe Scrum se compose de trois rÃ´les diffÃ©rents, qui sont le Product Owner, le Scrum
+Master et les dÃ©veloppeurs. Ã€ chaque sprint, l'Ã©quipe Scrum est responsable de la crÃ©ation
+d'un incrÃ©ment de valeur Ã  destination des utilisateurs et des clients.
+
+Les rÃ´les Scrum sont affectÃ©s comme suit :
+
+\begin{itemize}
+  \item \textbf{Product Owner :} BelHadj Mohamed
+  \item \textbf{Scrum Master :} Amara Hiba
+  \item \textbf{DÃ©veloppeurs :} Araar Mohamed et Mejri Louay
+\end{itemize}
+
+\subsection{Le Backlog de produit}
+
+Le backlog du produit liste toutes les fonctionnalitÃ©s, les exigences, les amÃ©liorations et
+les correctifs Ã  apporter Ã  l'application Ã  rÃ©aliser. Les diffÃ©rentes User Stories qui
+composent le Backlog du produit reprÃ©sentent les objectifs Ã  atteindre par l'Ã©quipe Scrum.
+Le tableau~\ref{tab:backlog} illustre le backlog du produit du systÃ¨me Ã  rÃ©aliser. Les
+diffÃ©rentes user stories du backlog du produit sont ordonnÃ©es du plus prioritaires au moins
+prioritaires. Les fonctionnalitÃ©s prioritaires sont considÃ©rÃ©es comme indispensables pour le
+systÃ¨me Ã  mettre en Å“uvre, ces derniÃ¨res permettant d'obtenir un produit qui contient le
+minimum de fonctionnalitÃ©s nÃ©cessaires pour Ãªtre utilisÃ©.
+
+Une user story est souvent prÃ©sentÃ©e de la maniÃ¨re suivante :
+\og{}\textit{utilisateur + besoin + finalitÃ©}\fg{} avec
+\textit{utilisateur} = Administrateur + Responsable RH + EmployÃ©.
+
+\renewcommand{\arraystretch}{1.5}
+
+\begin{longtable}{|>{\centering\arraybackslash}m{0.5cm}|
+    >{\centering\arraybackslash}m{3cm}|
+    >{\centering\arraybackslash}m{2.5cm}|
+    >{\centering\arraybackslash}m{3cm}|
+    >{\centering\arraybackslash}m{3cm}|
+    >{\centering\arraybackslash}m{0.7cm}|
+    >{\centering\arraybackslash}m{0.9cm}|}
+\hline
+\textbf{ID} & \textbf{User Story} & \textbf{En tant que} & \textbf{Je veux} &
+\textbf{Afin de} & \textbf{P} & \textbf{C} \\
+\hline
+\endfirsthead
+\hline
+\textbf{ID} & \textbf{User Story} & \textbf{En tant que} & \textbf{Je veux} &
+\textbf{Afin de} & \textbf{P} & \textbf{C} \\
+\hline
+\endhead
+
+1  & CrÃ©er compte responsable RH    & Administrateur & crÃ©er un compte responsable RH    & administrer la plateforme        & 5 & 2 \\ \hline
+2  & Modifier compte responsable RH & Administrateur & modifier un compte responsable RH & administrer la plateforme        & 4 & 2 \\ \hline
+3  & Supprimer compte responsable RH& Administrateur & supprimer un compte responsable RH& administrer la plateforme        & 4 & 2 \\ \hline
+4  & Visualiser le Dashboard Admin  & Administrateur & surveiller le fonctionnement global & assurer la stabilitÃ© du systÃ¨me & 5 & 4 \\ \hline
+5  & S'inscrire                     & Responsable RH & crÃ©er mon compte sur la plateforme & accÃ©der au systÃ¨me de gestion RH & 5 & 2 \\ \hline
+6  & Visualiser le Dashboard RH     & Responsable RH & visualiser les indicateurs RH globaux & piloter l'activitÃ© RH         & 5 & 3 \\ \hline
+7  & CrÃ©er compte employÃ©           & Responsable RH & crÃ©er un compte employÃ©           & permettre l'accÃ¨s au systÃ¨me     & 5 & 2 \\ \hline
+8  & Modifier compte employÃ©        & Responsable RH & modifier un compte employÃ©        & mettre Ã  jour les informations et les accÃ¨s de l'employÃ© & 4 & 2 \\ \hline
+9  & Supprimer compte employÃ©       & Responsable RH & supprimer un compte employÃ©       & dÃ©sactiver dÃ©finitivement l'accÃ¨s de l'employÃ© au systÃ¨me & 4 & 2 \\ \hline
+10 & Connecter la plateforme aux camÃ©ras & Responsable RH & configurer et connecter les camÃ©ras & activer le pointage automatique & 5 & 5 \\ \hline
+11 & Valider congÃ©                  & Responsable RH & valider une demande de congÃ©      & autoriser l'absence              & 5 & 2 \\ \hline
+12 & Refuser congÃ©                  & Responsable RH & refuser une demande de congÃ©      & gÃ©rer les absences               & 5 & 2 \\ \hline
+13 & Attribuer prime                & Responsable RH & attribuer une prime Ã  un employÃ©  & rÃ©compenser les employÃ©s         & 3 & 2 \\ \hline
+14 & Attribuer dÃ©duction            & Responsable RH & appliquer une dÃ©duction Ã  un employÃ© & gÃ©rer la paie avec prÃ©cision  & 4 & 3 \\ \hline
+15 & Mettre Ã  jour statut salaire   & Responsable RH & mettre Ã  jour le statut du salaire & assurer la paie                 & 5 & 3 \\ \hline
+16 & Consulter documents            & Responsable RH & consulter les documents envoyÃ©s   & vÃ©rifier les piÃ¨ces              & 3 & 2 \\ \hline
+17 & Valider document               & Responsable RH & approuver un document             & contrÃ´ler les absences           & 4 & 2 \\ \hline
+18 & Rejeter document               & Responsable RH & refuser un document               & contrÃ´ler les absences           & 4 & 2 \\ \hline
+19 & Modifier salaire               & Responsable RH & ajouter un salaire Ã  un employÃ©   & assurer une gestion correcte de la paie & 3 & 3 \\ \hline
+20 & Exporter rapport               & Responsable RH & gÃ©nÃ©rer un rapport                & exploiter les donnÃ©es RH         & 3 & 3 \\ \hline
+21 & Enregistrer le visage          & EmployÃ©        & enregistrer mon visage            & permettre le pointage automatique & 5 & 5 \\ \hline
+22 & Modifier infos personnelles    & EmployÃ©        & modifier mes informations personnelles & maintenir mes donnÃ©es Ã  jour & 3 & 2 \\ \hline
+23 & Consulter ses absences         & EmployÃ©        & consulter mes absences            & suivre ma prÃ©sence               & 3 & 2 \\ \hline
+24 & Consulter ses primes           & EmployÃ©        & consulter mes primes              & connaÃ®tre mes avantages          & 2 & 1 \\ \hline
+25 & Consulter dÃ©duction            & EmployÃ©        & voir mes dÃ©ductions               & comprendre ma fiche de paie      & 2 & 1 \\ \hline
+26 & Consulter son salaire          & EmployÃ©        & voir le statut de mon salaire     & savoir s'il est versÃ©            & 3 & 1 \\ \hline
+27 & Faire une demande de congÃ©     & EmployÃ©        & envoyer une demande de congÃ©      & obtenir une autorisation d'absence & 5 & 2 \\ \hline
+28 & DÃ©poser un document            & EmployÃ©        & dÃ©poser un document               & justifier une absence            & 4 & 3 \\ \hline
+29 & S'authentifier                 & Utilisateur    & me connecter et me dÃ©connecter    & accÃ©der Ã  mon espace sÃ©curisÃ©    & 5 & 2 \\ \hline
+30 & RÃ©initialiser mot de passe     & Utilisateur    & rÃ©initialiser mon mot de passe    & rÃ©cupÃ©rer l'accÃ¨s Ã  mon compte   & 4 & 2 \\ \hline
+31 & Consulter historique RH        & Responsable RH & consulter l'historique des actions effectuÃ©es & assurer le suivi et la traÃ§abilitÃ© des opÃ©rations RH & 4 & 3 \\ \hline
+
+\caption{Backlog de produit}
+\label{tab:backlog}
+\end{longtable}
+
+\subsection{Planification de releases}
+
+Dans le cadre du dÃ©veloppement de notre systÃ¨me, nous avons optÃ© pour la mise en place de
+deux releases. Les user stories prÃ©sentÃ©es dans le backlog produit ont Ã©tÃ© rÃ©parties sur
+quatre sprints, eux-mÃªmes divisÃ©s sur deux releases comme indiquÃ© dans les tableaux
+ci-dessous.
+
+\subsubsection*{Release 1 : Fondations \& PrÃ©sence Intelligente}
+
+\begin{longtable}{|c|>{\raggedright\arraybackslash}p{4.2cm}|
+    >{\centering\arraybackslash}p{2.5cm}|
+    >{\centering\arraybackslash}p{3.5cm}|
+    >{\raggedright\arraybackslash}p{5.5cm}|}
+\hline
+\textbf{ID} & \textbf{Nom Sprint} & \textbf{Story ID} & \textbf{DurÃ©e} & \textbf{Objectif} \\
+\hline
+\endfirsthead
+\hline
+\textbf{ID} & \textbf{Nom Sprint} & \textbf{Story ID} & \textbf{DurÃ©e} & \textbf{Objectif} \\
+\hline
+\endhead
+1 & Gestion des AccÃ¨s et Administration des Comptes
+  & 1-2-3-5-7-8-9-29-30
+  & 01/02/2026 -- 28/02/2026
+  & Mettre en place l'authentification du systÃ¨me, la gestion des comptes
+    (Administrateur, Responsable RH et EmployÃ©), la rÃ©initialisation du mot de
+    passe ainsi que le contrÃ´le d'accÃ¨s sÃ©curisÃ© Ã  la plateforme. \\ \hline
+2 & Pointage Intelligent et Suivi de PrÃ©sence
+  & 10-21-22-23
+  & 01/03/2026 -- 31/03/2026
+  & ImplÃ©menter le pointage automatique par reconnaissance faciale, connecter
+    les camÃ©ras et permettre le suivi des prÃ©sences, absences et informations
+    personnelles des employÃ©s. \\ \hline
+\caption{Release 1}
+\end{longtable}
+
+\subsubsection*{Release 2 : Gestion RH ComplÃ¨te et Pilotage}
+
+\begin{longtable}{|c|>{\raggedright\arraybackslash}p{4.2cm}|
+    >{\centering\arraybackslash}p{2.5cm}|
+    >{\centering\arraybackslash}p{3.5cm}|
+    >{\raggedright\arraybackslash}p{5.5cm}|}
+\hline
+\textbf{ID} & \textbf{Nom Sprint} & \textbf{Story ID} & \textbf{DurÃ©e} & \textbf{Objectif} \\
+\hline
+\endfirsthead
+\hline
+\textbf{ID} & \textbf{Nom Sprint} & \textbf{Story ID} & \textbf{DurÃ©e} & \textbf{Objectif} \\
+\hline
+\endhead
+3 & Gestion de la Paie, des CongÃ©s et des Documents Administratifs
+  & 11-12-13-14-15-16-17-18-19-24-25-26-27-28
+  & 01/04/2026 -- 30/04/2026
+  & DÃ©velopper les fonctionnalitÃ©s liÃ©es Ã  la gestion des congÃ©s, documents,
+    primes, dÃ©ductions et salaires, ainsi que la validation, le rejet et le
+    dÃ©pÃ´t des documents administratifs. \\ \hline
+4 & Pilotage RH, Reporting, Paiement et TraÃ§abilitÃ©
+  & 4-6-20-31
+  & 01/05/2026 -- 31/05/2026
+  & ImplÃ©menter les tableaux de bord (Administrateur et Responsable RH),
+    l'exportation des rapports, la consultation de l'historique des actions
+    RH. \\ \hline
+\caption{Release 2}
+\end{longtable}
+
+\subsection{Diagramme de Gantt}
+
+Ce diagramme montre la planification temporelle du projet en illustrant l'organisation des
+sprints, des tÃ¢ches et des diffÃ©rentes phases de dÃ©veloppement du systÃ¨me RH intelligent.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{images/daigramme_de_gant.jpeg}
+  \caption{Diagramme de Gantt du projet}
+  \label{fig:gantt}
+\end{figure}
+
+%============================================================
+\section{Ã‰tude technique}
+%============================================================
+
+Cette Ã©tude technique a pour but d'analyser en dÃ©tail les diffÃ©rentes composantes et
+mÃ©canismes impliquÃ©s dans notre logiciel.
+
+\subsection{Environnement matÃ©riel}
+
+La rÃ©alisation de notre projet utilise deux machines de caractÃ©ristiques diffÃ©rentes :
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|p{5cm}|p{8cm}|}
+\hline
+\textbf{Marque}              & Dell Latitude 5530 \\ \hline
+\textbf{MÃ©moire}             & 24,0 Go \\ \hline
+\textbf{Processeur}          & 12th Gen Intel(R) Core(TM) i5-1245U (1.60 GHz) \\ \hline
+\textbf{Disque dur}          & 725 Go \\ \hline
+\textbf{SystÃ¨me d'exploitation} & Windows 11 Professionnel \\ \hline
+\end{tabular}
+\caption{Environnement matÃ©riel 1}
+\end{table}
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|p{5cm}|p{8cm}|}
+\hline
+\textbf{Marque}              & Louay \\ \hline
+\textbf{MÃ©moire}             & 16,0 Go \\ \hline
+\textbf{Processeur}          & AMD Ryzen 7 5700U with Radeon Graphics \\ \hline
+\textbf{Disque dur}          & 1 To \\ \hline
+\textbf{SystÃ¨me d'exploitation} & Windows 11 Professionnel \\ \hline
+\end{tabular}
+\caption{Environnement matÃ©riel 2}
+\end{table}
+
+\subsection{Environnement logiciel}
+
+Dans cette partie, nous dÃ©taillons l'ensemble des environnements logiciels utilisÃ©s dans
+le cadre du projet, incluant les outils de conception, de dÃ©veloppement, ainsi que les
+langages, frameworks et bibliothÃ¨ques employÃ©s.
+
+\subsubsection{Logiciels de conception}
+
+Lors de la conception de notre site, nous avons utilisÃ© les logiciels suivants :
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|m{3cm}|m{10cm}|}
+\hline
+\centering
+\vspace{0.2cm}
+\includegraphics[height=2cm]{images/general/Figma-logo.png}
+&
+\textbf{Figma :} Figma est un outil de conception d'interfaces graphiques permettant de
+crÃ©er, partager et tester des designs pour les sites web, les applications mobiles et
+d'autres produits numÃ©riques. Il facilite Ã©galement la collaboration en temps rÃ©el entre
+les membres d'une Ã©quipe.\cite{figma}
+\\ \hline
+\centering
+\vspace{0.2cm}
+\includegraphics[height=2cm]{images/general/ps adobe.png}
+&
+\textbf{Adobe Photoshop :} Adobe Photoshop est un logiciel de retouche et de traitement
+d'images numÃ©riques. Il permet la modification, la crÃ©ation et l'amÃ©lioration des images
+et des supports graphiques professionnels.\cite{photoshop}
+\\ \hline
+\centering
+\vspace{0.2cm}
+\includegraphics[height=2cm]{images/general/draw io.png}
+&
+\textbf{draw.io :} draw.io est un outil de crÃ©ation de diagrammes en ligne permettant de
+rÃ©aliser des organigrammes, des diagrammes UML, des schÃ©mas rÃ©seau et d'autres
+reprÃ©sentations graphiques de maniÃ¨re simple et efficace.\cite{drawio}
+\\ \hline
+\end{tabular}
+\caption{Environnement logiciel de conception}
+\end{table}
+
+\subsubsection{Logiciels de dÃ©veloppement}
+
+Lors du dÃ©veloppement de notre site, nous avons utilisÃ© les logiciels suivants :
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{|m{3cm}|m{10cm}|}
+\hline
+\centering
+\vspace{0.2cm}\includegraphics[height=2cm]{images/general/vs.jpeg}
+&
+\textbf{Visual Studio Code :} VSCode est un Ã©diteur de code source et un IDE open-source
+compatible avec Windows, Linux et Mac.\cite{Visual Studio Code}
+\\ \hline
+\centering
+\vspace{0.2cm}\includegraphics[height=2cm]{images/general/tt.jpeg}
+&
+\textbf{GitHub :} GitHub est un service cloud qui nous aide Ã  stocker et gÃ©rer le code,
+Ã  suivre et contrÃ´ler les modifications.\cite{GitHub}
+\\ \hline
+\centering
+\vspace{0.2cm}\includegraphics[height=2cm]{images/general/postamn.jpeg}
+&
+\textbf{Postman :} Postman est un outil de dÃ©veloppement et de test d'API qui permet
+d'envoyer des requÃªtes HTTP (GET, POST, PUT, DELETEâ€¦), d'analyser les rÃ©ponses du
+serveur et de vÃ©rifier le bon fonctionnement des services web.\cite{Postman}
+\\ \hline
+\end{tabular}
+\caption{Environnement logiciel de dÃ©veloppement}
+\end{table}
+
+\subsubsection{Langages de dÃ©veloppement}
+
+Lors du dÃ©veloppement de notre site, nous avons utilisÃ© les langages suivants :
+
+\renewcommand{\arraystretch}{1.4}
+\setlength{\LTleft}{\fill}
+\setlength{\LTright}{\fill}
+\begin{longtable}{|m{14cm}|}
+\hline
+\textbf{HTML :} HTML (HyperText Markup Language) est le langage de base du Web qui
+structure le contenu des pages.\cite{HTML} \\ \hline
+\textbf{CSS :} CSS (Cascading Style Sheets) permet de dÃ©finir la prÃ©sentation visuelle
+des pages web.\cite{CSS} \\ \hline
+\textbf{JavaScript :} JavaScript (JS) est un langage de programmation lÃ©ger interprÃ©tÃ©
+(ou compilÃ© juste-Ã -temps) avec des fonctions de premiÃ¨re classe. Bien qu'il soit le
+langage de script le plus connu pour les pages Web, il est utilisÃ© pour les interactions
+dynamiques et les animations.\cite{JavaScript} \\ \hline
+\textbf{TypeScript :} Extension de JavaScript utilisÃ©e pour amÃ©liorer la fiabilitÃ© et
+la maintenance du code.\cite{TypeScript} \\ \hline
+\textbf{Python :} Langage utilisÃ© pour dÃ©velopper le modÃ¨le de reconnaissance faciale
+et le serveur backend.\cite{Python} \\ \hline
+\textbf{SQL :} Langage utilisÃ© pour gÃ©rer la base de donnÃ©es.\cite{SQL} \\ \hline
+\caption{Langages de dÃ©veloppement}
+\end{longtable}
+
+\subsubsection{Frameworks et bibliothÃ¨ques}
+
+Lors du dÃ©veloppement de notre site, nous avons utilisÃ© les frameworks et bibliothÃ¨ques
+suivants :
+
+\begin{longtable}{|m{14cm}|}
+\hline
+\textbf{Next.js :} Framework React full-stack permettant de dÃ©velopper le frontend et
+le backend dans une seule application.\cite{Next.js} \\ \hline
+\textbf{React :} BibliothÃ¨que JavaScript utilisÃ©e pour construire l'interface
+utilisateur.\cite{React} \\ \hline
+\textbf{Flask :} Micro-framework pour dÃ©velopper des applications web et des
+API.\cite{Flask} \\ \hline
+\textbf{OpenCV :} BibliothÃ¨que de vision par ordinateur pour le traitement
+d'images.\cite{OpenCV} \\ \hline
+\textbf{MediaPipe :} BibliothÃ¨que utilisÃ©e pour la dÃ©tection des visages et des points
+caractÃ©ristiques.\cite{MediaPipe} \\ \hline
+\textbf{TensorFlow :} BibliothÃ¨que d'apprentissage automatique utilisÃ©e pour
+l'entraÃ®nement du modÃ¨le.\cite{TensorFlow} \\ \hline
+\caption{Frameworks et bibliothÃ¨ques}
+\end{longtable}
+
+%============================================================
+\section{Architecture de la solution}
+%============================================================
+
+Dans cette section, nous prÃ©sentons l'architecture logique et logicielle de notre systÃ¨me.
+
+\subsection{Architecture logique}
+
+L'architecture logique identifie les composants logiciels nÃ©cessaires Ã  l'implÃ©mentation
+d'une solution et dÃ©crit les relations existant entre ces composants. Notre logiciel RH
+intelligent repose sur une architecture en trois tiers (\textit{3-tier architecture}),
+permettant une sÃ©paration claire des responsabilitÃ©s. Elle se compose d'une couche
+prÃ©sentation responsable de l'interface utilisateur, d'une couche mÃ©tier contenant les
+rÃ¨gles de gestion, et d'une couche d'accÃ¨s aux donnÃ©es assurant la persistance des
+informations. Cette structuration amÃ©liore la maintenabilitÃ©, la modularitÃ© et
+l'Ã©volutivitÃ© du systÃ¨me.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.2]{images/general/architecture logique.jpg}
+  \caption{Architecture logique}
+\end{figure}
+
+\subsection{Architecture logicielle}
+
+Le systÃ¨me adopte une \textbf{architecture logicielle dÃ©couplÃ©e orientÃ©e API}, dans
+laquelle chaque couche est dÃ©veloppÃ©e de maniÃ¨re indÃ©pendante et communique avec les
+autres exclusivement via des \textbf{interfaces REST}. Cette approche s'inscrit dans une
+\textbf{architecture 3 tiers} en prÃ©cisant l'organisation interne de chaque couche.
+
+La \textbf{couche prÃ©sentation} est assurÃ©e par \textbf{Next.js}, un framework React
+qui offre un rendu hybride combinant le \textbf{rendu cÃ´tÃ© serveur (SSR)} et le
+\textbf{rendu cÃ´tÃ© client (CSR)}, garantissant ainsi de bonnes performances et une
+expÃ©rience utilisateur fluide. Elle communique avec le backend Ã  travers des
+\textbf{requÃªtes HTTP sÃ©curisÃ©es} et adapte dynamiquement l'interface en fonction du
+rÃ´le de l'utilisateur.
+
+La \textbf{couche mÃ©tier} repose sur \textbf{Flask}, un framework Python lÃ©ger et
+flexible, permettant de dÃ©velopper des \textbf{API REST} de maniÃ¨re simple et efficace.
+L'organisation du code est structurÃ©e de maniÃ¨re Ã  assurer une \textbf{sÃ©paration claire
+des responsabilitÃ©s} et Ã  faciliter la maintenance du systÃ¨me.
+
+Le systÃ¨me intÃ¨gre Ã©galement un \textbf{module d'intelligence artificielle} dÃ©diÃ© Ã  la
+\textbf{reconnaissance faciale}. Ce module est dÃ©veloppÃ© en \textbf{Python} et intÃ©grÃ©
+au backend Flask sous forme de \textbf{services spÃ©cialisÃ©s}. Il permet d'automatiser
+certaines tÃ¢ches comme le \textbf{pointage} ou la \textbf{vÃ©rification d'identitÃ©},
+tout en restant \textbf{indÃ©pendant et Ã©volutif}.
+
+Enfin, la \textbf{couche de donnÃ©es} est assurÃ©e par \textbf{MySQL}, un systÃ¨me de
+gestion de base de donnÃ©es relationnelle permettant de stocker et de gÃ©rer efficacement
+les informations liÃ©es aux employÃ©s, aux congÃ©s et aux diffÃ©rentes opÃ©rations du systÃ¨me.
+
+\begin{figure}[H]
+  \makebox[\textwidth][l]{%
+    \includegraphics[width=0.9\textwidth]{images/general/xc.png}
+  }
+  \caption{Architecture logicielle du systÃ¨me}
+\end{figure}
+
+%============================================================
+\section{Conclusion}
+%============================================================
+
+Dans ce chapitre, nous avons abordÃ© de maniÃ¨re dÃ©taillÃ©e les besoins fonctionnels et non
+fonctionnels du projet, prÃ©sentÃ© l'environnement logiciel nÃ©cessaire Ã  sa rÃ©alisation,
+ainsi que les diffÃ©rents rÃ´les Scrum impliquÃ©s. De plus, nous avons Ã©laborÃ© le product
+backlog avec une rÃ©partition en releases. En conclusion, ce chapitre a posÃ© les bases
+essentielles pour la gestion efficace du projet. Le prochain chapitre se concentrera sur
+le contenu spÃ©cifique de la premiÃ¨re release, mettant en lumiÃ¨re les fonctionnalitÃ©s clÃ©s
+Ã  dÃ©velopper pour rÃ©pondre aux besoins identifiÃ©s.
