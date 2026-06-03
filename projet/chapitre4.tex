@@ -45,7 +45,7 @@ Le backlog du sprint 3 regroupe l’ensemble des user stories liées à la gesti
 25 & Consulter primes & Employé & consulter mes primes & connaître mes avantages & 2 & 1 \\ \hline
 26 & Consulter déductions & Employé & voir mes déductions & comprendre ma paie & 2 & 1 \\ \hline
 27 & Consulter salaire & Employé & voir mon salaire & vérifier paiement & 3 & 1 \\ \hline
-28 & Demande congé & Employé & envoyer une demande & obtenir une absence & 5 & 2 \\ \hline
+28 & Soumettre un congé & Employé & envoyer une demande & obtenir une absence & 5 & 2 \\ \hline
 29 & Déposer document & Employé & déposer un document & justifier une absence & 4 & 3 \\ \hline
 \caption{Backlog Sprint 3}
 \end{longtable}
@@ -344,24 +344,24 @@ Ce cas d'utilisation permet à l'employé de consulter les informations relative
 \end{longtable}
 \end{center}
 
-\subsubsection*{Description textuelle : cas d'utilisation «~Demander un congé~»}
+\subsubsection*{Description textuelle : cas d'utilisation «~Soumettre un congé~»}
 Ce cas d'utilisation décrit le processus permettant à l'employé de soumettre une demande de congé. Les informations saisies sont transmises au Responsable RH pour validation ou refus.
 \begin{center}
 \begin{longtable}{|p{5cm}|p{11cm}|}
 \hline
-\textbf{Nom du cas d'utilisation} & Demander un congé \\ \hline
+\textbf{Nom du cas d'utilisation} & Soumettre un congé \\ \hline
 \textbf{Acteurs} & Employé \\ \hline
 \textbf{Objectif} & Envoyer une demande de congé \\ \hline
 \textbf{Préconditions} & Employé authentifié \\ \hline
 \textbf{Scénario nominal} &
 1. Accéder à l'interface de demande de congé. \newline
-2. Cliquer sur "Demander un congé". \newline
-3. Saisir date début, date fin et motif. \newline
+2. Saisir date début, date fin et motif. \newline
+3. Cliquer sur "Soumettre un congé". \newline
 4. Valider la demande. \newline
 5. Le système enregistre et envoie au RH. \\ \hline
 \textbf{Scénario d'exception} & Champs vides ou dates incorrectes $\rightarrow$ message d'erreur. \\ \hline
 \textbf{Post-condition} & Demande enregistrée et en attente de validation. \\ \hline
-\caption{Description textuelle du cas d'utilisation «~Demander un congé~»}
+\caption{Description textuelle du cas d'utilisation «~Soumettre un congé~»}
 \end{longtable}
 \end{center}
 
@@ -691,21 +691,21 @@ Ce cas d'utilisation décrit le processus permettant au Responsable RH d'accéde
 \begin{longtable}{|p{5cm}|p{11cm}|}
 \hline
 
-\textbf{Nom du cas d'utilisation} & Exporter l'historique \\ \hline
+\textbf{Nom du cas d'utilisation} & Consulter l'historique \\ \hline
 
 \textbf{Acteurs} & Responsable RH \\ \hline
 
-\textbf{Objectif} & Permettre au responsable RH d’exporter l’historique des absences sous forme de fichier \\ \hline
+\textbf{Objectif} & Permettre au responsable RH consulter l’historique des absences sous forme de tableau. \\ \hline
 
 \textbf{Préconditions} & Responsable RH authentifié et historique déjà consulté \\ \hline
 
 \textbf{Scénario nominal} &
 1. Accéder à l’interface de l’historique. \newline
-2. Afficher les données sous forme de tableau. \newline
-3. Cliquer sur le bouton « Exporter ». \newline
-4. Choisir le format (PDF ou Excel). \newline
-5. Le système génère le fichier. \newline
-6. Téléchargement automatique du fichier. \\ \hline
+2. Filtrer les données selon les critères souhaités. \newline
+3. Affichage de données sous forme de tableau. \newline
+
+
+
 
 \textbf{Scénario d'exception} &
 Erreur de génération $\rightarrow$ message « Export impossible ». \\ \hline
@@ -717,17 +717,17 @@ Le fichier d’historique est exporté et disponible sur l’appareil. \\ \hline
 \end{longtable}
 \end{center}
 
-\subsubsection*{Description textuelle : cas d'utilisation «~Exporter rapport~»}
-Ce cas d'utilisation permet au Responsable RH de générer et d'exporter des rapports contenant les données RH de l'entreprise. Les rapports produits facilitent l'analyse et la prise de décision grâce à une présentation structurée des informations.
+\subsubsection*{Description textuelle : cas d'utilisation «~Générer rapport~»}
+Ce cas d'utilisation permet au Responsable RH de générer et de télécharger des rapports contenant les données RH de l'entreprise. Les rapports produits facilitent l'analyse et la prise de décision grâce à une présentation structurée des informations.
 \begin{center}
 \begin{longtable}{|p{5cm}|p{11cm}|}
 \hline
 
-\textbf{Nom du cas d'utilisation} & Exporter rapport \\ \hline
+\textbf{Nom du cas d'utilisation} & Générer rapport \\ \hline
 
 \textbf{Acteurs} & Responsable RH \\ \hline
 
-\textbf{Objectif} & Générer et exporter un rapport RH \\ \hline
+\textbf{Objectif} & Générer et télécharger un rapport pour le responsable RH \\ \hline
 
 \textbf{Préconditions} & Responsable RH authentifié \\ \hline
 
@@ -736,7 +736,7 @@ Ce cas d'utilisation permet au Responsable RH de générer et d'exporter des rap
 2. Cliquer sur le menu « Historique ». \newline
 3. Accéder à la section « Rapports et Analytics ». \newline
 4. Sélectionner le type de rapport et la période souhaitée. \newline
-5. Cliquer sur le bouton « Exporter ». \newline
+5. Cliquer sur le bouton « Générer et Télécharger ». \newline
 6. Le système génère automatiquement le rapport. \newline
 7. Le fichier est téléchargé pour consultation. \\ \hline
 
@@ -746,7 +746,7 @@ Erreur lors de la génération ou de l’exportation $\rightarrow$ message « Ex
 \textbf{Post-condition} &
 Le rapport est généré et disponible pour consultation ou téléchargement. \\ \hline
 
-\caption{Description textuelle du cas d'utilisation «~Exporter rapport~»}
+\caption{Description textuelle du cas d'utilisation «~Générer rapport~»}
 \end{longtable}
 \end{center}
 

@@ -47,37 +47,36 @@ Pour chaque acteur, les objectifs et fonctionnalités du système sont les suiva
 \paragraph{Fonctionnalités pour l'employé}
 
 \begin{itemize}
-  \item Enregistrer son visage
-  \item Modifier ses informations personnelles
-  \item Consulter ses absences 
-  \item Pointage faciale
-  \item Consulter son salaire
-  \item Faire une demande de congé
-  \item Consulter historique
-  \item Déposer un document
-  \item Réinitialiser mot de passe
+  \item Enregistrer son visage : permettre à l'employé d'ajouter ses données faciales dans le système.
+  \item Modifier ses informations personnelles : mettre à jour ses informations telles que l'adresse, le numéro de téléphone ou l'état civil.
+  \item Consulter ses absences : visualiser son historique d'absences et de présences.
+  \item Pointage faciale : effectuer l'enregistrement de présence à l'aide de la reconnaissance faciale.
+  \item Consulter son salaire : accéder aux informations relatives à sa rémunération.
+  \item Soumettre un  congé : soumettre une demande de congé au service concerné.
+  \item Consulter historique : afficher les opérations et actions précédemment effectuées.
+  \item Déposer un document : envoyer des fichiers ou justificatifs au système.
+  
 \end{itemize}
 
 \paragraph{Fonctionnalités pour le responsable RH}
 
 \begin{itemize}
-  \item S'inscrire
-  \item Visualiser le Dashboard RH
-  \item Connexion de la plateforme aux caméras
-  \item Gérer les comptes employés
-  \item Gérer les congés (validation / refus)
-  
-  \item Gérer les salaires
-  \item Gérer Documents
-  \item Gérer historique et rapports
+  \item S'inscrire : permettre au responsable RH de créer un compte et d'accéder aux fonctionnalités dédiées.
+  \item Visualiser le Dashboard RH : consulter les indicateurs clés, statistiques des employés et synthèses RH.
+  \item Connexion de la plateforme aux caméras : configurer et gérer les flux vidéo pour la reconnaissance faciale.
+  \item Gérer les comptes employés : ajouter, modifier, désactiver ou supprimer les profils des employés.
+  \item Gérer les congés (validation / refus) : traiter les demandes de congé, les approuver ou les refuser et suivre leur historique.
+  \item Gérer les salaires : consulter et mettre à jour les informations de paie et générer des fiches de salaire.
+  \item Gérer les documents : superviser le dépôt, le classement et l'accès aux justificatifs et pièces administratives.
+  \item Gérer historique et rapports : générer, consulter et exporter les rapports d'activité, d'absence et autres historiques.
 \end{itemize}
 
 \paragraph{Fonctionnalités pour l'administrateur}
 
 \begin{itemize}
-  \item Gérer les comptes des utilisateurs (responsable RH) du système
-  \item Visualiser le Dashboard Administrateur
-  \item Réinitialiser mot de passe
+  \item Gérer les comptes des utilisateurs (responsable RH) du système : créer, modifier, désactiver ou supprimer les comptes des responsables RH afin de contrôler leur accès à la plateforme.
+  \item Visualiser le Dashboard Administrateur : consulter les indicateurs globaux, les statistiques d'utilisation et les informations de supervision du système.
+  
 \end{itemize}
 
 \subsubsection{Diagramme de cas d'utilisation global}
@@ -102,7 +101,7 @@ acteurs et le système. La figure~\ref{fig:usecase} présente ce diagramme de ca
 
 Les besoins non fonctionnels définissent les contraintes et qualités attendues du système.
 
-\begin{enumerate}[label=\alph*)]
+\begin{itemize}
   \item \textbf{Contraintes techniques :}
     \begin{itemize}
       \item Compatibilité avec les caméras standard.
@@ -124,7 +123,7 @@ Les besoins non fonctionnels définissent les contraintes et qualités attendues
       \item Tableau de bord clair et lisible avec indicateurs visuels.
       \item Respect de l'identité visuelle de l'application et cohérence graphique.
     \end{itemize}
-\end{enumerate}
+\end{itemize}
 
 %============================================================
 \section{Pilotage de projet avec Scrum}
@@ -204,7 +203,7 @@ Le sprint backlog du projet et présenté par le tableau suivant :
 18 & Rejeter document               & Responsable RH & refuser un document               & contrôler les absences           & 4 & 2 \\ \hline
 19 & Modifier salaire               & Responsable RH & ajouter un salaire à un employé   & assurer une gestion correcte de la paie & 3 & 3 \\ \hline
 20 & Générer rapport               & Responsable RH & générer un rapport                & exploiter les données RH         & 3 & 3 \\ \hline
-21 & Consulter historique RH        & Responsable RH & consulter l'historique des actions effectuées & assurer le suivi et la traçabilité des opérations RH & 4 & 3 \\ \hline
+21 & Consulter historique        & Responsable RH & consulter l'historique des actions effectuées & assurer le suivi et la traçabilité des opérations RH & 4 & 3 \\ \hline
 
 22 & Enregistrer le visage          & Employé        & enregistrer mon visage            & permettre le pointage automatique & 5 & 5 \\ \hline
 23 & Modifier infos personnelles    & Employé        & modifier mes informations personnelles & maintenir mes données à jour & 3 & 2 \\ \hline
@@ -212,11 +211,10 @@ Le sprint backlog du projet et présenté par le tableau suivant :
 25 & Consulter ses primes           & Employé        & consulter mes primes              & connaître mes avantages          & 2 & 1 \\ \hline
 26 & Consulter déduction            & Employé        & voir mes déductions               & comprendre ma fiche de paie      & 2 & 1 \\ \hline
 27 & Consulter son salaire          & Employé        & voir le statut de mon salaire     & savoir s'il est versé            & 3 & 1 \\ \hline
-28 & Faire une demande de congé     & Employé        & envoyer une demande de congé      & obtenir une autorisation d'absence & 5 & 2 \\ \hline
+28 & Soumettre un congé             & Employé        & envoyer une demande de congé      & obtenir une autorisation d'absence & 5 & 2 \\ \hline
 29 & Déposer un document            & Employé        & déposer un document               & justifier une absence            & 4 & 3 \\ \hline
 30 & Pointage faciale               & Employé        & pointer ma présence par reconnaissance faciale & automatiser le pointage et éviter les oublis de pointage & 5 & 5 \\ \hline
 31 & S'authentifier                 & Employé + Responsable RH + Administrateur & me connecter et me déconnecter    & accéder à mon espace sécurisé    & 5 & 2 \\ \hline
-32 & Réinitialiser mot de passe     & Employé + Responsable RH + Administrateur   & réinitialiser mon mot de passe    & récupérer l'accès à mon compte   & 4 & 2 \\ \hline
 
 \caption{Backlog de produit}
 \label{tab:backlog}
@@ -224,7 +222,7 @@ Le sprint backlog du projet et présenté par le tableau suivant :
 
 \subsection{Planification de releases}
 
-À partir du product backlog défini en amont, le travail a été organisé selon une approche agile basée sur des cycles courts et itératifs. Chaque user story a été priorisée en fonction de sa valeur métier et de ses dépendances techniques, afin de déterminer un ordre d’exécution cohérent et optimal. En prenant en compte la taille de l’équipe ainsi qu’un calendrier global de trois mois, la planification a été structurée en quatre sprints de deux semaines, couvrant la période du 14 février 2026 au 29 mai 2026. Les fonctionnalités essentielles, notamment la gestion des accès, l’administration des comptes et le pointage intelligent par reconnaissance faciale, ont été planifiées en priorité afin de garantir des fondations techniques robustes dès les premières itérations. L’ensemble des sprints est organisé en deux releases complémentaires, permettant une livraison progressive et maîtrisée du système.
+À partir du product backlog défini en amont, le travail a été organisé selon une approche agile basée sur des cycles courts et itératifs. Chaque user story a été priorisée en fonction de sa valeur métier et de ses dépendances techniques, afin de déterminer un ordre d’exécution cohérent et optimal. En prenant en compte la taille de l’équipe ainsi qu’un calendrier global de quatre mois, la planification a été structurée en quatre sprints , couvrant la période du 14 février 2026 au 29 mai 2026. Les fonctionnalités essentielles, notamment la gestion des accès, l’administration des comptes et le pointage intelligent par reconnaissance faciale, ont été planifiées en priorité afin de garantir des fondations techniques robustes dès les premières itérations. L’ensemble des sprints est organisé en deux releases complémentaires, permettant une livraison progressive et maîtrisée du système.
 
 \subsubsection*{Release 1 : Fondations \& Présence Intelligente}
 
@@ -243,7 +241,7 @@ La répartition des user stories est détaillée dans le tableau suivant :
 \hline
 \endhead
 1 & Gestion des Accès et Administration des Comptes
-  & 1-2-3-5-7-8-9-31-32
+  & 1-2-3-5-7-8-9-31
   & 14/02/2026 -- 11/03/2026
   & Mettre en place l'authentification du système, la gestion des comptes
     (Administrateur, Responsable RH et Employé), la réinitialisation du mot de

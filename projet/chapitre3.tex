@@ -53,7 +53,7 @@ sprint. Le sprint backlog du sprint 1 est présenté dans le tableau suivant :
 8  & Modifier compte employé        & Responsable RH  & modifier un compte employé        & mettre à jour les données        & 4 & 2 \\ \hline
 9  & Supprimer compte employé       & Responsable RH  & supprimer un compte employé       & désactiver l'accès               & 4 & 2 \\ \hline
 31 & S'authentifier                 & Employé + Responsable RH + Administrateur & me connecter et me déconnecter    & accéder à mon espace sécurisé    & 5 & 2 \\ \hline
-32 & Réinitialiser mot de passe     & Employé + Responsable RH + Administrateur     & réinitialiser mon mot de passe    & récupérer l'accès à mon compte   & 4 & 2 \\ \hline
+
 \caption{Backlog Sprint 1 — Accès \& Identités}
 \end{longtable}
 
@@ -73,36 +73,7 @@ Ce diagramme illustre les interactions entre les trois acteurs principaux — Ad
 
 
 
-\subsubsection*{Description textuelle : cas d'utilisation « Réinitialiser le mot de passe »}
-Ce tableau décrit en détail le scénario nominal et les cas d'exception du cas d'utilisation « Réinitialiser le mot de passe », incluant les préconditions, les étapes d'interaction entre l'utilisateur et le système, ainsi que la post-condition attendue.
 
-\begin{longtable}{|p{5cm}|p{11cm}|}
-\hline
-\textbf{Nom du cas d'utilisation} & \textbf{Réinitialiser le mot de passe} \\ \hline
-\textbf{Acteurs}                  & Utilisateur \\ \hline
-\textbf{Objectif}                 & Permettre à l'utilisateur de réinitialiser son mot de passe en cas d'oubli \\ \hline
-\textbf{Préconditions}            & L'utilisateur possède un compte associé à une adresse e-mail valide \\ \hline
-\textbf{Scénario nominal} &
-1. L'utilisateur accède à la page de connexion. \newline
-2. Le système affiche le formulaire de connexion. \newline
-3. L'utilisateur saisit ses coordonnées de connexion. \newline
-4. Le système détecte que les informations sont incorrectes. \newline
-5. Le système affiche un message d'erreur. \newline
-6. L'utilisateur clique sur « Mot de passe oublié ». \newline
-7. Le système affiche le formulaire de réinitialisation. \newline
-8. L'utilisateur saisit son adresse e-mail. \newline
-9. Le système vérifie l'existence et la validité de l'adresse e-mail. \newline
-10. Le système génère un nouveau mot de passe. \newline
-11. Le système envoie le nouveau mot de passe à l'adresse e-mail de l'utilisateur. \newline
-12. L'utilisateur reçoit le nouveau mot de passe avec succès. \\ \hline
-\textbf{Scénario d'exception} &
-1.1 Si l'adresse e-mail n'existe pas dans la base de données : \newline
-Le système affiche un message d'erreur. \newline
-1.2 Si l'adresse e-mail n'est pas vérifiée : \newline
-Le système affiche un message d'erreur. \\ \hline
-\textbf{Post-condition} & L'utilisateur reçoit un nouveau mot de passe dans sa boîte e-mail \\ \hline
-\caption{Description textuelle du cas d'utilisation « Réinitialiser le mot de passe »}
-\end{longtable}
 
 
 \subsubsection*{Description textuelle : cas d'utilisation « S'authentifier »}
@@ -115,8 +86,8 @@ Ce tableau présente le scénario d'authentification d'un utilisateur, depuis l'
 \textbf{Préconditions}            & L'utilisateur possède un compte valide \\ \hline
 \textbf{Scénario nominal} &
 1. L'utilisateur accède à la page de connexion. \newline
-2. Le système affiche le formulaire de connexion. \newline
-3. L'utilisateur saisit son login et son mot de passe. \newline
+2. Le système affiche le formulaire de connexion . \newline
+3. L'utilisateur saisit son login et son mot de passe  \newline
 4. L'utilisateur clique sur « Se connecter ». \newline
 5. Le système envoie les identifiants pour vérification. \newline
 6. Le système valide les identifiants. \newline
@@ -142,12 +113,10 @@ Ce tableau détaille le processus d'inscription d'un nouveau Responsable RH, en 
 \textbf{Préconditions}            & L'utilisateur ne possède pas encore de compte \\ \hline
 \textbf{Scénario nominal} &
 1. L'utilisateur accède à la page d'inscription. \newline
-2. Le système propose plusieurs méthodes d'inscription (formulaire, Google, etc.). \newline
-3. L'utilisateur choisit une méthode d'inscription. \newline
-4. L'utilisateur saisit les informations demandées ou autorise l'accès via le service externe. \newline
-5. Le système vérifie les informations reçues. \newline
-6. Le système enregistre les informations dans la base de données. \newline
-7. L'utilisateur est redirigé vers son tableau de bord. \\ \hline
+2. L'utilisateur saisit les informations demandées . \newline
+3. Le système vérifie les informations reçues. \newline
+4. Le système enregistre les informations dans la base de données. \newline
+5. L'utilisateur est redirigé vers son tableau de bord. \\ \hline
 \textbf{Scénario d'exception} &
 5.1 Si les informations sont invalides ou l'inscription échoue, le système affiche un message d'erreur et demande de réessayer. \\ \hline
 \textbf{Post-condition} & Un nouveau compte utilisateur est créé et l'utilisateur peut accéder à la plateforme. \\ \hline
@@ -273,16 +242,7 @@ Ce diagramme représente le processus d'authentification d'un utilisateur sur la
 \end{figure}
 
 
-\subsubsection*{Diagramme de séquence du cas d'utilisation « Réinitialiser le mot de passe »}
 
-Ce diagramme décrit le processus de récupération du compte. L'utilisateur fait une demande de réinitialisation, puis le système vérifie l'adresse e-mail avant d'envoyer un nouveau mot de passe sécurisé par courriel.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/img sequence s1/m.png}
-    \caption{Diagramme de séquence du cas d'utilisation « Réinitialiser le mot de passe »}
-    \label{fig:interface6}
-\end{figure}
 
 Ce diagramme illustre les interactions entre l'utilisateur et le système lors de la réinitialisation du mot de passe, depuis la soumission de la demande jusqu'à la génération et l'envoi du nouveau mot de passe par e-mail.
 
@@ -370,16 +330,7 @@ Cette interface présente la page d'inscription. En effet, le Responsable RH doi
 \end{figure}
 
 
-\subsubsection*{Interface Réinitialiser mot de passe}
 
-Cette interface permet à l'utilisateur de récupérer l'accès à son compte en saisissant son adresse e-mail afin de recevoir un nouveau mot de passe par e-mail.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/interface/s1/motdepasee oblie.jpeg}
-    \caption{Interface Réinitialiser mot de passe}
-    \label{fig:interface3}
-\end{figure}
 
 
 \subsubsection*{Interface Gérer les comptes employés}
@@ -545,7 +496,7 @@ Ce tableau présente le scénario de consultation par l'employé de son historiq
 \textbf{Scénario nominal} &
 1. L'employé accède à son tableau de bord. \newline
 2. Il consulte la section « Mes Absences ». \newline
-3. Le système affiche ses absences et retards. \\ \hline
+3. Le système affiche ses absences . \\ \hline
 \textbf{Scénario d'exception} &
 2.1 Si aucune donnée n'est disponible, le système affiche un message. \\ \hline
 \textbf{Post-condition} & L'employé visualise ses informations de présence. \\ \hline
