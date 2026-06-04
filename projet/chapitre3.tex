@@ -12,18 +12,8 @@ Ce chapitre est essentiel pour le déroulement du projet, puisqu'il présente en
 \section{Sprint 1 : Gestion des Accès et Administration des Comptes}
 %============================================================
 
-Ce sprint a pour objectif de développer le module d'authentification et de gestion des comptes utilisateurs, ainsi que la réinitialisation de mot de passe, permettant un accès sécurisé à la plateforme selon les rôles définis (Administrateur, Responsable RH et Employé).
+L'objectif de ce sprint, qui s'est déroulé du 14 février 2026 au 11 mars 2026, était d'établir les bases du système en concevant les processus d'authentification et de contrôle d'accès. Cela inclut la gestion des comptes utilisateurs pour divers profils (Administrateur, Responsable RH et Employé), ainsi que les fonctionnalités pour créer, modifier et supprimer les comptes. Ce sprint a aussi pour objectif d'assurer un accès sécurisé à la plateforme à travers un contrôle strict des droits et des autorisations.
 
-\subsection{Objectif du sprint 1}
-
-L'objectif de ce sprint est d'implémenter l'authentification du système, la gestion des comptes (Administrateur, Responsable RH, Employé) et le contrôle d'accès sécurisé à la plateforme.
-
-\subsection{Durée du sprint 1}
-
-\begin{itemize}
-    \item \textbf{Date de début du sprint} : 14/02/2026
-    \item \textbf{Date de fin du sprint} : 11/03/2026
-\end{itemize}
 
 \subsection{Backlog du sprint 1}
 Ce tableau présente les neuf user stories retenues pour le sprint 1, couvrant la gestion des comptes Administrateur, Responsable RH et Employé, ainsi que l'authentification et la réinitialisation du mot de passe. Chaque user story est accompagnée de sa priorité (P) et de sa complexité estimée (C).
@@ -252,7 +242,7 @@ Ce diagramme présente le processus d'inscription d'un nouveau Responsable RH su
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/img sequence s1/sinscrire.drawio.png}
+    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss1/sinscrire.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation « S'inscrire »}
 \end{figure}
 
@@ -263,7 +253,7 @@ Ce diagramme démontre la création d'un compte par le Responsable RH. Il entre 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/img sequence s1/creer_compte_employe.png}
+    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss1/creer_compte_employe.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation « Créer compte employé »}
 \end{figure}
 
@@ -274,7 +264,7 @@ Ce diagramme présente la suppression d'un compte employé par le Responsable RH
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/img sequence s1/sup.drawio.png}
+    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss1/sup.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation « Supprimer compte employé »}
 \end{figure}
 
@@ -285,7 +275,7 @@ Ce diagramme décrit la modification des informations d'un compte Responsable RH
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/img sequence s1/modifier_compte_rhg.drawio.png}
+    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss1/modifier_compte_rhg.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation « Modifier compte Responsable RH »}
 \end{figure}
 
@@ -361,18 +351,7 @@ Cette interface permet à l'Administrateur de gérer les comptes des responsable
 \section{Sprint 2 : Pointage Intelligent et Suivi de Présence}
 %============================================================
 
-Ce sprint consiste à concevoir le module de pointage intelligent utilisant la reconnaissance faciale, afin d'identifier automatiquement les employés et de suivre leur présence dans l'entreprise.
-
-\subsection{Objectif du sprint 2}
-
-L'objectif de ce sprint est d'implémenter le pointage automatique par reconnaissance faciale, de connecter les caméras et de permettre le suivi des présences, absences et informations des employés.
-
-\subsection{Durée du sprint 2}
-
-\begin{itemize}
-    \item \textbf{Date de début du sprint} : 12/03/2026
-    \item \textbf{Date de fin du sprint} : 06/04/2026
-\end{itemize}
+Ce sprint, prévu du 12/03/2026 au 06/04/2026, sera dédié à la mise en place du système de pointage automatique par reconnaissance faciale. Cela inclut la liaison de la plateforme avec les caméras, l'enregistrement des informations biométriques du personnel, ainsi que le suivi de la présence, des absences et des retards. La finalité première est de rendre automatique le processus de pointage, tout en garantissant aux collaborateurs l'opportunité de visualiser leurs informations individuelles et leurs données de présence.
 
 \subsection{Backlog du sprint 2}
 Ce tableau liste les cinq user stories du sprint 2, portant sur la connexion des caméras, l'enregistrement du visage, la modification des informations personnelles, la consultation des absences et le pointage facial. Les priorités élevées reflètent la complexité technique liée à l'intelligence artificielle et à la reconnaissance faciale.
@@ -556,7 +535,7 @@ Ce diagramme illustre la configuration et la connexion des caméras à la platef
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.85\textwidth]{projet/images/img diag sprint 2/connecter_cameras.png}
+    \includegraphics[width=0.85\textwidth]{projet/images/digf/ss2/connecter_cameras.png}
     \caption{Diagramme de séquence du cas d'utilisation « Connecter la plateforme aux caméras »}
 \end{figure}
 
@@ -567,7 +546,7 @@ Ce diagramme décrit le processus d'enregistrement du visage d'un employé pour 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.85\textwidth]{projet/images/img diag sprint 2/enregister_visage.png}
+    \includegraphics[width=0.85\textwidth]{projet/images/digf/ss2/enregister_visage.png}
     \caption{Diagramme de séquence du cas d'utilisation « Enregistrer le visage »}
 \end{figure}
 
@@ -578,7 +557,7 @@ Ce diagramme illustre la mise à jour des informations personnelles par l'employ
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.85\textwidth]{projet/images/img diag sprint 2/modifier_infos.png}
+    \includegraphics[width=0.85\textwidth]{projet/images/digf/ss2/modifier_infos.png}
     \caption{Diagramme de séquence du cas d'utilisation « Modifier infos personnelles »}
 \end{figure}
 
@@ -588,7 +567,7 @@ Ce diagramme décrit la consultation par l'employé de son historique d'absences
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.85\textwidth]{projet/images/img diag sprint 2/consulter_retard.png}
+    \includegraphics[width=0.85\textwidth]{projet/images/digf/ss2/consulter_retard.png}
     \caption{Diagramme de séquence du cas d'utilisation « Consulter ses absences et retards »}
 \end{figure}
 
