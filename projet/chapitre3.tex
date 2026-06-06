@@ -1,5 +1,8 @@
 \chapter{Release 1}
 
+% Réduction drastique des espaces pour tout le chapitre
+
+
 \newpage
 
 %============================================================
@@ -14,11 +17,10 @@ Ce chapitre est essentiel pour le déroulement du projet, puisqu'il présente en
 
 L'objectif de ce sprint, qui s'est déroulé du 14 février 2026 au 11 mars 2026, était d'établir les bases du système en concevant les processus d'authentification et de contrôle d'accès. Cela inclut la gestion des comptes utilisateurs pour divers profils (Administrateur, Responsable RH et Employé), ainsi que les fonctionnalités pour créer, modifier et supprimer les comptes. Ce sprint a aussi pour objectif d'assurer un accès sécurisé à la plateforme à travers un contrôle strict des droits et des autorisations.
 
-
 \subsection{Backlog du sprint 1}
 Ce tableau présente les neuf user stories retenues pour le sprint 1, couvrant la gestion des comptes Administrateur, Responsable RH et Employé, ainsi que l'authentification et la réinitialisation du mot de passe. Chaque user story est accompagnée de sa priorité (P) et de sa complexité estimée (C).
 
-sprint. Le sprint backlog du sprint 1 est présenté dans le tableau suivant :
+Le sprint backlog du sprint 1 est présenté dans le tableau suivant :
 
 \begin{longtable}{|>{\centering\arraybackslash}m{0.5cm}|
     >{\centering\arraybackslash}m{3cm}|
@@ -43,10 +45,8 @@ sprint. Le sprint backlog du sprint 1 est présenté dans le tableau suivant :
 8  & Modifier compte employé        & Responsable RH  & modifier un compte employé        & mettre à jour les données        & 4 & 2 \\ \hline
 9  & Supprimer compte employé       & Responsable RH  & supprimer un compte employé       & désactiver l'accès               & 4 & 2 \\ \hline
 31 & S'authentifier                 & Employé + Responsable RH + Administrateur & me connecter et me déconnecter    & accéder à mon espace sécurisé    & 5 & 2 \\ \hline
-
 \caption{Backlog Sprint 1 — Accès \& Identités}
 \end{longtable}
-
 
 \subsection{Spécification fonctionnelle détaillée}
 
@@ -59,12 +59,6 @@ Ce diagramme illustre les interactions entre les trois acteurs principaux — Ad
     \caption{Diagramme de Cas d'utilisation du Sprint 1}
     \label{fig:usecase1}
 \end{figure}
-
-
-
-
-
-
 
 \subsubsection*{Description textuelle : cas d'utilisation « S'authentifier »}
 Ce tableau présente le scénario d'authentification d'un utilisateur, depuis l'accès à la page de connexion jusqu'à la redirection vers le tableau de bord, ainsi que le cas d'exception lié à des identifiants invalides.
@@ -90,8 +84,6 @@ Le système affiche un message d'erreur. \\ \hline
 \caption{Description textuelle du cas d'utilisation « S'authentifier »}
 \end{longtable}
 
-
-
 \subsubsection*{Description textuelle : cas d'utilisation « S'inscrire »}
 Ce tableau détaille le processus d'inscription d'un nouveau Responsable RH, en présentant les étapes de saisie des informations, de vérification par le système et de création du compte, ainsi que le scénario d'exception en cas d'échec.
 
@@ -113,7 +105,6 @@ Ce tableau détaille le processus d'inscription d'un nouveau Responsable RH, en 
 \caption{Description textuelle du cas d'utilisation « S'inscrire »}
 \end{longtable}
 
-
 \subsubsection*{Raffinement du cas d'utilisation « Gérer compte employé »}
 Ce diagramme raffine le cas d'utilisation « Gérer compte employé » en décomposant les trois opérations possibles : la création, la modification et la suppression d'un compte employé par le Responsable RH.
 
@@ -123,7 +114,6 @@ Ce diagramme raffine le cas d'utilisation « Gérer compte employé » en décom
     \caption{Raffinement du cas d'utilisation « Gérer compte employé »}
     \label{fig:usecase2}
 \end{figure}
-
 
 \subsubsection*{Description textuelle : cas d'utilisation « Gérer compte employé »}
 Ce tableau décrit les scénarios de création, modification et suppression d'un compte employé, incluant le processus d'envoi d'un lien d'activation par e-mail et les exceptions liées à des données invalides.
@@ -141,9 +131,8 @@ Ce tableau décrit les scénarios de création, modification et suppression d'un
 3. Il saisit les informations de l'employé. \newline
 4. Il valide la création. \newline
 5. Le système crée le compte. \newline
-6. Le système envoie un email contenant un lien de définition du mot de passe. \newline
-7. L'employé clique sur le lien reçu par email. \newline
-8. Il définit son mot de passe pour activer son compte. \newline
+6. Le système envoie un email contenant son  mot de pass temporaire. \newline
+
 \textbf{Modification :} \newline
 9. Le Responsable RH accède à la liste des employés. \newline
 10. Il sélectionne un employé. \newline
@@ -162,7 +151,6 @@ Ce tableau décrit les scénarios de création, modification et suppression d'un
 \caption{Description textuelle du cas d'utilisation « Gérer compte employé »}
 \end{longtable}
 
-
 \subsubsection*{Raffinement du cas d'utilisation « Gérer compte Responsable RH »}
 Ce diagramme raffine le cas d'utilisation « Gérer compte Responsable RH » en illustrant les actions de création, modification et suppression d'un compte Responsable RH effectuées par l'Administrateur.
 
@@ -172,7 +160,6 @@ Ce diagramme raffine le cas d'utilisation « Gérer compte Responsable RH » en 
     \caption{Raffinement du cas d'utilisation « Gérer compte Responsable RH »}
     \label{fig:usecase3}
 \end{figure}
-
 
 \subsubsection*{Description textuelle : cas d'utilisation « Gérer compte Responsable RH »}
 Ce tableau présente les étapes détaillées de gestion d'un compte Responsable RH par l'Administrateur, avec les scénarios d'exception associés, notamment la vérification des doublons lors de la création et la demande de confirmation avant suppression.
@@ -211,7 +198,6 @@ Ce tableau présente les étapes détaillées de gestion d'un compte Responsable
 \caption{Description textuelle du cas d'utilisation « Gérer compte Responsable RH »}
 \end{longtable}
 
-
 %============================================================
 \subsection{Conception}
 %============================================================
@@ -222,63 +208,51 @@ Cette section présente les différents diagrammes UML réalisés afin de modél
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation « S'authentifier »}
 
-Ce diagramme représente le processus d'authentification d'un utilisateur sur la plateforme. L'utilisateur entre ses coordonnées, le système vérifie si ceux-ci sont valides et lui accorde ou refuse l'accès à son espace personnel.
+Ce diagramme de séquence représente le processus d’authentification d’un utilisateur sur la plateforme. L’utilisateur saisit ses identifiants de connexion à travers l’interface de l’application, qui consomme l’API d’authentification. Le système vérifie alors la validité des informations fournies. En cas de succès, un jeton d’accès (JWT) est généré et l’utilisateur est redirigé vers son espace personnel. En cas d’échec, le système retourne un message d’erreur indiquant que l’authentification a échoué.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/img sequence s1/auth.drawio.png}
+    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss1/auth.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation « S'authentifier »}
-    \label{fig:interface6}
+    \label{fig:interface77}
 \end{figure}
 
 
-
-
-Ce diagramme illustre les interactions entre l'utilisateur et le système lors de la réinitialisation du mot de passe, depuis la soumission de la demande jusqu'à la génération et l'envoi du nouveau mot de passe par e-mail.
-
 \subsubsection*{Diagramme de séquence du cas d'utilisation « S'inscrire »}
 
-Ce diagramme présente le processus d'inscription d'un nouveau Responsable RH sur la plateforme. Il saisit ses informations, le système vérifie leur validité, crée le compte et le redirige vers son tableau de bord.
-
+Ce diagramme de séquence représente le processus d’inscription d’un Responsable RH sur la plateforme. Après avoir renseigné les informations nécessaires, le Responsable RH soumet le formulaire d’inscription. L’interface utilisateur consomme alors l’API d’inscription (Register API), qui transmet les données au système. Celui-ci vérifie la validité des informations et crée le compte dans la base de données
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{projet/images/digf/ss1/sinscrire.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation « S'inscrire »}
 \end{figure}
 
-
 \subsubsection*{Diagramme de séquence du cas d'utilisation « Créer compte employé »}
 
-Ce diagramme démontre la création d'un compte par le Responsable RH. Il entre les données de l'employé, puis le système valide ces informations et enregistre le nouvel employé.
-
+Ce diagramme de séquence représente le processus de création d’un employé par le Responsable RH. Le Responsable RH renseigne les informations de l’employé à travers l’interface de l’application, qui consomme l’API de gestion des utilisateurs (User API). Le système valide les données reçues puis crée le compte de l’employé dans la base de données. Après la création du compte, un email contenant une mot de passe temporaire est envoyé à l’employé pour accéder à la plateforme.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss1/creer_compte_employe.drawio.png}
+    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss1/creer_compte_employe.png}
     \caption{Diagramme de séquence du cas d'utilisation « Créer compte employé »}
 \end{figure}
 
-
 \subsubsection*{Diagramme de séquence du cas d'utilisation « Supprimer compte employé »}
 
-Ce diagramme présente la suppression d'un compte employé par le Responsable RH. Après sélection du compte, le système demande une confirmation avant de procéder à la suppression définitive des données associées.
-
+Ce diagramme représente le processus de suppression d’un employé par le Responsable RH. Après avoir sélectionné l’employé à supprimer, l’interface utilisateur consomme l’API User pour transmettre la demande de suppression au système. Celui-ci demande une confirmation avant de procéder à la suppression définitive des données associées à l’employé et de notifier le résultat de l’opération au Responsable RH.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{projet/images/digf/ss1/sup.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation « Supprimer compte employé »}
 \end{figure}
 
-
 \subsubsection*{Diagramme de séquence du cas d'utilisation « Modifier compte Responsable RH »}
 
-Ce diagramme décrit la modification des informations d'un compte Responsable RH par l'Administrateur. Il sélectionne le compte, met à jour les champs souhaités et le système enregistre les modifications après validation.
-
+Ce diagramme représente le processus de modification d’un compte Responsable RH par l’Administrateur. Après avoir sélectionné le compte à modifier, l’interface utilisateur consomme l’API User pour transmettre les nouvelles informations au système. Celui-ci valide les données reçues, met à jour le compte du Responsable RH et confirme le succès de l’opération.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss1/modifier_compte_rhg.drawio.png}
+    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss1/mrc.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation « Modifier compte Responsable RH »}
 \end{figure}
-
 
 \subsubsection{Diagramme de classe du sprint 1}
 
@@ -290,7 +264,6 @@ Ce diagramme de classe illustre la structure du module de gestion des accès et 
     \caption{Diagramme de classe du sprint 1}
     \label{fig:classe1}
 \end{figure}
-
 
 %============================================================
 \subsection{Interfaces réalisées pour le sprint 1}
@@ -307,7 +280,6 @@ Cette interface présente la page d'authentification. En effet, chaque utilisate
     \label{fig:interface1}
 \end{figure}
 
-
 \subsubsection*{Interface d'inscription}
 
 Cette interface présente la page d'inscription. En effet, le Responsable RH doit saisir les informations pour créer un nouveau compte.
@@ -318,10 +290,6 @@ Cette interface présente la page d'inscription. En effet, le Responsable RH doi
     \caption{Interface d'inscription}
     \label{fig:interface2}
 \end{figure}
-
-
-
-
 
 \subsubsection*{Interface Gérer les comptes employés}
 
@@ -334,7 +302,6 @@ Cette interface permet au Responsable RH de gérer les comptes des employés (cr
     \label{fig:interface4}
 \end{figure}
 
-
 \subsubsection*{Interface Gérer les comptes Responsables RH}
 
 Cette interface permet à l'Administrateur de gérer les comptes des responsables RH (création, modification, suppression).
@@ -345,7 +312,6 @@ Cette interface permet à l'Administrateur de gérer les comptes des responsable
     \caption{Interface Gérer les comptes Responsables RH}
     \label{fig:interface5}
 \end{figure}
-
 
 %============================================================
 \section{Sprint 2 : Pointage Intelligent et Suivi de Présence}
@@ -379,7 +345,6 @@ Ce tableau liste les cinq user stories du sprint 2, portant sur la connexion des
 \caption{Backlog Sprint 2 — Pointage Intelligent \& Présence}
 \end{longtable}
 
-
 %============================================================
 \subsection{Spécification fonctionnelle détaillée}
 %============================================================
@@ -393,7 +358,6 @@ Ce diagramme présente les interactions entre le Responsable RH et l'Employé av
     \caption{Diagramme de Cas d'utilisation du Sprint 2}
     \label{fig:usecase4}
 \end{figure}
-
 
 \subsubsection*{Description textuelle : cas d'utilisation « Connecter la plateforme aux caméras »}
 Ce tableau décrit les étapes de configuration et de connexion des caméras par le Responsable RH, depuis l'accès au module jusqu'à l'activation du pointage automatique, ainsi que le scénario d'exception en cas d'échec de connexion.
@@ -415,7 +379,6 @@ Ce tableau décrit les étapes de configuration et de connexion des caméras par
 \textbf{Post-condition} & Les caméras sont connectées et le pointage automatique est activé. \\ \hline
 \caption{Description textuelle du cas d'utilisation « Connecter la plateforme aux caméras »}
 \end{longtable}
-
 
 \subsubsection*{Description textuelle : cas d'utilisation « Enregistrer le visage »}
 Ce tableau présente le processus d'enregistrement biométrique du visage d'un employé lors de sa première connexion, incluant la capture par caméra et le stockage des données faciales dans le système pour permettre le pointage automatique.
@@ -440,7 +403,6 @@ Ce tableau présente le processus d'enregistrement biométrique du visage d'un e
 \caption{Description textuelle du cas d'utilisation « Enregistrer le visage »}
 \end{longtable}
 
-
 \subsubsection*{Description textuelle : cas d'utilisation « Modifier infos personnelles »}
 Ce tableau décrit les étapes permettant à l'employé de consulter et de mettre à jour ses informations personnelles depuis son profil, ainsi que le scénario d'exception déclenché en cas de saisie de données invalides.
 
@@ -462,7 +424,6 @@ Ce tableau décrit les étapes permettant à l'employé de consulter et de mettr
 \caption{Description textuelle du cas d'utilisation « Modifier infos personnelles »}
 \end{longtable}
 
-
 \subsubsection*{Description textuelle : cas d'utilisation « Consulter mes absences »}
 Ce tableau présente le scénario de consultation par l'employé de son historique d'absences et de retards depuis son tableau de bord, avec le cas d'exception affiché en l'absence de données disponibles dans le système.
 
@@ -481,7 +442,6 @@ Ce tableau présente le scénario de consultation par l'employé de son historiq
 \textbf{Post-condition} & L'employé visualise ses informations de présence. \\ \hline
 \caption{Description textuelle du cas d'utilisation « Consulter mes absences et retards »}
 \end{longtable}
-
 
 \subsubsection*{Description textuelle : cas d'utilisation « Pointage Facial »}
 Ce tableau détaille le scénario nominal du pointage facial en mode télétravail, couvrant les opérations de check-in et check-out via reconnaissance faciale, ainsi que l'exception déclenchée en cas d'échec d'identification du visage par le système.
@@ -520,7 +480,6 @@ Ce tableau détaille le scénario nominal du pointage facial en mode télétrava
 \end{longtable}
 \end{center}
 
-
 %============================================================
 \subsection{Conception}
 %============================================================
@@ -539,10 +498,9 @@ Ce diagramme illustre la configuration et la connexion des caméras à la platef
     \caption{Diagramme de séquence du cas d'utilisation « Connecter la plateforme aux caméras »}
 \end{figure}
 
-
 \subsubsection*{Diagramme de séquence du cas d'utilisation « Enregistrer le visage »}
 
-Ce diagramme décrit le processus d'enregistrement du visage d'un employé pour le pointage automatique. La caméra capture le visage, le module d'intelligence artificielle traite et enregistre les données biométriques dans la base de données.
+Ce diagramme de séquence illustre le processus d’enregistrement du visage d’un employé pour le système de pointage automatique. L’employé accède à la fonctionnalité d’enregistrement facial à travers l’interface de l’application, qui consomme l’API d’enregistrement du visage (Visage Register API). La caméra capture alors plusieurs images du visage de l’employé et les transmet au système. Le module d’intelligence artificielle analyse les données biométriques extraites, génère les caractéristiques faciales nécessaires à l’identification et les enregistre dans la base de données afin de permettre les futures opérations de pointage automatique.
 
 \begin{figure}[H]
     \centering
@@ -550,11 +508,9 @@ Ce diagramme décrit le processus d'enregistrement du visage d'un employé pour 
     \caption{Diagramme de séquence du cas d'utilisation « Enregistrer le visage »}
 \end{figure}
 
-
 \subsubsection*{Diagramme de séquence du cas d'utilisation « Modifier infos personnelles »}
 
-Ce diagramme illustre la mise à jour des informations personnelles par l'employé. Il modifie les champs souhaités, le système vérifie la validité des données saisies et enregistre les modifications avec une confirmation à l'utilisateur.
-
+Ce diagramme de séquence illustre le processus de mise à jour des informations personnelles par l’employé. Après avoir modifié les champs souhaités via l’interface de l’application, celle-ci consomme l’API de gestion des utilisateurs (User API) afin de transmettre les nouvelles informations au système. Le système vérifie la validité des données saisies, met à jour les informations de l’employé dans la base de données, puis retourne une confirmation indiquant le succès de l’opération.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\textwidth]{projet/images/digf/ss2/modifier_infos.png}
@@ -563,7 +519,7 @@ Ce diagramme illustre la mise à jour des informations personnelles par l'employ
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation « Consulter ses absences »}
 
-Ce diagramme décrit la consultation par l'employé de son historique d'absences et de retards. Il accède à la section dédiée de son tableau de bord, le système interroge la base de données et affiche la liste détaillée des occurrences enregistrées.
+Ce diagramme représente le processus de consultation des absences et des retards par l’employé. L’interface utilisateur consomme l’API Attendance pour demander l’historique des présences de l’employé. Le système récupère les données depuis la base de données et affiche la liste détaillée des absences et des retards enregistrés.
 
 \begin{figure}[H]
     \centering
@@ -571,17 +527,15 @@ Ce diagramme décrit la consultation par l'employé de son historique d'absences
     \caption{Diagramme de séquence du cas d'utilisation « Consulter ses absences et retards »}
 \end{figure}
 
-
 \subsubsection*{Diagramme de séquence du cas d'utilisation « Pointage facial »}
 
 Le diagramme de pointage facial illustre le processus d'enregistrement de la présence des employés via la reconnaissance faciale, depuis la capture du visage par la caméra jusqu'à la vérification de l'identité et l'enregistrement des heures d'entrée et de sortie dans le système.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.85\textwidth]{projet/images/img diag sprint 2/pointage_facial.png}
+    \includegraphics[width=0.85\textwidth]{projet/images/digf/ss2/pointage_facial.png}
     \caption{Diagramme de séquence du cas d'utilisation « Pointage facial »}
 \end{figure}
-
 
 \subsubsection{Diagramme de classe du sprint 2}
 
@@ -593,7 +547,6 @@ Ce diagramme de classe illustre la structure des composants liés au pointage in
     \caption{Diagramme de classe du sprint 2}
     \label{fig:classe2}
 \end{figure}
-
 
 %============================================================
 \subsection{Interfaces réalisées pour le sprint 2}
@@ -610,7 +563,6 @@ Cette interface permet de connecter le système aux caméras afin d'activer la c
     \label{fig:interface6}
 \end{figure}
 
-
 \subsubsection*{Enregistrer le visage}
 
 Cette interface permet d'enregistrer les données faciales d'un utilisateur pour la reconnaissance et l'identification automatique.
@@ -621,7 +573,6 @@ Cette interface permet d'enregistrer les données faciales d'un utilisateur pour
     \caption{Enregistrer le visage}
     \label{fig:interface7}
 \end{figure}
-
 
 \subsubsection*{Modifier infos personnelles}
 
@@ -634,7 +585,6 @@ Cette interface permet à l'utilisateur de modifier ses informations personnelle
     \label{fig:interface8}
 \end{figure}
 
-
 \subsubsection*{Consulter mes absences}
 
 Cette interface permet à l'utilisateur de consulter l'historique et les détails de ses absences enregistrées.
@@ -646,7 +596,6 @@ Cette interface permet à l'utilisateur de consulter l'historique et les détail
     \label{fig:interface9}
 \end{figure}
 
-
 \subsubsection*{Interface de pointage facial}
 
 L'interface de pointage facial permet aux employés d'enregistrer automatiquement leur présence et leur départ via la reconnaissance faciale.
@@ -657,7 +606,6 @@ L'interface de pointage facial permet aux employés d'enregistrer automatiquemen
     \caption{Interface de pointage facial}
     \label{fig:pointage_facial}
 \end{figure}
-
 
 %============================================================
 \section{Conclusion}

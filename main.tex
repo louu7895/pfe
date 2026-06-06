@@ -1,7 +1,9 @@
+
 %================================================================
 %  RAPPORT DE FIN D'ÉTUDES — Fichier principal
 %================================================================
 \documentclass[12pt,a4paper,twoside]{report}
+
 \setcounter{secnumdepth}{4}
 
 %----------------------------------------------------------------
@@ -14,7 +16,13 @@
 %----------------------------------------------------------------
 %  2. Mise en page
 %----------------------------------------------------------------
-\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage[
+top=2.5cm,
+bottom=2.5cm,
+inner=3cm,
+outer=2.5cm
+]{geometry}
+
 \usepackage{graphicx}
 \usepackage[export]{adjustbox}
 \usepackage[hidelinks]{hyperref}
@@ -32,7 +40,9 @@
 \usepackage{minitoc}
 \usepackage[Glenn]{fncychap}
 \usepackage{tabularx}
-\usepackage{float}
+\usepackage{microtype}
+\usepackage{titlesec}
+
 %----------------------------------------------------------------
 %  3. En-têtes et pieds de page
 %----------------------------------------------------------------
@@ -49,37 +59,70 @@
 
 % Footer
 \fancyfoot[LE,RO]{\thepage}
-\fancyfoot[L]{HR FaceTime — Rapport PFE}
+\fancyfoot[L]{HR FaceTime --- Rapport PFE}
 
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
 
-% IMPORTANT : style des pages "plain" (chapitres, TOC, etc.)
+% Style des pages "plain"
 \fancypagestyle{plain}{
-  \fancyhf{}
-  \fancyhead[LE,RO]{\nouppercase{\leftmark}}
-  \fancyfoot[LE,RO]{\thepage}
-  \fancyfoot[L]{HR FaceTime — Rapport PFE}
-  \renewcommand{\headrulewidth}{0.4pt}
-  \renewcommand{\footrulewidth}{0.4pt}
+    \fancyhf{}
+    \fancyhead[LE,RO]{\nouppercase{\leftmark}}
+    \fancyfoot[LE,RO]{\thepage}
+    \fancyfoot[L]{HR FaceTime --- Rapport PFE}
+    \renewcommand{\headrulewidth}{0.4pt}
+    \renewcommand{\footrulewidth}{0.4pt}
 }
 
 %----------------------------------------------------------------
-%  4. Espacement
+%  4. Espacement et typographie
 %----------------------------------------------------------------
+
 \onehalfspacing
-\setlength{\parindent}{1.5em}
-\setlength{\parskip}{2pt}
 
-\setlength{\floatsep}{6pt}
-\setlength{\textfloatsep}{8pt}
-\setlength{\intextsep}{6pt}
+% Paragraphes
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0.3em}
 
-\setlength{\abovecaptionskip}{3pt}
-\setlength{\belowcaptionskip}{1pt}
+% Figures et tableaux
+\setlength{\floatsep}{12pt}
+\setlength{\textfloatsep}{15pt}
+\setlength{\intextsep}{12pt}
 
-\setlength{\LTpre}{3pt}
-\setlength{\LTpost}{3pt}
+% Longtable
+\setlength{\LTpre}{8pt}
+\setlength{\LTpost}{8pt}
+
+% Tableaux plus lisibles
+\renewcommand{\arraystretch}{1.25}
+
+% Listes
+\setlist{
+    itemsep=4pt,
+    topsep=6pt,
+    parsep=0pt
+}
+
+% Captions professionnelles
+\captionsetup{
+    font=small,
+    labelfont=bf,
+    justification=centering,
+    skip=8pt
+}
+
+% Espacement des titres
+\titlespacing*{\chapter}
+{0pt}{-15pt}{30pt}
+
+\titlespacing*{\section}
+{0pt}{18pt}{8pt}
+
+\titlespacing*{\subsection}
+{0pt}{14pt}{6pt}
+
+% Évite les grandes zones blanches
+\raggedbottom
 
 %----------------------------------------------------------------
 %  5. DOCUMENT
@@ -88,21 +131,35 @@
 
 \dominitoc
 
-%==================== FRONT MATTER ====================
+%==============================================================
+% FRONT MATTER
+%==============================================================
+
 \cleardoublepage
 \pagenumbering{roman}
 \pagestyle{fancy}
 
 \input{front_matter/dedicaces}
+
+\cleardoublepage
 \input{front_matter/remerciements}
 
+\cleardoublepage
 \tableofcontents
+
+\cleardoublepage
 \listoffigures
+
+\cleardoublepage
 \listoftables
+
 \mtcaddchapter
 
-%==================== MAIN MATTER ====================
-\clearpage
+%==============================================================
+% MAIN MATTER
+%==============================================================
+
+\cleardoublepage
 \pagenumbering{arabic}
 \pagestyle{fancy}
 
@@ -110,14 +167,25 @@
 \mtcaddchapter
 
 \input{projet/chapitre1}
+
 \input{projet/chapitre2}
+
 \input{projet/chapitre3}
+
 \input{projet/chapitre4}
 
-%==================== CONCLUSION ====================
+%==============================================================
+% CONCLUSION
+%==============================================================
+
+\cleardoublepage
 \input{projet/conclusion}
 
-\clearpage
+%==============================================================
+% RÉFÉRENCES
+%==============================================================
+
+\cleardoublepage
 \input{projet/references}
 
 \end{document}
