@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.30)  7 JUN 2026 15:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.30)  7 JUN 2026 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1615,44 +1615,44 @@ Package pdftex.def Info: projet/images/usecase/use.pdf  used on input line 103.
 
 (pdftex.def)             Requested size: 397.30931pt x 562.22717pt.
 [14] [15 <./projet/images/usecase/use.pdf>] [16]
-Overfull \hbox (33.13939pt too wide) in alignment at lines 182--187
+Overfull \hbox (33.13939pt too wide) in alignment at lines 184--189
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (33.13939pt too wide) in alignment at lines 187--192
+Overfull \hbox (33.13939pt too wide) in alignment at lines 189--194
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (33.13939pt too wide) in alignment at lines 192--229
+Overfull \hbox (33.13939pt too wide) in alignment at lines 194--231
  [] [] [] [] [] [] [] 
  []
 
 ignored error: Infinite glue shrinkage found in box being split [17]
 ignored error: Infinite glue shrinkage found in box being split [18]
 ignored error: Infinite glue shrinkage found in box being split [19]
-Overfull \hbox (4.59987pt too wide) in alignment at lines 242--246
+Overfull \hbox (4.59987pt too wide) in alignment at lines 245--249
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (4.59987pt too wide) in alignment at lines 246--250
+Overfull \hbox (4.59987pt too wide) in alignment at lines 249--253
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (4.59987pt too wide) in alignment at lines 250--264
+Overfull \hbox (4.59987pt too wide) in alignment at lines 253--267
  [] [] [] [] [] 
  []
 
 [20]
-Overfull \hbox (4.59987pt too wide) in alignment at lines 272--276
+Overfull \hbox (4.59987pt too wide) in alignment at lines 275--279
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (4.59987pt too wide) in alignment at lines 276--291
+Overfull \hbox (4.59987pt too wide) in alignment at lines 279--294
  [] [] [] [] [] 
  []
 
@@ -1661,28 +1661,28 @@ Overfull \hbox (4.59987pt too wide) in alignment at lines 276--291
 File: projet/images/daigramme_de_gant.jpeg Graphic file (type jpg)
 <use projet/images/daigramme_de_gant.jpeg>
 Package pdftex.def Info: projet/images/daigramme_de_gant.jpeg  used on input li
-ne 300.
+ne 303.
 (pdftex.def)             Requested size: 441.01773pt x 130.84955pt.
  [22 <./projet/images/daigramme_de_gant.jpeg>]
 <projet/images/Figma-logo.png, id=735, 501.875pt x 752.8125pt>
 File: projet/images/Figma-logo.png Graphic file (type png)
 <use projet/images/Figma-logo.png>
-Package pdftex.def Info: projet/images/Figma-logo.png  used on input line 361.
+Package pdftex.def Info: projet/images/Figma-logo.png  used on input line 364.
 (pdftex.def)             Requested size: 37.93pt x 56.9055pt.
 <projet/images/ps adobe.png, id=737, 225.84375pt x 225.84375pt>
 File: projet/images/ps adobe.png Graphic file (type png)
 <use projet/images/ps adobe.png>
-Package pdftex.def Info: projet/images/ps adobe.png  used on input line 370.
+Package pdftex.def Info: projet/images/ps adobe.png  used on input line 373.
 (pdftex.def)             Requested size: 56.90533pt x 56.9055pt.
 <projet/images/draw io.png, id=739, 225.84375pt x 225.84375pt>
 File: projet/images/draw io.png Graphic file (type png)
 <use projet/images/draw io.png>
-Package pdftex.def Info: projet/images/draw io.png  used on input line 378.
+Package pdftex.def Info: projet/images/draw io.png  used on input line 381.
 (pdftex.def)             Requested size: 56.90533pt x 56.9055pt.
 <projet/images/overlef.png, id=741, 210.7875pt x 240.9pt>
 File: projet/images/overlef.png Graphic file (type png)
 <use projet/images/overlef.png>
-Package pdftex.def Info: projet/images/overlef.png  used on input line 386.
+Package pdftex.def Info: projet/images/overlef.png  used on input line 389.
 (pdftex.def)             Requested size: 49.79237pt x 56.9055pt.
 
 ignored error: Infinite glue shrinkage found in box being split [23 <./projet/i
@@ -1690,17 +1690,17 @@ mages/Figma-logo.png> <./projet/images/ps adobe.png>]
 <projet/images/vs.jpeg, id=752, 225.84375pt x 225.84375pt>
 File: projet/images/vs.jpeg Graphic file (type jpg)
 <use projet/images/vs.jpeg>
-Package pdftex.def Info: projet/images/vs.jpeg  used on input line 406.
+Package pdftex.def Info: projet/images/vs.jpeg  used on input line 409.
 (pdftex.def)             Requested size: 56.90533pt x 56.9055pt.
 <projet/images/tt.jpeg, id=754, 224.84pt x 224.84pt>
 File: projet/images/tt.jpeg Graphic file (type jpg)
 <use projet/images/tt.jpeg>
-Package pdftex.def Info: projet/images/tt.jpeg  used on input line 412.
+Package pdftex.def Info: projet/images/tt.jpeg  used on input line 415.
 (pdftex.def)             Requested size: 56.9063pt x 56.9055pt.
 <projet/images/postamn.jpeg, id=756, 200.75pt x 200.75pt>
 File: projet/images/postamn.jpeg Graphic file (type jpg)
 <use projet/images/postamn.jpeg>
-Package pdftex.def Info: projet/images/postamn.jpeg  used on input line 418.
+Package pdftex.def Info: projet/images/postamn.jpeg  used on input line 421.
 (pdftex.def)             Requested size: 56.90495pt x 56.9055pt.
 
 ignored error: Infinite glue shrinkage found in box being split [24 <./projet/i
@@ -1710,13 +1710,13 @@ rojet/images/tt.jpeg> <./projet/images/postamn.jpeg>] [25]
 File: projet/images/architecture logique.jpg Graphic file (type jpg)
 <use projet/images/architecture logique.jpg>
 Package pdftex.def Info: projet/images/architecture logique.jpg  used on input 
-line 494.
+line 497.
 (pdftex.def)             Requested size: 248.32335pt x 140.12102pt.
  [26 <./projet/images/architecture logique.jpg>]
 <projet/images/xc.png, id=805, 835.32076pt x 407.121pt>
 File: projet/images/xc.png Graphic file (type png)
 <use projet/images/xc.png>
-Package pdftex.def Info: projet/images/xc.png  used on input line 530.
+Package pdftex.def Info: projet/images/xc.png  used on input line 533.
 (pdftex.def)             Requested size: 396.91325pt x 193.44661pt.
 ) (projet/chapitre3.tex [27 <./projet/images/xc.png>]
 Chapitre 3.
@@ -2323,6 +2323,10 @@ Package minitoc(hints) Warning: W0024
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 8FA561118BA11619B40488E88EF53B6E;10850.
  ) 
@@ -2338,7 +2342,7 @@ Here is how much of TeX's memory you used:
 /courier/ucrr8a.pfb><D:/latex/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/latex/fon
 ts/type1/urw/times/utmb8a.pfb><D:/latex/fonts/type1/urw/times/utmr8a.pfb><D:/la
 tex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (116 pages, 11212115 bytes).
+Output written on main.pdf (116 pages, 11212121 bytes).
 PDF statistics:
  1368 PDF objects out of 1440 (max. 8388607)
  324 named destinations out of 1000 (max. 500000)
