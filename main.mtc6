@@ -1,16 +1,13 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.1}Introduction}{\reset@font\mtcSfont 29}{section.3.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.2}Sprint 1 : Gestion des Accès et Administration des Comptes}{\reset@font\mtcSfont 29}{section.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.1}Backlog du sprint 1}{\reset@font\mtcSSfont 29}{subsection.3.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.2}Spécification fonctionnelle détaillée}{\reset@font\mtcSSfont 30}{subsection.3.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.3}Conception}{\reset@font\mtcSSfont 35}{subsection.3.2.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.2.3.1}Diagrammes de séquence du sprint 1}{\reset@font\mtcSSSfont 35}{subsubsection.3.2.3.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.2.3.2}Diagramme de classe du sprint 1}{\reset@font\mtcSSSfont 40}{subsubsection.3.2.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.4}Interfaces réalisées pour le sprint 1}{\reset@font\mtcSSfont 41}{subsection.3.2.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.3}Sprint 2 : Pointage Intelligent et Suivi de Présence}{\reset@font\mtcSfont 43}{section.3.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.1}Backlog du sprint 2}{\reset@font\mtcSSfont 44}{subsection.3.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.2}Spécification fonctionnelle détaillée}{\reset@font\mtcSSfont 44}{subsection.3.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.3}Conception}{\reset@font\mtcSSfont 48}{subsection.3.3.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.3.3.1}Diagrammes de séquence du sprint 2}{\reset@font\mtcSSSfont 48}{subsubsection.3.3.3.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.3.3.2}Diagramme de classe du sprint 2}{\reset@font\mtcSSSfont 53}{subsubsection.3.3.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.4}Interfaces réalisées pour le sprint 2}{\reset@font\mtcSSfont 54}{subsection.3.3.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.4}Conclusion}{\reset@font\mtcSfont 57}{section.3.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}Introduction}{\reset@font\mtcSfont 6}{section.2.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Présentation de l'organisme d'accueil}{\reset@font\mtcSfont 6}{section.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.1}Domaines d’activités}{\reset@font\mtcSSfont 6}{subsection.2.2.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Contexte du projet}{\reset@font\mtcSfont 7}{section.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}Etude de l'existant}{\reset@font\mtcSSfont 7}{subsection.2.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.1.1}Description de l'existant}{\reset@font\mtcSSSfont 7}{subsubsection.2.3.1.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.1.2}Critique de l'existant et problématique}{\reset@font\mtcSSSfont 7}{subsubsection.2.3.1.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2}Solution proposée}{\reset@font\mtcSSfont 8}{subsection.2.3.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Méthodologie de travail}{\reset@font\mtcSfont 8}{section.2.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.1}Étude comparative}{\reset@font\mtcSSfont 9}{subsection.2.4.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.4.1.1}Choix de l’approche}{\reset@font\mtcSSSfont 11}{subsubsection.2.4.1.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.4.1.2}L’approche SCRUM pour le développement du projet}{\reset@font\mtcSSSfont 11}{subsubsection.2.4.1.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Conclusion}{\reset@font\mtcSfont 12}{section.2.5}}

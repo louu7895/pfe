@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.29)  6 JUN 2026 13:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.29)  7 JUN 2026 01:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -654,48 +654,609 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthR=\skip92
 \@temptokenb=\toks39
 )
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip93
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks40
+\ex@=\dimen274
+))
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen275
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count336
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count337
+\leftroot@=\count338
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count339
+\DOTSCASE@=\count340
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box71
+\strutbox@=\box72
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen276
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count341
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count342
+\dotsspace@=\muskip18
+\c@parentequation=\count343
+\dspbrk@lvl=\count344
+\tag@help=\toks41
+\row@=\count345
+\column@=\count346
+\maxfields@=\count347
+\andhelp@=\toks42
+\eqnshift@=\dimen277
+\alignsep@=\dimen278
+\tagshift@=\dimen279
+\tagwidth@=\dimen280
+\totwidth@=\dimen281
+\lineht@=\dimen282
+\@envbody=\toks43
+\multlinegap=\skip94
+\multlinetaggap=\skip95
+\mathdisplay@stack=\toks44
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tabulary\tabulary.sty
+Package: tabulary 2024/06/04 v0.11 tabulary package (DPC)
+\TY@count=\count348
+\TY@linewidth=\dimen283
+\tymin=\dimen284
+\tymax=\dimen285
+\TY@tablewidth=\dimen286
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
+Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks45
+\pgfutil@tempdima=\dimen287
+\pgfutil@tempdimb=\dimen288
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box73
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks46
+\pgfkeys@temptoks=\toks47
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks48
+))
+\pgf@x=\dimen289
+\pgf@y=\dimen290
+\pgf@xa=\dimen291
+\pgf@ya=\dimen292
+\pgf@xb=\dimen293
+\pgf@yb=\dimen294
+\pgf@xc=\dimen295
+\pgf@yc=\dimen296
+\pgf@xd=\dimen297
+\pgf@yd=\dimen298
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count349
+\c@pgf@countb=\count350
+\c@pgf@countc=\count351
+\c@pgf@countd=\count352
+\t@pgf@toka=\toks49
+\t@pgf@tokb=\toks50
+\t@pgf@tokc=\toks51
+\pgf@sys@id@count=\count353
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count354
+\pgfsyssoftpath@bigbuffer@items=\count355
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen299
+\pgfmath@count=\count356
+\pgfmath@box=\box74
+\pgfmath@toks=\toks52
+\pgfmath@stack@operand=\toks53
+\pgfmath@stack@operation=\toks54
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count357
+))
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen300
+\pgf@picmaxx=\dimen301
+\pgf@picminy=\dimen302
+\pgf@picmaxy=\dimen303
+\pgf@pathminx=\dimen304
+\pgf@pathmaxx=\dimen305
+\pgf@pathminy=\dimen306
+\pgf@pathmaxy=\dimen307
+\pgf@xx=\dimen308
+\pgf@xy=\dimen309
+\pgf@yx=\dimen310
+\pgf@yy=\dimen311
+\pgf@zx=\dimen312
+\pgf@zy=\dimen313
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen314
+\pgf@path@lasty=\dimen315
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen316
+\pgf@shorten@start@additional=\dimen317
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box75
+\pgf@hbox=\box76
+\pgf@layerbox@main=\box77
+\pgf@picture@serial@count=\count358
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen318
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen319
+\pgf@pt@y=\dimen320
+\pgf@pt@temp=\dimen321
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen322
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen323
+\pgf@sys@shading@range@num=\count359
+\pgf@shadingcount=\count360
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box78
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box79
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen324
+\pgf@nodesepend=\dimen325
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen326
+\pgffor@skip=\dimen327
+\pgffor@stack=\toks55
+\pgffor@toks=\toks56
+))
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count361
+\pgfplotmarksize=\dimen328
+)
+\tikz@lastx=\dimen329
+\tikz@lasty=\dimen330
+\tikz@lastxsaved=\dimen331
+\tikz@lastysaved=\dimen332
+\tikz@lastmovetox=\dimen333
+\tikz@lastmovetoy=\dimen334
+\tikzleveldistance=\dimen335
+\tikzsiblingdistance=\dimen336
+\tikz@figbox=\box80
+\tikz@figbox@bg=\box81
+\tikz@tempbox=\box82
+\tikz@tempbox@bg=\box83
+\tikztreelevel=\count362
+\tikznumberofchildren=\count363
+\tikznumberofcurrentchild=\count364
+\tikz@fig@count=\count365
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count366
+\pgfmatrixcurrentcolumn=\count367
+\pgf@matrix@numberofcolumns=\count368
+)
+\tikz@expandcount=\count369
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks57
+\verbatim@line=\toks58
+\verbatim@in@stream=\read4
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.s
+ty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box84
+\tcb@upperbox=\box85
+\tcb@lowerbox=\box86
+\tcb@phantombox=\box87
+\c@tcbbreakpart=\count370
+\c@tcblayer=\count371
+\c@tcolorbox@number=\count372
+\l__tcobox_tmpa_box=\box88
+\l__tcobox_tmpa_dim=\dimen337
+\tcb@temp=\box89
+\tcb@temp=\box90
+\tcb@temp=\box91
+\tcb@temp=\box92
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbraster.cod
+e.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.9.0'
+\c@tcbrastercolumn=\count373
+\c@tcbrasterrow=\count374
+\c@tcbrasternum=\count375
+\c@tcbraster=\count376
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.code
+.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.9.0'
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill.image
+.sty
+Package: tikzfill.image 2026/04/23 v1.2.0 Image filling library for TikZ
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlibraryfil
+l.image.code.tex
+File: tikzlibraryfill.image.code.tex 2026/04/23 v1.2.0 Image filling library
+\l__tikzfill_tmpa_dim=\dimen338
+\l__tikzfill_tmpb_dim=\dimen339
+\l__tikzfill_img_box=\box93
+))
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsa
+w.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.9.0'
+))
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbbreakable.
+code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.9.0'
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/pdfcol\pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box94
+\tcb@totalupperbox=\box95
+\tcb@totallowerbox=\box96
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbhooks.code
+.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.9.0'
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbtheorems.c
+ode.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.9.0'
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbfitting.co
+de.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.9.0'
+\tcbfitdim=\dimen340
+\tcb@lowerfitdim=\dimen341
+\tcb@upperfitdim=\dimen342
+\tcb@cur@hbadness=\count377
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingsut
+f8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.9.0'
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistings.c
+ode.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.9.0'
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count378
+\lst@gtempboxa=\box97
+\lst@token=\toks59
+\lst@length=\count379
+\lst@currlwidth=\dimen343
+\lst@column=\count380
+\lst@pos=\count381
+\lst@lostspace=\dimen344
+\lst@width=\dimen345
+\lst@newlines=\count382
+\lst@lineno=\count383
+\lst@maxwidth=\dimen346
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+\c@lstnumber=\count384
+\lst@skipnumbers=\count385
+\lst@framebox=\box98
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2025/11/14 1.11b listings configuration
+))
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingsco
+re.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.9.0'
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbprocessing
+.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.9.0'
+)
+\c@tcblisting=\count386
+))
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/listingsutf8\listingsut
+f8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+))
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbexternal.c
+ode.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.9.0'
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbmagazine.c
+ode.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.9.0'
+)
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbvignette.c
+ode.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.9.0'
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryfadings.code.tex
+File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbposter.cod
+e.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.9.0'
+))
+(C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen347
+\lightrulewidth=\dimen348
+\cmidrulewidth=\dimen349
+\belowrulesep=\dimen350
+\belowbottomsep=\dimen351
+\aboverulesep=\dimen352
+\abovetopsep=\dimen353
+\cmidrulesep=\dimen354
+\cmidrulekern=\dimen355
+\defaultaddspace=\dimen356
+\@cmidla=\count387
+\@cmidlb=\count388
+\@aboverulesep=\dimen357
+\@belowrulesep=\dimen358
+\@thisruleclass=\count389
+\@lastruleclass=\count390
+\@thisrulewidth=\dimen359
+)
 Package french3.ldf Info: Setting StandardItemizeEnv=true for
 (french3.ldf)             compatibility with enumitem package,
-(french3.ldf)             reported on input line 130.
+(french3.ldf)             reported on input line 135.
 Package french3.ldf Info: Setting StandardEnumerateEnv=true for
 (french3.ldf)             compatibility with enumitem package,
-(french3.ldf)             reported on input line 130.
+(french3.ldf)             reported on input line 135.
 
 (C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count336
+\l__color_backend_stack_int=\count391
 ) (main.aux
 Package babel Info: 'french' activates 'french' shorthands.
 (babel)             Reported on input line 12.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 130.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 135.
 LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line
- 130.
+ 135.
 
 (C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Info: Redefining \degres on input line 130.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Info: Redefining \degres on input line 135.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -735,17 +1296,17 @@ LaTeX Info: Redefining \degres on input line 130.
 (C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count337
-\scratchdimen=\dimen274
-\scratchbox=\box71
-\nofMPsegments=\count338
-\nofMParguments=\count339
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count340
-\MPscratchDim=\dimen275
-\MPnumerator=\count341
-\makeMPintoPDFobject=\count342
-\everyMPtoPDFconversion=\toks41
+\scratchcounter=\count392
+\scratchdimen=\dimen360
+\scratchbox=\box99
+\nofMPsegments=\count393
+\nofMParguments=\count394
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count395
+\MPscratchDim=\dimen361
+\MPnumerator=\count396
+\makeMPintoPDFobject=\count397
+\everyMPtoPDFconversion=\toks61
 )
 (C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -757,10 +1318,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 130.
+Package hyperref Info: Link coloring OFF on input line 135.
  (main.out) (main.out)
-\@outlinefile=\write4
-\openout4 = `main.out'.
+\@outlinefile=\write5
+\openout5 = `main.out'.
 
 
 (C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
@@ -777,6 +1338,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
@@ -799,17 +1361,17 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                of loading the ``hyperref'' package.
 
 Package microtype Info: Patching varwidth to enable character protrusion.
-\MT@vwid@leftmargin=\dimen276
-\MT@vwid@rightmargin=\dimen277
-LaTeX Info: Redefining \microtypecontext on input line 130.
-Package microtype Info: Applying patch `item' on input line 130.
-Package microtype Info: Applying patch `toc' on input line 130.
-Package microtype Info: Applying patch `eqnum' on input line 130.
+\MT@vwid@leftmargin=\dimen362
+\MT@vwid@rightmargin=\dimen363
+LaTeX Info: Redefining \microtypecontext on input line 135.
+Package microtype Info: Applying patch `item' on input line 135.
+Package microtype Info: Applying patch `toc' on input line 135.
+Package microtype Info: Applying patch `eqnum' on input line 135.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 130.
+Package microtype Warning: Unable to apply patch `footnote' on input line 135.
 
-Package microtype Info: Applying patch `verbatim' on input line 130.
-LaTeX Info: Redefining \microtypesetup on input line 130.
+Package microtype Info: Applying patch `verbatim' on input line 135.
+LaTeX Info: Redefining \microtypesetup on input line 135.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -823,40 +1385,9 @@ Package microtype Info: No adjustment of character kerning.
 (C:\Users\louay\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
+\c@lstlisting=\count398
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM main.toc on input line 133.
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc1.
-\openout3 = `main.mtc1'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc2.
-\openout3 = `main.mtc2'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc3.
-\openout3 = `main.mtc3'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc4.
-\openout3 = `main.mtc4'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc5.
-\openout3 = `main.mtc5'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc6.
-\openout3 = `main.mtc6'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc7.
-\openout3 = `main.mtc7'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc8.
-\openout3 = `main.mtc8'.
-
+(minitoc)             PREPARING MINITOCS FROM main.toc on input line 138.
 
 (front_matter/dedicaces.tex
 LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line
@@ -900,37 +1431,40 @@ y/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] [2
 
 ] [4
 
-] (main.toc
+] (main.toc)
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
 Package babel Info: 'french' activates 'french' shorthands.
-(babel)             Reported on input line 36.
+(babel)             Reported on input line 155.
  [5
 
-] [6])
-\tf@toc=\write5
-\openout5 = `main.toc'.
+] [6
 
- [7] [8
+] (main.lof)
+\tf@lof=\write7
+\openout7 = `main.lof'.
 
-] (main.lof
-[9
+ [7
 
-] [10])
-\tf@lof=\write6
-\openout6 = `main.lof'.
+]
+[8
 
- [11] [12
+] (main.lot)
+\tf@lot=\write8
+\openout8 = `main.lot'.
 
-] (main.lot [13
+ [9
 
-])
-\tf@lot=\write7
-\openout7 = `main.lot'.
+] [10
 
- [14] (projet/introduction.tex [1
+] (projet/abbreviations.tex [1
 
 
-] [2])
-(projet/chapitre1.tex
+]) (projet/introduction.tex [2
+
+
+] [3]) (projet/chapitre1.tex
 Chapitre 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
@@ -944,18 +1478,21 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 22.39185pt on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 1.
-[3
+[4
 
 
 ]
-<projet/images/logo_unibro-removebg-preview.png, id=584, 501.875pt x 501.875pt>
+
+LaTeX Warning: Citation `ref1' on page 5 undefined on input line 17.
+
+<projet/images/logo_unibro-removebg-preview.png, id=113, 501.875pt x 501.875pt>
 
 File: projet/images/logo_unibro-removebg-preview.png Graphic file (type png)
 <use projet/images/logo_unibro-removebg-preview.png>
 Package pdftex.def Info: projet/images/logo_unibro-removebg-preview.png  used o
 n input line 20.
 (pdftex.def)             Requested size: 150.56366pt x 150.56366pt.
- [4 <./projet/images/logo_unibro-removebg-preview.png>] [5] [6]
+[5 <./projet/images/logo_unibro-removebg-preview.png>] [6] [7]
 Overfull \hbox (23.37355pt too wide) in alignment at lines 107--112
  [] [] [] 
  []
@@ -980,7 +1517,7 @@ Overfull \hbox (23.37355pt too wide) in alignment at lines 112--154
  [] [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [7]
+ignored error: Infinite glue shrinkage found in box being split [8]
 Underfull \hbox (badness 10000) in paragraph at lines 162--163
 []|\T1/ptm/b/n/12 (+20) Extreme Pro-gram-
  []
@@ -1120,21 +1657,34 @@ Overfull \hbox (35.77356pt too wide) in alignment at lines 164--232
  [] [] [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [8]
-<projet/images/scrum.png, id=616, 770.88pt x 316.93407pt>
+ignored error: Infinite glue shrinkage found in box being split [9]
+
+LaTeX Warning: Citation `scrum_guide' on page 10 undefined on input line 240.
+
+<projet/images/scrum.png, id=154, 770.88pt x 316.93407pt>
 File: projet/images/scrum.png Graphic file (type png)
 <use projet/images/scrum.png>
 Package pdftex.def Info: projet/images/scrum.png  used on input line 244.
 (pdftex.def)             Requested size: 352.81552pt x 145.05153pt.
- [9 <./projet/images/scrum.png>]) (projet/chapitre2.tex [10]
-Chapitre 2.
-[11
 
-] [12] [13]
+LaTeX Warning: Citation `scrum_guide' on page 10 undefined on input line 245.
+
+
+LaTeX Warning: Citation `scrum_guide' on page 10 undefined on input line 245.
+
+[10 <./projet/images/scrum.png>]) (projet/chapitre2.tex [11]
+Chapitre 2.
+[12
+
+] [13]
+
+LaTeX Warning: Reference `fig:usecase' on page 14 undefined on input line 94.
+
+[14]
 
 pdfTeX warning: pdflatex.exe (file ./projet/images/usecase/use.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<projet/images/usecase/use.pdf, id=650, 597.19106pt x 845.07718pt>
+<projet/images/usecase/use.pdf, id=190, 597.19106pt x 845.07718pt>
 File: projet/images/usecase/use.pdf Graphic file (type pdf)
 <use projet/images/usecase/use.pdf>
 Package pdftex.def Info: projet/images/usecase/use.pdf  used on input line 102.
@@ -1145,7 +1695,11 @@ Overfull \hbox (36.99092pt too wide) in paragraph at lines 98--103
  [][] 
  []
 
-[14] [15 <./projet/images/usecase/use.pdf>] [16]
+[15] [16 <./projet/images/usecase/use.pdf>]
+
+LaTeX Warning: Reference `tab:backlog' on page 17 undefined on input line 162.
+
+[17]
 Overfull \hbox (33.13939pt too wide) in alignment at lines 181--186
  [] [] [] [] [] [] [] 
  []
@@ -1160,9 +1714,9 @@ Overfull \hbox (33.13939pt too wide) in alignment at lines 191--228
  [] [] [] [] [] [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [17]
 ignored error: Infinite glue shrinkage found in box being split [18]
 ignored error: Infinite glue shrinkage found in box being split [19]
+ignored error: Infinite glue shrinkage found in box being split [20]
 Overfull \hbox (81.42221pt too wide) in alignment at lines 241--245
  [] [] [] [] [] 
  []
@@ -1177,7 +1731,7 @@ Overfull \hbox (81.42221pt too wide) in alignment at lines 249--263
  [] [] [] [] [] 
  []
 
-[20]
+[21]
 Overfull \hbox (81.42221pt too wide) in alignment at lines 271--275
  [] [] [] [] [] 
  []
@@ -1187,67 +1741,127 @@ Overfull \hbox (81.42221pt too wide) in alignment at lines 275--290
  [] [] [] [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [21]
-<projet/images/daigramme_de_gant.jpeg, id=694, 913.4125pt x 271.0125pt>
+ignored error: Infinite glue shrinkage found in box being split [22]
+<projet/images/daigramme_de_gant.jpeg, id=243, 913.4125pt x 271.0125pt>
 File: projet/images/daigramme_de_gant.jpeg Graphic file (type jpg)
 <use projet/images/daigramme_de_gant.jpeg>
 Package pdftex.def Info: projet/images/daigramme_de_gant.jpeg  used on input li
 ne 299.
 (pdftex.def)             Requested size: 441.01773pt x 130.84955pt.
- [22 <./projet/images/daigramme_de_gant.jpeg>]
-<projet/images/Figma-logo.png, id=699, 501.875pt x 752.8125pt>
+ [23 <./projet/images/daigramme_de_gant.jpeg>]
+<projet/images/Figma-logo.png, id=253, 501.875pt x 752.8125pt>
 File: projet/images/Figma-logo.png Graphic file (type png)
 <use projet/images/Figma-logo.png>
 Package pdftex.def Info: projet/images/Figma-logo.png  used on input line 360.
 (pdftex.def)             Requested size: 37.93pt x 56.9055pt.
-<projet/images/ps adobe.png, id=701, 225.84375pt x 225.84375pt>
+
+
+LaTeX Warning: Citation `figma' on page 24 undefined on input line 365.
+
+<projet/images/ps adobe.png, id=254, 225.84375pt x 225.84375pt>
 File: projet/images/ps adobe.png Graphic file (type png)
 <use projet/images/ps adobe.png>
 Package pdftex.def Info: projet/images/ps adobe.png  used on input line 369.
 (pdftex.def)             Requested size: 56.90533pt x 56.9055pt.
-<projet/images/draw io.png, id=703, 225.84375pt x 225.84375pt>
+
+LaTeX Warning: Citation `photoshop' on page 24 undefined on input line 373.
+
+<projet/images/draw io.png, id=255, 225.84375pt x 225.84375pt>
 File: projet/images/draw io.png Graphic file (type png)
 <use projet/images/draw io.png>
 Package pdftex.def Info: projet/images/draw io.png  used on input line 377.
 (pdftex.def)             Requested size: 56.90533pt x 56.9055pt.
-<projet/images/overlef.png, id=705, 210.7875pt x 240.9pt>
+
+LaTeX Warning: Citation `drawio' on page 24 undefined on input line 381.
+
+<projet/images/overlef.png, id=256, 210.7875pt x 240.9pt>
 File: projet/images/overlef.png Graphic file (type png)
 <use projet/images/overlef.png>
 Package pdftex.def Info: projet/images/overlef.png  used on input line 386.
 (pdftex.def)             Requested size: 49.79237pt x 56.9055pt.
-<projet/images/vs.jpeg, id=707, 225.84375pt x 225.84375pt>
+
+LaTeX Warning: Citation `overleaf' on page 24 undefined on input line 390.
+
+<projet/images/vs.jpeg, id=257, 225.84375pt x 225.84375pt>
 File: projet/images/vs.jpeg Graphic file (type jpg)
 <use projet/images/vs.jpeg>
 Package pdftex.def Info: projet/images/vs.jpeg  used on input line 407.
 (pdftex.def)             Requested size: 56.90533pt x 56.9055pt.
-<projet/images/tt.jpeg, id=709, 224.84pt x 224.84pt>
+
+LaTeX Warning: Citation `Visual Studio Code' on page 24 undefined on input line
+ 410.
+
+<projet/images/tt.jpeg, id=258, 224.84pt x 224.84pt>
 File: projet/images/tt.jpeg Graphic file (type jpg)
 <use projet/images/tt.jpeg>
 Package pdftex.def Info: projet/images/tt.jpeg  used on input line 413.
 (pdftex.def)             Requested size: 56.9063pt x 56.9055pt.
-<projet/images/postamn.jpeg, id=711, 200.75pt x 200.75pt>
+
+LaTeX Warning: Citation `GitHub' on page 24 undefined on input line 416.
+
+<projet/images/postamn.jpeg, id=259, 200.75pt x 200.75pt>
 File: projet/images/postamn.jpeg Graphic file (type jpg)
 <use projet/images/postamn.jpeg>
 Package pdftex.def Info: projet/images/postamn.jpeg  used on input line 419.
 (pdftex.def)             Requested size: 56.90495pt x 56.9055pt.
- [23 <./projet/images/Figma-logo.png> <./projet/images/ps adobe.png> <./projet/
-images/draw io.png> <./projet/images/overlef.png>] [24 <./projet/images/vs.jpeg
-> <./projet/images/tt.jpeg> <./projet/images/postamn.jpeg>]
-<projet/images/architecture logique.jpg, id=755, 1241.63875pt x 700.6175pt>
+
+LaTeX Warning: Citation `Postman' on page 24 undefined on input line 423.
+
+[24 <./projet/images/Figma-logo.png> <./projet/images/ps adobe.png> <./projet/i
+mages/draw io.png> <./projet/images/overlef.png>]
+
+LaTeX Warning: Citation `HTML' on page 25 undefined on input line 439.
+
+
+LaTeX Warning: Citation `CSS' on page 25 undefined on input line 441.
+
+
+LaTeX Warning: Citation `JavaScript' on page 25 undefined on input line 445.
+
+
+LaTeX Warning: Citation `TypeScript' on page 25 undefined on input line 447.
+
+
+LaTeX Warning: Citation `Python' on page 25 undefined on input line 449.
+
+
+LaTeX Warning: Citation `SQL' on page 25 undefined on input line 450.
+
+
+LaTeX Warning: Citation `Next.js' on page 25 undefined on input line 462.
+
+
+LaTeX Warning: Citation `React' on page 25 undefined on input line 464.
+
+
+LaTeX Warning: Citation `Flask' on page 25 undefined on input line 466.
+
+
+LaTeX Warning: Citation `OpenCV' on page 25 undefined on input line 468.
+
+
+LaTeX Warning: Citation `MediaPipe' on page 25 undefined on input line 470.
+
+
+LaTeX Warning: Citation `TensorFlow' on page 25 undefined on input line 472.
+
+[25 <./projet/images/vs.jpeg> <./projet/images/tt.jpeg> <./projet/images/postam
+n.jpeg>]
+<projet/images/architecture logique.jpg, id=281, 1241.63875pt x 700.6175pt>
 File: projet/images/architecture logique.jpg Graphic file (type jpg)
 <use projet/images/architecture logique.jpg>
 Package pdftex.def Info: projet/images/architecture logique.jpg  used on input 
 line 495.
 (pdftex.def)             Requested size: 248.32335pt x 140.12102pt.
- [25 <./projet/images/architecture logique.jpg>]
-<projet/images/xc.png, id=766, 835.32076pt x 407.121pt>
+ [26 <./projet/images/architecture logique.jpg>]
+<projet/images/xc.png, id=291, 835.32076pt x 407.121pt>
 File: projet/images/xc.png Graphic file (type png)
 <use projet/images/xc.png>
 Package pdftex.def Info: projet/images/xc.png  used on input line 531.
 (pdftex.def)             Requested size: 396.91325pt x 193.44661pt.
-) [26 <./projet/images/xc.png>] (projet/chapitre3.tex [27]
+) [27 <./projet/images/xc.png>] (projet/chapitre3.tex [28]
 Chapitre 3.
-[28
+[29
 
 ]
 Overfull \hbox (33.13939pt too wide) in alignment at lines 31--35
@@ -1264,8 +1878,8 @@ Overfull \hbox (33.13939pt too wide) in alignment at lines 39--49
  [] [] [] [] [] [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [29]
-<projet/images/usecase/sprint1/use_case_sprint1.png, id=785, 2728.1925pt x 1045
+ignored error: Infinite glue shrinkage found in box being split [30]
+<projet/images/usecase/sprint1/use_case_sprint1.png, id=317, 2728.1925pt x 1045
 .9075pt>
 File: projet/images/usecase/sprint1/use_case_sprint1.png Graphic file (type png
 )
@@ -1278,13 +1892,13 @@ Overfull \hbox (39.42633pt too wide) in alignment at lines 65--85
  [] [] 
  []
 
-[30 <./projet/images/usecase/sprint1/use_case_sprint1.png>]
+[31 <./projet/images/usecase/sprint1/use_case_sprint1.png>]
 Overfull \hbox (39.42633pt too wide) in alignment at lines 90--106
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [31]
-<projet/images/usecase/sprint1/gerer_compte_employe.png, id=795, 1115.16624pt x
+ignored error: Infinite glue shrinkage found in box being split [32]
+<projet/images/usecase/sprint1/gerer_compte_employe.png, id=331, 1115.16624pt x
  372.39125pt>
 File: projet/images/usecase/sprint1/gerer_compte_employe.png Graphic file (type
  png)
@@ -1302,60 +1916,60 @@ Overfull \hbox (39.42633pt too wide) in alignment at lines 121--152
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [32 <./projet/i
+ignored error: Infinite glue shrinkage found in box being split [33 <./projet/i
 mages/usecase/sprint1/gerer_compte_employe.png>]
-<projet/images/usecase/sprint1/gere_compte_rh.png, id=801, 3513.125pt x 1047.91
+<projet/images/usecase/sprint1/gere_compte_rh.png, id=340, 3513.125pt x 1047.91
 5pt>
 File: projet/images/usecase/sprint1/gere_compte_rh.png Graphic file (type png)
 <use projet/images/usecase/sprint1/gere_compte_rh.png>
 Package pdftex.def Info: projet/images/usecase/sprint1/gere_compte_rh.png  used
  on input line 159.
 (pdftex.def)             Requested size: 396.91325pt x 118.38902pt.
- [33]
+ [34]
 Overfull \hbox (39.42633pt too wide) in alignment at lines 167--199
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [34 <./projet/i
+ignored error: Infinite glue shrinkage found in box being split [35 <./projet/i
 mages/usecase/sprint1/gere_compte_rh.png>]
-<projet/images/digf/ss1/auth.drawio.png, id=811, 2009.5075pt x 1828.8325pt>
+<projet/images/digf/ss1/auth.drawio.png, id=352, 2009.5075pt x 1828.8325pt>
 File: projet/images/digf/ss1/auth.drawio.png Graphic file (type png)
 <use projet/images/digf/ss1/auth.drawio.png>
 Package pdftex.def Info: projet/images/digf/ss1/auth.drawio.png  used on input 
 line 215.
 (pdftex.def)             Requested size: 396.91325pt x 361.2114pt.
- [35]
-<projet/images/digf/ss1/sinscrire.drawio.png, id=818, 2129.9575pt x 2051.665pt>
+ [36]
+<projet/images/digf/ss1/sinscrire.drawio.png, id=359, 2129.9575pt x 2051.665pt>
 
 File: projet/images/digf/ss1/sinscrire.drawio.png Graphic file (type png)
 <use projet/images/digf/ss1/sinscrire.drawio.png>
 Package pdftex.def Info: projet/images/digf/ss1/sinscrire.drawio.png  used on i
 nput line 226.
 (pdftex.def)             Requested size: 396.91325pt x 382.307pt.
- [36 <./projet/images/digf/ss1/auth.drawio.png>]
-<projet/images/digf/ss1/creer_compte_employe.png, id=824, 3296.315pt x 2553.54p
+ [37 <./projet/images/digf/ss1/auth.drawio.png>]
+<projet/images/digf/ss1/creer_compte_employe.png, id=366, 3296.315pt x 2553.54p
 t>
 File: projet/images/digf/ss1/creer_compte_employe.png Graphic file (type png)
 <use projet/images/digf/ss1/creer_compte_employe.png>
 Package pdftex.def Info: projet/images/digf/ss1/creer_compte_employe.png  used 
 on input line 235.
 (pdftex.def)             Requested size: 396.91325pt x 307.46361pt.
- [37 <./projet/images/digf/ss1/sinscrire.drawio.png>]
-<projet/images/digf/ss1/sup.drawio.png, id=830, 1346.02875pt x 1085.05376pt>
+ [38 <./projet/images/digf/ss1/sinscrire.drawio.png>]
+<projet/images/digf/ss1/sup.drawio.png, id=373, 1346.02875pt x 1085.05376pt>
 File: projet/images/digf/ss1/sup.drawio.png Graphic file (type png)
 <use projet/images/digf/ss1/sup.drawio.png>
 Package pdftex.def Info: projet/images/digf/ss1/sup.drawio.png  used on input l
 ine 244.
 (pdftex.def)             Requested size: 396.91325pt x 319.95563pt.
- [38 <./projet/images/digf/ss1/creer_compte_employe.png>]
-<projet/images/digf/ss1/mrc.drawio.png, id=836, 2812.5075pt x 2250.4075pt>
+ [39 <./projet/images/digf/ss1/creer_compte_employe.png>]
+<projet/images/digf/ss1/mrc.drawio.png, id=381, 2812.5075pt x 2250.4075pt>
 File: projet/images/digf/ss1/mrc.drawio.png Graphic file (type png)
 <use projet/images/digf/ss1/mrc.drawio.png>
 Package pdftex.def Info: projet/images/digf/ss1/mrc.drawio.png  used on input l
 ine 253.
 (pdftex.def)             Requested size: 396.91325pt x 317.56161pt.
- [39 <./projet/images/digf/ss1/sup.drawio.png>]
-<projet/images/classe finale/diagramme_de_classe_s1.png, id=842, 2551.5325pt x 
+ [40 <./projet/images/digf/ss1/sup.drawio.png>]
+<projet/images/classe finale/diagramme_de_classe_s1.png, id=388, 2551.5325pt x 
 2178.1375pt>
 File: projet/images/classe finale/diagramme_de_classe_s1.png Graphic file (type
  png)
@@ -1363,35 +1977,35 @@ File: projet/images/classe finale/diagramme_de_classe_s1.png Graphic file (type
 Package pdftex.def Info: projet/images/classe finale/diagramme_de_classe_s1.png
   used on input line 263.
 (pdftex.def)             Requested size: 396.91325pt x 338.8043pt.
- [40 <./projet/images/digf/ss1/mrc.drawio.png>]
-<projet/images/interface/s1/connexion.jpeg, id=849, 1606.0pt x 892.33376pt>
+ [41 <./projet/images/digf/ss1/mrc.drawio.png>]
+<projet/images/interface/s1/connexion.jpeg, id=396, 1606.0pt x 892.33376pt>
 File: projet/images/interface/s1/connexion.jpeg Graphic file (type jpg)
 <use projet/images/interface/s1/connexion.jpeg>
 Package pdftex.def Info: projet/images/interface/s1/connexion.jpeg  used on inp
 ut line 278.
 (pdftex.def)             Requested size: 396.91325pt x 220.53671pt.
- [41 <./projet/images/classe finale/diagramme_de_classe_s1.png>]
-<projet/images/interface/s1/ins.jpeg, id=856, 1606.0pt x 1119.18124pt>
+ [42 <./projet/images/classe finale/diagramme_de_classe_s1.png>]
+<projet/images/interface/s1/ins.jpeg, id=404, 1606.0pt x 1119.18124pt>
 File: projet/images/interface/s1/ins.jpeg Graphic file (type jpg)
 <use projet/images/interface/s1/ins.jpeg>
 Package pdftex.def Info: projet/images/interface/s1/ins.jpeg  used on input lin
 e 289.
 (pdftex.def)             Requested size: 396.91325pt x 276.60117pt.
-<projet/images/interface/s1/gestion employe.jpeg, id=857, 1606.0pt x 762.85pt>
+<projet/images/interface/s1/gestion employe.jpeg, id=405, 1606.0pt x 762.85pt>
 File: projet/images/interface/s1/gestion employe.jpeg Graphic file (type jpg)
 <use projet/images/interface/s1/gestion employe.jpeg>
 Package pdftex.def Info: projet/images/interface/s1/gestion employe.jpeg  used 
 on input line 300.
 (pdftex.def)             Requested size: 396.91325pt x 188.53532pt.
- [42 <./projet/images/interface/s1/connexion.jpeg> <./projet/images/interface/s
+ [43 <./projet/images/interface/s1/connexion.jpeg> <./projet/images/interface/s
 1/ins.jpeg>]
-<projet/images/interface/s1/gestion rh.jpeg, id=862, 1606.0pt x 762.85pt>
+<projet/images/interface/s1/gestion rh.jpeg, id=412, 1606.0pt x 762.85pt>
 File: projet/images/interface/s1/gestion rh.jpeg Graphic file (type jpg)
 <use projet/images/interface/s1/gestion rh.jpeg>
 Package pdftex.def Info: projet/images/interface/s1/gestion rh.jpeg  used on in
 put line 311.
 (pdftex.def)             Requested size: 396.91325pt x 188.53532pt.
- [43 <./projet/images/interface/s1/gestion employe.jpeg> <./projet/images/inter
+ [44 <./projet/images/interface/s1/gestion employe.jpeg> <./projet/images/inter
 face/s1/gestion rh.jpeg>]
 Overfull \hbox (33.13939pt too wide) in alignment at lines 331--335
  [] [] [] [] [] [] [] 
@@ -1407,7 +2021,7 @@ Overfull \hbox (33.13939pt too wide) in alignment at lines 339--346
  [] [] [] [] [] [] [] 
  []
 
-<projet/images/usecase/sprint2/sprint2.drawio.png.png, id=867, 1949.2825pt x 12
+<projet/images/usecase/sprint2/sprint2.drawio.png.png, id=420, 1949.2825pt x 12
 86.8075pt>
 File: projet/images/usecase/sprint2/sprint2.drawio.png.png Graphic file (type p
 ng)
@@ -1415,12 +2029,12 @@ ng)
 Package pdftex.def Info: projet/images/usecase/sprint2/sprint2.drawio.png.png  
 used on input line 357.
 (pdftex.def)             Requested size: 396.91325pt x 262.01045pt.
-[44]
+[45]
 Overfull \hbox (39.42633pt too wide) in alignment at lines 365--381
  [] [] 
  []
 
-[45 <./projet/images/usecase/sprint2/sprint2.drawio.png.png>]
+[46 <./projet/images/usecase/sprint2/sprint2.drawio.png.png>]
 Overfull \hbox (39.42633pt too wide) in alignment at lines 386--404
  [] [] 
  []
@@ -1430,7 +2044,7 @@ Overfull \hbox (39.42633pt too wide) in alignment at lines 409--425
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [46]
+ignored error: Infinite glue shrinkage found in box being split [47]
 Overfull \hbox (39.42633pt too wide) in alignment at lines 430--444
  [] [] 
  []
@@ -1440,46 +2054,47 @@ Overfull \hbox (39.42633pt too wide) in alignment at lines 450--480
  [] [] 
  []
 
-[47]
-<projet/images/digf/ss2/connecter_cameras.png, id=886, 2533.465pt x 2413.015pt>
+[48]
+<projet/images/digf/ss2/connecter_cameras.png, id=447, 2533.465pt x 2413.015pt>
 
 File: projet/images/digf/ss2/connecter_cameras.png Graphic file (type png)
 <use projet/images/digf/ss2/connecter_cameras.png>
 Package pdftex.def Info: projet/images/digf/ss2/connecter_cameras.png  used on 
 input line 497.
 (pdftex.def)             Requested size: 374.86775pt x 357.03963pt.
- [48]
-<projet/images/digf/ss2/enregister_visage.png, id=892, 2692.0575pt x 2230.3325p
+ [49]
+<projet/images/digf/ss2/enregister_visage.png, id=455, 2692.0575pt x 2230.3325p
 t>
 File: projet/images/digf/ss2/enregister_visage.png Graphic file (type png)
 <use projet/images/digf/ss2/enregister_visage.png>
 Package pdftex.def Info: projet/images/digf/ss2/enregister_visage.png  used on 
 input line 507.
 (pdftex.def)             Requested size: 374.86775pt x 310.54282pt.
- [49 <./projet/images/digf/ss2/connecter_cameras.png>]
-<projet/images/digf/ss2/modifier_infos.png, id=898, 2692.0575pt x 2150.0325pt>
+ [50 <./projet/images/digf/ss2/connecter_cameras.png>]
+<projet/images/digf/ss2/modifier_infos.png, id=462, 2712.1325pt x 2170.1075pt>
 File: projet/images/digf/ss2/modifier_infos.png Graphic file (type png)
 <use projet/images/digf/ss2/modifier_infos.png>
 Package pdftex.def Info: projet/images/digf/ss2/modifier_infos.png  used on inp
 ut line 516.
-(pdftex.def)             Requested size: 374.86775pt x 299.36215pt.
- [50 <./projet/images/digf/ss2/enregister_visage.png>]
-<projet/images/digf/ss2/consulter_retard.png, id=904, 2692.0575pt x 1969.3575pt
+(pdftex.def)             Requested size: 374.86775pt x 299.93874pt.
+ [51 <./projet/images/digf/ss2/enregister_visage.png>]
+<projet/images/digf/ss2/consulter_retard.png, id=470, 2712.1325pt x 1989.4325pt
 >
 File: projet/images/digf/ss2/consulter_retard.png Graphic file (type png)
 <use projet/images/digf/ss2/consulter_retard.png>
 Package pdftex.def Info: projet/images/digf/ss2/consulter_retard.png  used on i
 nput line 526.
-(pdftex.def)             Requested size: 374.86775pt x 274.20567pt.
- [51 <./projet/images/digf/ss2/modifier_infos.png>]
-<projet/images/digf/ss2/pointage_facial.png, id=910, 2380.895pt x 2712.1325pt>
+(pdftex.def)             Requested size: 374.86775pt x 274.96696pt.
+ [52 <./projet/images/digf/ss2/modifier_infos.png>]
+<projet/images/digf/ss2/pointage_facial.png, id=477, 2330.7075pt x 2872.7325pt>
+
 File: projet/images/digf/ss2/pointage_facial.png Graphic file (type png)
 <use projet/images/digf/ss2/pointage_facial.png>
 Package pdftex.def Info: projet/images/digf/ss2/pointage_facial.png  used on in
 put line 536.
-(pdftex.def)             Requested size: 374.86775pt x 426.9976pt.
- [52 <./projet/images/digf/ss2/consulter_retard.png>]
-<projet/images/classe finale/daigramme_de_classe_s2.png, id=916, 2700.0875pt x 
+(pdftex.def)             Requested size: 374.86775pt x 462.01366pt.
+ [53 <./projet/images/digf/ss2/consulter_retard.png>]
+<projet/images/classe finale/daigramme_de_classe_s2.png, id=484, 2700.0875pt x 
 2314.6475pt>
 File: projet/images/classe finale/daigramme_de_classe_s2.png Graphic file (type
  png)
@@ -1487,16 +2102,16 @@ File: projet/images/classe finale/daigramme_de_classe_s2.png Graphic file (type
 Package pdftex.def Info: projet/images/classe finale/daigramme_de_classe_s2.png
   used on input line 546.
 (pdftex.def)             Requested size: 374.86775pt x 321.3289pt.
- [53 <./projet/images/digf/ss2/pointage_facial.png>]
-<projet/images/interface/s2/connecter camera.jpeg, id=924, 1606.0pt x 1244.65pt
+ [54 <./projet/images/digf/ss2/pointage_facial.png>]
+<projet/images/interface/s2/connecter camera.jpeg, id=492, 1606.0pt x 1244.65pt
 >
 File: projet/images/interface/s2/connecter camera.jpeg Graphic file (type jpg)
 <use projet/images/interface/s2/connecter camera.jpeg>
 Package pdftex.def Info: projet/images/interface/s2/connecter camera.jpeg  used
  on input line 561.
 (pdftex.def)             Requested size: 396.91325pt x 307.61026pt.
- [54 <./projet/images/classe finale/daigramme_de_classe_s2.png>]
-<projet/images/interface/s2/enregister visage.jpeg, id=930, 1606.0pt x 884.3037
+ [55 <./projet/images/classe finale/daigramme_de_classe_s2.png>]
+<projet/images/interface/s2/enregister visage.jpeg, id=500, 1606.0pt x 884.3037
 6pt>
 File: projet/images/interface/s2/enregister visage.jpeg Graphic file (type jpg)
 
@@ -1504,49 +2119,49 @@ File: projet/images/interface/s2/enregister visage.jpeg Graphic file (type jpg)
 Package pdftex.def Info: projet/images/interface/s2/enregister visage.jpeg  use
 d on input line 572.
 (pdftex.def)             Requested size: 396.91325pt x 218.55214pt.
-<projet/images/interface/s2/modifier profile.jpeg, id=931, 1606.0pt x 762.85pt>
+<projet/images/interface/s2/modifier profile.jpeg, id=501, 1606.0pt x 762.85pt>
 
 File: projet/images/interface/s2/modifier profile.jpeg Graphic file (type jpg)
 <use projet/images/interface/s2/modifier profile.jpeg>
 Package pdftex.def Info: projet/images/interface/s2/modifier profile.jpeg  used
  on input line 583.
 (pdftex.def)             Requested size: 396.91325pt x 188.53532pt.
- [55 <./projet/images/interface/s2/connecter camera.jpeg> <./projet/images/inte
+ [56 <./projet/images/interface/s2/connecter camera.jpeg> <./projet/images/inte
 rface/s2/enregister visage.jpeg>]
-<projet/images/interface/s2/absence.jpeg, id=936, 1606.0pt x 1162.3425pt>
+<projet/images/interface/s2/absence.jpeg, id=508, 1606.0pt x 1162.3425pt>
 File: projet/images/interface/s2/absence.jpeg Graphic file (type jpg)
 <use projet/images/interface/s2/absence.jpeg>
 Package pdftex.def Info: projet/images/interface/s2/absence.jpeg  used on input
  line 594.
 (pdftex.def)             Requested size: 396.91325pt x 287.2683pt.
-<projet/images/interface/s2/pointage_facial.jpeg, id=937, 1523.6925pt x 1606.0p
+<projet/images/interface/s2/pointage_facial.jpeg, id=509, 1523.6925pt x 1606.0p
 t>
 File: projet/images/interface/s2/pointage_facial.jpeg Graphic file (type jpg)
 <use projet/images/interface/s2/pointage_facial.jpeg>
 Package pdftex.def Info: projet/images/interface/s2/pointage_facial.jpeg  used 
 on input line 605.
 (pdftex.def)             Requested size: 396.91325pt x 418.33434pt.
- [56 <./projet/images/interface/s2/modifier profile.jpeg> <./projet/images/inte
+ [57 <./projet/images/interface/s2/modifier profile.jpeg> <./projet/images/inte
 rface/s2/absence.jpeg>])
-(projet/chapitre4.tex [57 <./projet/images/interface/s2/pointage_facial.jpeg>]
+(projet/chapitre4.tex [58 <./projet/images/interface/s2/pointage_facial.jpeg>]
 Chapitre 4.
-[58
+[59
 
 ]
 Overfull \hbox (33.13939pt too wide) in alignment at lines 22--41
  [] [] [] [] [] [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [59]
-<projet/images/usecase/sprint 3/use_case_s3.png, id=955, 2398.9625pt x 1551.797
+ignored error: Infinite glue shrinkage found in box being split [60]
+<projet/images/usecase/sprint 3/use_case_s3.png, id=536, 2398.9625pt x 1551.797
 5pt>
 File: projet/images/usecase/sprint 3/use_case_s3.png Graphic file (type png)
 <use projet/images/usecase/sprint 3/use_case_s3.png>
 Package pdftex.def Info: projet/images/usecase/sprint 3/use_case_s3.png  used o
 n input line 49.
 (pdftex.def)             Requested size: 396.91325pt x 256.7459pt.
- [60]
-<projet/images/usecase/sprint 3/raffinement_gerer_conges.png, id=960, 1034.8662
+ [61]
+<projet/images/usecase/sprint 3/raffinement_gerer_conges.png, id=542, 1034.8662
 6pt x 322.20375pt>
 File: projet/images/usecase/sprint 3/raffinement_gerer_conges.png Graphic file 
 (type png)
@@ -1559,7 +2174,7 @@ Overfull \hbox (39.42633pt too wide) in alignment at lines 66--80
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [61 <./projet/i
+ignored error: Infinite glue shrinkage found in box being split [62 <./projet/i
 mages/usecase/sprint 3/use_case_s3.png> <./projet/images/usecase/sprint 3/raffi
 nement_gerer_conges.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 93--96
@@ -1571,7 +2186,7 @@ Overfull \hbox (39.42633pt too wide) in alignment at lines 86--101
  [] [] 
  []
 
-<projet/images/usecase/sprint 3/refinnement_gere_salaire.png, id=967, 3340.48pt
+<projet/images/usecase/sprint 3/refinnement_gere_salaire.png, id=552, 3340.48pt
  x 847.165pt>
 File: projet/images/usecase/sprint 3/refinnement_gere_salaire.png Graphic file 
 (type png)
@@ -1579,12 +2194,12 @@ File: projet/images/usecase/sprint 3/refinnement_gere_salaire.png Graphic file
 Package pdftex.def Info: projet/images/usecase/sprint 3/refinnement_gere_salair
 e.png  used on input line 108.
 (pdftex.def)             Requested size: 396.91325pt x 100.64713pt.
-[62]
+[63]
 Overfull \hbox (39.42633pt too wide) in alignment at lines 116--132
  [] [] 
  []
 
-[63 <./projet/images/usecase/sprint 3/refinnement_gere_salaire.png>]
+[64 <./projet/images/usecase/sprint 3/refinnement_gere_salaire.png>]
 Overfull \hbox (39.42633pt too wide) in alignment at lines 138--154
  [] [] 
  []
@@ -1594,12 +2209,12 @@ Overfull \hbox (39.42633pt too wide) in alignment at lines 160--175
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [64]
+ignored error: Infinite glue shrinkage found in box being split [65]
 Overfull \hbox (39.42633pt too wide) in alignment at lines 181--197
  [] [] 
  []
 
-<projet/images/usecase/sprint 3/gerer_document.png, id=981, 954.56625pt x 443.6
+<projet/images/usecase/sprint 3/gerer_document.png, id=572, 954.56625pt x 443.6
 575pt>
 File: projet/images/usecase/sprint 3/gerer_document.png Graphic file (type png)
 
@@ -1607,12 +2222,12 @@ File: projet/images/usecase/sprint 3/gerer_document.png Graphic file (type png)
 Package pdftex.def Info: projet/images/usecase/sprint 3/gerer_document.png  use
 d on input line 204.
 (pdftex.def)             Requested size: 396.91325pt x 184.4732pt.
-[65]
+[66]
 Overfull \hbox (39.42633pt too wide) in alignment at lines 212--225
  [] [] 
  []
 
-[66 <./projet/images/usecase/sprint 3/gerer_document.png>]
+[67 <./projet/images/usecase/sprint 3/gerer_document.png>]
 Overfull \hbox (39.42633pt too wide) in alignment at lines 231--245
  [] [] 
  []
@@ -1622,8 +2237,8 @@ Overfull \hbox (39.42633pt too wide) in alignment at lines 251--265
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [67]
-<projet/images/usecase/sprint 3/CS.png, id=996, 3045.3775pt x 847.165pt>
+ignored error: Infinite glue shrinkage found in box being split [68]
+<projet/images/usecase/sprint 3/CS.png, id=591, 3045.3775pt x 847.165pt>
 File: projet/images/usecase/sprint 3/CS.png Graphic file (type png)
 <use projet/images/usecase/sprint 3/CS.png>
 Package pdftex.def Info: projet/images/usecase/sprint 3/CS.png  used on input l
@@ -1634,7 +2249,7 @@ Overfull \hbox (39.42633pt too wide) in alignment at lines 280--293
  [] [] 
  []
 
-[68 <./projet/images/usecase/sprint 3/CS.png>]
+[69 <./projet/images/usecase/sprint 3/CS.png>]
 Overfull \hbox (39.42633pt too wide) in alignment at lines 299--312
  [] [] 
  []
@@ -1644,7 +2259,7 @@ Overfull \hbox (39.42633pt too wide) in alignment at lines 318--331
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [69]
+ignored error: Infinite glue shrinkage found in box being split [70]
 Overfull \hbox (39.42633pt too wide) in alignment at lines 337--352
  [] [] 
  []
@@ -1654,262 +2269,249 @@ Overfull \hbox (39.42633pt too wide) in alignment at lines 358--373
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [70]
-<projet/images/digf/ss3/gerer conger.drawio.png, id=1010, 2712.1325pt x 2049.65
-75pt>
-File: projet/images/digf/ss3/gerer conger.drawio.png Graphic file (type png)
-<use projet/images/digf/ss3/gerer conger.drawio.png>
-Package pdftex.def Info: projet/images/digf/ss3/gerer conger.drawio.png  used o
-n input line 388.
-(pdftex.def)             Requested size: 396.91325pt x 299.96059pt.
- [71]
-<projet/images/digf/ss3/attribuer bounuses.drawio.png, id=1017, 2712.1325pt x 2
-029.5825pt>
-File: projet/images/digf/ss3/attribuer bounuses.drawio.png Graphic file (type p
-ng)
-<use projet/images/digf/ss3/attribuer bounuses.drawio.png>
-Package pdftex.def Info: projet/images/digf/ss3/attribuer bounuses.drawio.png  
-used on input line 398.
-(pdftex.def)             Requested size: 396.91325pt x 297.02267pt.
+ignored error: Infinite glue shrinkage found in box being split [71]
+<projet/images/digf/ss3/gR.drawio.png, id=612, 2692.0575pt x 2029.5825pt>
+File: projet/images/digf/ss3/gR.drawio.png Graphic file (type png)
+<use projet/images/digf/ss3/gR.drawio.png>
+Package pdftex.def Info: projet/images/digf/ss3/gR.drawio.png  used on input li
+ne 385.
+(pdftex.def)             Requested size: 396.91325pt x 299.22147pt.
+ [72]
+<projet/images/digf/ss3/ap.drawio.png, id=619, 2692.0575pt x 2170.1075pt>
+File: projet/images/digf/ss3/ap.drawio.png Graphic file (type png)
+<use projet/images/digf/ss3/ap.drawio.png>
+Package pdftex.def Info: projet/images/digf/ss3/ap.drawio.png  used on input li
+ne 393.
+(pdftex.def)             Requested size: 396.91325pt x 319.93907pt.
 
-[72 <./projet/images/digf/ss3/gerer conger.drawio.png>]
-<projet/images/digf/ss3/mis_ajour_salaire.png, id=1023, 2712.1325pt x 2150.0325
-pt>
-File: projet/images/digf/ss3/mis_ajour_salaire.png Graphic file (type png)
-<use projet/images/digf/ss3/mis_ajour_salaire.png>
-Package pdftex.def Info: projet/images/digf/ss3/mis_ajour_salaire.png  used on 
-input line 408.
-(pdftex.def)             Requested size: 396.91325pt x 314.65013pt.
- [73 <./projet/images/digf/ss3/attribuer bounuses.drawio.png>]
-<projet/images/digf/ss3/Modifier salaire.drawio.png, id=1029, 2712.1325pt x 219
-0.1825pt>
-File: projet/images/digf/ss3/Modifier salaire.drawio.png Graphic file (type png
-)
-<use projet/images/digf/ss3/Modifier salaire.drawio.png>
-Package pdftex.def Info: projet/images/digf/ss3/Modifier salaire.drawio.png  us
-ed on input line 417.
-(pdftex.def)             Requested size: 396.91325pt x 320.52596pt.
- [74 <./projet/images/digf/ss3/mis_ajour_salaire.png>]
-<projet/images/digf/ss3/_consulter documents.drawio.png, id=1035, 2712.1325pt x
- 2029.5825pt>
-File: projet/images/digf/ss3/_consulter documents.drawio.png Graphic file (type
- png)
-<use projet/images/digf/ss3/_consulter documents.drawio.png>
-Package pdftex.def Info: projet/images/digf/ss3/_consulter documents.drawio.png
-  used on input line 427.
-(pdftex.def)             Requested size: 396.91325pt x 297.02267pt.
- [75 <./projet/images/digf/ss3/Modifier salaire.drawio.png>]
-<projet/images/digf/ss3/gerer s document.drawio.png, id=1041, 2716.1475pt x 221
-4.2725pt>
-File: projet/images/digf/ss3/gerer s document.drawio.png Graphic file (type png
-)
-<use projet/images/digf/ss3/gerer s document.drawio.png>
-Package pdftex.def Info: projet/images/digf/ss3/gerer s document.drawio.png  us
-ed on input line 437.
-(pdftex.def)             Requested size: 396.91325pt x 323.54465pt.
+[73 <./projet/images/digf/ss3/gR.drawio.png>]
+<projet/images/digf/ss3/Ms.drawio.png, id=626, 2692.0575pt x 2129.9575pt>
+File: projet/images/digf/ss3/Ms.drawio.png Graphic file (type png)
+<use projet/images/digf/ss3/Ms.drawio.png>
+Package pdftex.def Info: projet/images/digf/ss3/Ms.drawio.png  used on input li
+ne 401.
+(pdftex.def)             Requested size: 396.91325pt x 314.01976pt.
+ [74 <./projet/images/digf/ss3/ap.drawio.png>]
+<projet/images/digf/ss3/MODS.drawio.png, id=633, 2692.0575pt x 2170.1075pt>
+File: projet/images/digf/ss3/MODS.drawio.png Graphic file (type png)
+<use projet/images/digf/ss3/MODS.drawio.png>
+Package pdftex.def Info: projet/images/digf/ss3/MODS.drawio.png  used on input 
+line 409.
+(pdftex.def)             Requested size: 396.91325pt x 319.93907pt.
+ [75 <./projet/images/digf/ss3/Ms.drawio.png>]
+<projet/images/digf/ss3/Cd.drawio.png, id=641, 2692.0575pt x 2009.5075pt>
+File: projet/images/digf/ss3/Cd.drawio.png Graphic file (type png)
+<use projet/images/digf/ss3/Cd.drawio.png>
+Package pdftex.def Info: projet/images/digf/ss3/Cd.drawio.png  used on input li
+ne 418.
+(pdftex.def)             Requested size: 396.91325pt x 296.26181pt.
+ [76 <./projet/images/digf/ss3/MODS.drawio.png>]
+<projet/images/digf/ss3/gd.drawio.png, id=648, 2692.0575pt x 2190.1825pt>
+File: projet/images/digf/ss3/gd.drawio.png Graphic file (type png)
+<use projet/images/digf/ss3/gd.drawio.png>
+Package pdftex.def Info: projet/images/digf/ss3/gd.drawio.png  used on input li
+ne 427.
+(pdftex.def)             Requested size: 396.91325pt x 322.89873pt.
+ [77 <./projet/images/digf/ss3/Cd.drawio.png>]
+<projet/images/digf/ss3/cp.drawio.png, id=655, 2692.0575pt x 1969.3575pt>
+File: projet/images/digf/ss3/cp.drawio.png Graphic file (type png)
+<use projet/images/digf/ss3/cp.drawio.png>
+Package pdftex.def Info: projet/images/digf/ss3/cp.drawio.png  used on input li
+ne 436.
+(pdftex.def)             Requested size: 396.91325pt x 290.34248pt.
 
-[76 <./projet/images/digf/ss3/_consulter documents.drawio.png>]
-<projet/images/digf/ss3/consulter primes et deductions.png, id=1047, 2714.14pt 
-x 1989.4325pt>
-File: projet/images/digf/ss3/consulter primes et deductions.png Graphic file (t
-ype png)
-<use projet/images/digf/ss3/consulter primes et deductions.png>
-Package pdftex.def Info: projet/images/digf/ss3/consulter primes et deductions.
-png  used on input line 447.
-(pdftex.def)             Requested size: 396.91325pt x 290.904pt.
- [77 <./projet/images/digf/ss3/gerer s document.drawio.png>]
-<projet/images/digf/ss3/consulter_salaires.png, id=1054, 2712.1325pt x 2250.407
-5pt>
-File: projet/images/digf/ss3/consulter_salaires.png Graphic file (type png)
-<use projet/images/digf/ss3/consulter_salaires.png>
-Package pdftex.def Info: projet/images/digf/ss3/consulter_salaires.png  used on
- input line 457.
-(pdftex.def)             Requested size: 396.91325pt x 329.33968pt.
- [78 <./projet/images/digf/ss3/consulter primes et deductions.png>]
-<projet/images/digf/ss3/demander conges.drawio.png, id=1060, 2712.1325pt x 2250
-.4075pt>
-File: projet/images/digf/ss3/demander conges.drawio.png Graphic file (type png)
-
-<use projet/images/digf/ss3/demander conges.drawio.png>
-Package pdftex.def Info: projet/images/digf/ss3/demander conges.drawio.png  use
-d on input line 467.
-(pdftex.def)             Requested size: 396.91325pt x 329.33968pt.
- [79 <./projet/images/digf/ss3/consulter_salaires.png>]
-<projet/images/digf/ss3/deposer documents.drawio.png, id=1066, 2712.1325pt x 22
-30.3325pt>
-File: projet/images/digf/ss3/deposer documents.drawio.png Graphic file (type pn
-g)
-<use projet/images/digf/ss3/deposer documents.drawio.png>
-Package pdftex.def Info: projet/images/digf/ss3/deposer documents.drawio.png  u
-sed on input line 477.
-(pdftex.def)             Requested size: 396.91325pt x 326.40178pt.
- [80 <./projet/images/digf/ss3/demander conges.drawio.png>]
-<projet/images/classe finale/s3.png, id=1072, 4025.0375pt x 3434.8325pt>
+[78 <./projet/images/digf/ss3/gd.drawio.png>]
+<projet/images/digf/ss3/CS.drawio.png, id=662, 2692.0575pt x 2011.515pt>
+File: projet/images/digf/ss3/CS.drawio.png Graphic file (type png)
+<use projet/images/digf/ss3/CS.drawio.png>
+Package pdftex.def Info: projet/images/digf/ss3/CS.drawio.png  used on input li
+ne 447.
+(pdftex.def)             Requested size: 396.91325pt x 296.55777pt.
+ [79 <./projet/images/digf/ss3/cp.drawio.png>]
+<projet/images/digf/ss3/SC.drawio.png, id=669, 2692.0575pt x 2190.1825pt>
+File: projet/images/digf/ss3/SC.drawio.png Graphic file (type png)
+<use projet/images/digf/ss3/SC.drawio.png>
+Package pdftex.def Info: projet/images/digf/ss3/SC.drawio.png  used on input li
+ne 457.
+(pdftex.def)             Requested size: 396.91325pt x 322.89873pt.
+ [80 <./projet/images/digf/ss3/CS.drawio.png>]
+<projet/images/digf/ss3/dd.drawio.png, id=676, 2692.0575pt x 2170.1075pt>
+File: projet/images/digf/ss3/dd.drawio.png Graphic file (type png)
+<use projet/images/digf/ss3/dd.drawio.png>
+Package pdftex.def Info: projet/images/digf/ss3/dd.drawio.png  used on input li
+ne 466.
+(pdftex.def)             Requested size: 396.91325pt x 319.93907pt.
+ [81 <./projet/images/digf/ss3/SC.drawio.png>]
+<projet/images/classe finale/s3.png, id=684, 4025.0375pt x 3434.8325pt>
 File: projet/images/classe finale/s3.png Graphic file (type png)
 <use projet/images/classe finale/s3.png>
 Package pdftex.def Info: projet/images/classe finale/s3.png  used on input line
- 487.
+ 476.
 (pdftex.def)             Requested size: 396.91325pt x 338.68153pt.
- [81 <./projet/images/digf/ss3/deposer documents.drawio.png>]
-<projet/images/interface/s3/gestion_congee.jpeg, id=1079, 1606.0pt x 762.85pt>
+ [82 <./projet/images/digf/ss3/dd.drawio.png>]
+<projet/images/interface/s3/gestion_congee.jpeg, id=692, 1606.0pt x 762.85pt>
 File: projet/images/interface/s3/gestion_congee.jpeg Graphic file (type jpg)
 <use projet/images/interface/s3/gestion_congee.jpeg>
 Package pdftex.def Info: projet/images/interface/s3/gestion_congee.jpeg  used o
-n input line 500.
+n input line 489.
 (pdftex.def)             Requested size: 396.91325pt x 188.53532pt.
- [82 <./projet/images/classe finale/s3.png>]
-<projet/images/interface/s3/gestion_slaires.jpeg, id=1085, 1606.0pt x 762.85pt>
 
+[83 <./projet/images/classe finale/s3.png>]
+<projet/images/interface/s3/gestion_slaires.jpeg, id=700, 1606.0pt x 762.85pt>
 File: projet/images/interface/s3/gestion_slaires.jpeg Graphic file (type jpg)
 <use projet/images/interface/s3/gestion_slaires.jpeg>
 Package pdftex.def Info: projet/images/interface/s3/gestion_slaires.jpeg  used 
-on input line 509.
+on input line 498.
 (pdftex.def)             Requested size: 396.91325pt x 188.53532pt.
-<projet/images/interface/s3/document.jpeg, id=1086, 1606.0pt x 762.85pt>
+<projet/images/interface/s3/document.jpeg, id=701, 1606.0pt x 762.85pt>
 File: projet/images/interface/s3/document.jpeg Graphic file (type jpg)
 <use projet/images/interface/s3/document.jpeg>
 Package pdftex.def Info: projet/images/interface/s3/document.jpeg  used on inpu
-t line 519.
+t line 508.
 (pdftex.def)             Requested size: 396.91325pt x 188.53532pt.
- [83 <./projet/images/interface/s3/gestion_congee.jpeg> <./projet/images/interf
+ [84 <./projet/images/interface/s3/gestion_congee.jpeg> <./projet/images/interf
 ace/s3/gestion_slaires.jpeg>]
-<projet/images/interface/s3/monsalaire.jpeg, id=1092, 1606.0pt x 762.85pt>
+<projet/images/interface/s3/monsalaire.jpeg, id=708, 1606.0pt x 762.85pt>
 File: projet/images/interface/s3/monsalaire.jpeg Graphic file (type jpg)
 <use projet/images/interface/s3/monsalaire.jpeg>
 Package pdftex.def Info: projet/images/interface/s3/monsalaire.jpeg  used on in
-put line 529.
+put line 518.
 (pdftex.def)             Requested size: 396.91325pt x 188.53532pt.
-<projet/images/interface/s3/mes_document.jpeg, id=1093, 1606.0pt x 825.0825pt>
+<projet/images/interface/s3/mes_document.jpeg, id=709, 1606.0pt x 825.0825pt>
 File: projet/images/interface/s3/mes_document.jpeg Graphic file (type jpg)
 <use projet/images/interface/s3/mes_document.jpeg>
 Package pdftex.def Info: projet/images/interface/s3/mes_document.jpeg  used on 
-input line 539.
+input line 528.
 (pdftex.def)             Requested size: 396.91325pt x 203.91583pt.
- [84 <./projet/images/interface/s3/document.jpeg> <./projet/images/interface/s3
-/monsalaire.jpeg>]
+
+[85 <./projet/images/interface/s3/document.jpeg> <./projet/images/interface/s3/
+monsalaire.jpeg>]
 File: projet/images/interface/s3/mes_document.jpeg Graphic file (type jpg)
 <use projet/images/interface/s3/mes_document.jpeg>
 Package pdftex.def Info: projet/images/interface/s3/mes_document.jpeg  used on 
-input line 549.
+input line 538.
 (pdftex.def)             Requested size: 396.91325pt x 203.91583pt.
-<projet/images/interface/s3/congeé.jpeg, id=1098, 1606.0pt x 787.94376pt>
+<projet/images/interface/s3/congeé.jpeg, id=716, 1606.0pt x 787.94376pt>
 File: projet/images/interface/s3/congeé.jpeg Graphic file (type jpg)
 <use projet/images/interface/s3/congeé.jpeg>
 Package pdftex.def Info: projet/images/interface/s3/congeé.jpeg  used on input
- line 559.
+ line 548.
 (pdftex.def)             Requested size: 396.91325pt x 194.73714pt.
- [85 <./projet/images/interface/s3/mes_document.jpeg>]
+ [86 <./projet/images/interface/s3/mes_document.jpeg>]
 File: projet/images/interface/s3/mes_document.jpeg Graphic file (type jpg)
 <use projet/images/interface/s3/mes_document.jpeg>
 Package pdftex.def Info: projet/images/interface/s3/mes_document.jpeg  used on 
-input line 569.
+input line 558.
 (pdftex.def)             Requested size: 396.91325pt x 203.91583pt.
- [86 <./projet/images/interface/s3/congeé.jpeg>]
-Overfull \hbox (33.13939pt too wide) in alignment at lines 586--597
+
+[87 <./projet/images/interface/s3/congeé.jpeg>]
+Overfull \hbox (33.13939pt too wide) in alignment at lines 575--586
  [] [] [] [] [] [] [] 
  []
 
-<projet/images/usecase/sprint 4/uses4.drawio.png, id=1107, 2029.5825pt x 1198.4
-775pt>
+<projet/images/usecase/sprint 4/uses4.drawio.png, id=731, 2029.5825pt x 1198.47
+75pt>
 File: projet/images/usecase/sprint 4/uses4.drawio.png Graphic file (type png)
 <use projet/images/usecase/sprint 4/uses4.drawio.png>
 Package pdftex.def Info: projet/images/usecase/sprint 4/uses4.drawio.png  used 
-on input line 605.
+on input line 594.
 (pdftex.def)             Requested size: 396.91325pt x 234.36966pt.
-[87]
-Overfull \hbox (39.42633pt too wide) in alignment at lines 612--612
+[88]
+Overfull \hbox (39.42633pt too wide) in alignment at lines 601--601
  [] [] 
  []
 
 
-Overfull \hbox (39.42633pt too wide) in alignment at lines 616--616
+Overfull \hbox (39.42633pt too wide) in alignment at lines 605--605
  [] [] 
  []
 
-[88 <./projet/images/usecase/sprint 4/uses4.drawio.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 633--636
+[89 <./projet/images/usecase/sprint 4/uses4.drawio.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 622--625
 
  []
 
 
-Overfull \hbox (39.42633pt too wide) in alignment at lines 621--646
+Overfull \hbox (39.42633pt too wide) in alignment at lines 610--635
  [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [89]
-Overfull \hbox (39.42633pt too wide) in alignment at lines 652--679
+ignored error: Infinite glue shrinkage found in box being split [90]
+Overfull \hbox (39.42633pt too wide) in alignment at lines 641--668
  [] [] 
  []
 
-<projet/images/digf/ss4/da.drawio.png, id=1122, 2511.3825pt x 2190.1825pt>
+<projet/images/digf/ss4/da.drawio.png, id=752, 2272.49pt x 2150.0325pt>
 File: projet/images/digf/ss4/da.drawio.png Graphic file (type png)
 <use projet/images/digf/ss4/da.drawio.png>
 Package pdftex.def Info: projet/images/digf/ss4/da.drawio.png  used on input li
-ne 690.
-(pdftex.def)             Requested size: 396.91325pt x 346.12526pt.
-[90] [91 <./projet/images/digf/ss4/da.drawio.png>]
-<projet/images/digf/ss4/dr.drawio.png, id=1133, 2511.3825pt x 2310.6325pt>
+ne 678.
+(pdftex.def)             Requested size: 396.91325pt x 375.50677pt.
+[91]
+<projet/images/digf/ss4/dr.drawio.png, id=759, 2230.3325pt x 2109.8825pt>
 File: projet/images/digf/ss4/dr.drawio.png Graphic file (type png)
 <use projet/images/digf/ss4/dr.drawio.png>
 Package pdftex.def Info: projet/images/digf/ss4/dr.drawio.png  used on input li
-ne 700.
-(pdftex.def)             Requested size: 396.91325pt x 365.16055pt.
-<projet/images/digf/ss4/ch.drawio.png, id=1134, 2511.3825pt x 2230.3325pt>
+ne 686.
+(pdftex.def)             Requested size: 396.91325pt x 375.44846pt.
+ [92 <./projet/images/digf/ss4/da.drawio.png>]
+<projet/images/digf/ss4/ch.drawio.png, id=767, 2491.3075pt x 2210.2575pt>
 File: projet/images/digf/ss4/ch.drawio.png Graphic file (type png)
 <use projet/images/digf/ss4/ch.drawio.png>
 Package pdftex.def Info: projet/images/digf/ss4/ch.drawio.png  used on input li
-ne 710.
-(pdftex.def)             Requested size: 396.91325pt x 352.47035pt.
- [92 <./projet/images/digf/ss4/dr.drawio.png>]
-<projet/images/digf/ss4/gr.drawio.png, id=1140, 2513.39pt x 2553.54pt>
+ne 695.
+(pdftex.def)             Requested size: 396.91325pt x 352.13077pt.
+ [93 <./projet/images/digf/ss4/dr.drawio.png>]
+<projet/images/digf/ss4/gr.drawio.png, id=775, 2493.315pt x 2533.465pt>
 File: projet/images/digf/ss4/gr.drawio.png Graphic file (type png)
 <use projet/images/digf/ss4/gr.drawio.png>
 Package pdftex.def Info: projet/images/digf/ss4/gr.drawio.png  used on input li
-ne 720.
-(pdftex.def)             Requested size: 396.91325pt x 403.23671pt.
- [93 <./projet/images/digf/ss4/ch.drawio.png>]
-<projet/images/classe finale/s4.png, id=1146, 4025.0375pt x 4360.29pt>
+ne 704.
+(pdftex.def)             Requested size: 396.91325pt x 403.27518pt.
+ [94 <./projet/images/digf/ss4/ch.drawio.png>]
+<projet/images/classe finale/s4.png, id=782, 4025.0375pt x 4360.29pt>
 File: projet/images/classe finale/s4.png Graphic file (type png)
 <use projet/images/classe finale/s4.png>
 Package pdftex.def Info: projet/images/classe finale/s4.png  used on input line
- 729.
+ 713.
 (pdftex.def)             Requested size: 396.91325pt x 429.93355pt.
- [94 <./projet/images/digf/ss4/gr.drawio.png>]
-<projet/images/interface/s4/dashbord_admin.jpg, id=1153, 1606.0pt x 928.46875pt
->
+ [95 <./projet/images/digf/ss4/gr.drawio.png>]
+<projet/images/interface/s4/dashbord_admin.jpg, id=790, 1606.0pt x 928.46875pt>
+
 File: projet/images/interface/s4/dashbord_admin.jpg Graphic file (type jpg)
 <use projet/images/interface/s4/dashbord_admin.jpg>
 Package pdftex.def Info: projet/images/interface/s4/dashbord_admin.jpg  used on
- input line 744.
+ input line 728.
 (pdftex.def)             Requested size: 396.91325pt x 229.46733pt.
- [95 <./projet/images/classe finale/s4.png>]
-<projet/images/interface/s4/rh.jpeg, id=1160, 1606.0pt x 1135.24126pt>
+ [96 <./projet/images/classe finale/s4.png>]
+<projet/images/interface/s4/rh.jpeg, id=798, 1606.0pt x 1135.24126pt>
 File: projet/images/interface/s4/rh.jpeg Graphic file (type jpg)
 <use projet/images/interface/s4/rh.jpeg>
 Package pdftex.def Info: projet/images/interface/s4/rh.jpeg  used on input line
- 757.
+ 741.
 (pdftex.def)             Requested size: 396.91325pt x 280.57033pt.
 
-[96 <./projet/images/interface/s4/dashbord_admin.jpg> <./projet/images/interfac
+[97 <./projet/images/interface/s4/dashbord_admin.jpg> <./projet/images/interfac
 e/s4/rh.jpeg>]
-<projet/images/interface/s4/rapport.jpg, id=1165, 1606.0pt x 1141.26375pt>
+<projet/images/interface/s4/rapport.jpg, id=805, 1606.0pt x 1141.26375pt>
 File: projet/images/interface/s4/rapport.jpg Graphic file (type jpg)
 <use projet/images/interface/s4/rapport.jpg>
 Package pdftex.def Info: projet/images/interface/s4/rapport.jpg  used on input 
-line 770.
+line 754.
 (pdftex.def)             Requested size: 396.91325pt x 282.05876pt.
-<projet/images/interface/s4/historique.jpg, id=1166, 1606.0pt x 872.25874pt>
+<projet/images/interface/s4/historique.jpg, id=806, 1606.0pt x 872.25874pt>
 File: projet/images/interface/s4/historique.jpg Graphic file (type jpg)
 <use projet/images/interface/s4/historique.jpg>
 Package pdftex.def Info: projet/images/interface/s4/historique.jpg  used on inp
-ut line 783.
+ut line 767.
 (pdftex.def)             Requested size: 396.91325pt x 215.57526pt.
- [97 <./projet/images/interface/s4/rapport.jpg>]) [98 <./projet/images/interfac
-e/s4/historique.jpg>] (projet/conclusion.tex) [99
+ [98 <./projet/images/interface/s4/rapport.jpg>]) [99 <./projet/images/interfac
+e/s4/historique.jpg>] [100
 
+] (projet/conclusion.tex) [101
 
-] [100]
-(projet/references.tex
+]
+[102] (projet/references.tex
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1922,7 +2524,7 @@ f . com /
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 43--44
+Underfull \hbox (badness 1231) in paragraph at lines 43--44
 []\T1/ptm/m/n/12 (+20) ECMA In-ter-na-tio-nal, \T1/ptm/m/it/12 (+20) EC-MAS-cri
 pt 2023 Lan-guage Spe-ci-fi-ca-tion\T1/ptm/m/n/12 (+20) , []$\T1/pcr/m/n/12 htt
 ps : / / www .
@@ -1935,8 +2537,12 @@ Underfull \hbox (badness 1817) in paragraph at lines 62--63
 jects . com$[]\T1/ptm/m/n/12 (+20) ,
  []
 
-[101
+[103
 
+
+]) (projet/Abstract.tex [104] [105
+
+] [106
 
 ])
 Package minitoc Info: I0009
@@ -1965,22 +2571,35 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-[102] (main.aux)
+[107] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9A150671B69E6F75D5EDA0132DF3160D;10513.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: CFDE90D455F42825E72BCBB1D54FA667;199
+(rerunfilecheck)             After:  8FA561118BA11619B40488E88EF53B6E;10850.
  ) 
 Here is how much of TeX's memory you used:
- 22066 strings out of 467871
- 380760 string characters out of 5418376
- 888465 words of memory out of 5000000
- 49931 multiletter control sequences out of 15000+600000
- 696611 words of font info for 308 fonts, out of 8000000 for 9000
+ 39288 strings out of 467871
+ 780265 string characters out of 5418376
+ 1288937 words of memory out of 5000000
+ 66831 multiletter control sequences out of 15000+600000
+ 696675 words of font info for 309 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,15n,117p,1944b,763s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,15n,117p,1944b,703s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/louay/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/louay/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courie
 r/ucrr8a.pfb><C:/Users/louay/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helv
@@ -1988,9 +2607,9 @@ etic/uhvr8a.pfb><C:/Users/louay/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
 imes/utmb8a.pfb><C:/Users/louay/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Users/louay/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
 imes/utmri8a.pfb>
-Output written on main.pdf (116 pages, 8496422 bytes).
+Output written on main.pdf (117 pages, 8800903 bytes).
 PDF statistics:
- 1316 PDF objects out of 1440 (max. 8388607)
- 323 named destinations out of 1000 (max. 500000)
- 68391 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 999 PDF objects out of 1000 (max. 8388607)
+ 325 named destinations out of 1000 (max. 500000)
+ 68107 words of extra memory for PDF output out of 74296 (max. 10000000)
 

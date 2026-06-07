@@ -380,101 +380,90 @@ Cette section présente les différents diagrammes UML réalisés afin de modél
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation «~Valider ou Refuser un congé~»}
 
-Ce diagramme illustre le processus de traitement d’une demande de congé par le Responsable RH.
-
-Après avoir consulté la liste des demandes en attente, le Responsable RH sélectionne la demande à traiter puis décide de l’approuver ou de la refuser. Le système enregistre ensuite la décision prise dans la base de données en mettant à jour le statut de la demande
-\begin{figure}[H]
+Ce diagramme décrit le processus de traitement des demandes de congé par le Responsable RH. En utilisant les API du module Leaves, le Responsable RH accède aux demandes soumises par les employés, consulte leurs détails puis décide de les approuver ou de les rejeter. Une fois la décision prise, le système met à jour automatiquement le statut de la demande dans la base de données et conserve une trace de l’opération afin d’assurer un suivi fiable des congés au sein de l’entreprise.\begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/gerer conger.drawio.png}
+    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/gR.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Valider ou Refuser un congé~»}
 \end{figure}
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation «~Attribuer prime~»}
 
-Ce diagramme présente l'attribution d'une prime à un employé par le Responsable RH. Il sélectionne l'employé, saisit le montant et la raison de la prime, et le système enregistre l'opération qui devient alors consultable par l'employé concerné.
-
-\begin{figure}[H]
+Le présent diagramme illustre le processus d’allocation d’une prime par le Responsable RH. Grâce aux API du module Primes, le responsable RH attribue la prime en question à un ou plusieurs employés. Cette opération est contrôlée au niveau de la validité des informations saisies, et les données relatives à la prime sont sauvegardées dans la base de données et incorporées dans les informations salariales correspondantes.\begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/attribuer bounuses.drawio.png}
+    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/ap.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Attribuer prime~»}
 \end{figure}
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation «~Mettre à jour statut salaire~»}
 
-Ce diagramme décrit la mise à jour du statut de paiement du salaire d'un employé par le Responsable RH. Il sélectionne l'employé, choisit le nouveau statut (versé ou non versé) et le système enregistre la modification pour la rendre visible à l'employé.
-
-\begin{figure}[H]
+Cet exemple montre comment le processus de gestion du statut de la rémunération du travailleur est effectué par le Responsable RH. Le Responsable RH sélectionne l’employé auquel il s’agit de payer et utilise l’API du module Salaries pour mettre à jour le statut de son salaire. Cette information est enregistrée par le système dans la base de données avec la mise à jour correspondante de la rémunération, et elle devient accessible au travailleur via son espace personnel.\begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/mis_ajour_salaire.png}
+    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/Ms.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Mettre à jour statut salaire~»}
 \end{figure}
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation «~Modifier salaire~»}
 
-Ce diagramme illustre le processus de modification du salaire de base d’un employé par le Responsable RH. Après avoir sélectionné l’employé concerné, le Responsable RH saisit le nouveau montant du salaire de base. Le système vérifie les informations fournies puis enregistre la modification dans la base de données afin de mettre à jour les informations salariales de l’employé.
-\begin{figure}[H]
+Cet organigramme explique le flux de processus qui se passe pour mettre à jour le salaire de base d’un employé par le responsable RH. Par l’intermédiaire des interfaces de programmation de l’API du module Salaries, le responsable RH se connecte à l’information du salaire de l’employé, saisit le nouveau salaire de base et valide la transaction. Le système réalise des contrôles appropriés et effectue la mise à jour des informations sur la paie en base de données.\begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/Modifier salaire.drawio.png}
+    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/MODS.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Modifier salaire~»}
 \end{figure}
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation «~Consulter documents~»}
 
-Ce diagramme présente la consultation des documents soumis par les employés. Le Responsable RH accède à l'interface des documents, sélectionne un document et le système affiche ses détails ou indique son indisponibilité.
-
+Ce diagramme illustre la procédure de consultation des documents envoyés par les employés. Avec l’aide des API Documents Module, le Responsable RH accède à la liste de tous les documents disponibles dans le système et choisi le document qu'il veut consulter. Le système effectue une vérification pour savoir si le document existe ou non. Les informations liées au document sont ensuite récoltées et affichées. En l'absence de ce dernier, il renvoie un message d'erreur.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/_consulter documents.drawio.png}
+    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/Cd.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Consulter documents~»}
 \end{figure}
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation «~Valider ou Rejeter document~»}
 
-Ce diagramme illustre la validation ou le rejet d'un document soumis par un employé. Le Responsable RH sélectionne le document, clique sur valider ou rejeter et le système met à jour son statut en approuvé, le rendant officiellement accepté dans le dossier de l'employé.
-
+ Ce diagramme qui montre la manière dont les documents des employés sont traités par la plateforme. À travers les APIs du module Documents, le Responsable RH a accès aux documents à valider, examine les informations qui leur sont liées avant de prendre une décision de validation ou non. Le document est ensuite mis à jour en base de données et, en cas de validation, est intégré au dossier administratif de l’employé.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/gerer s document.drawio.png}
+    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/gd.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Valider ou Rejeter document~»}
 \end{figure}
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation «~Consulter prime~»}
 
-Ce diagramme présente la consultation par l'employé de la liste de ses primes attribuées. Il accède à son espace personnel, le système récupère l'historique des primes depuis la base de données et les affiche avec les montants et les dates correspondants.
-
+Le présent diagramme montre le processus de consultation des primes par l'employé. Avec l'aide des API du module de primes, l'employé peut se connecter à son profil personnel pour consulter l'historique des primes qu'il a reçues. Le système enregistre ces données provenant de la base de données et montre les détails, qui incluent les montants des primes ainsi que leur date de distribution. C'est une caractéristique importante car elle permet à l'employé de vérifier toutes les primes dont il a bénéficié en raison de son travail.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/consulter primes et deductions.png}
+    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/cp.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Consulter prime~»}
 \end{figure}
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation «~Consulter salaire~»}
 
-Ce diagramme décrit la consultation par l'employé du statut de son salaire mensuel. Il accède à son espace personnel, le système interroge la base de données et affiche le statut actuel du salaire, indiquant s'il a été versé ou non.
 
+
+Ce diagramme illustre le processus par lequel un employé consulte le statut de paiement de son salaire. Via les API du module Salaires, l'employé se connecte à son espace personnel pour vérifier l'état de sa rémunération mensuelle. Le système effectue alors une requête en base de données, extrait les informations de paiement correspondantes et restitue le statut associé — indiquant ainsi à l'employé si son salaire a bien été versé ou s'il demeure en attente de traitement. Cette fonctionnalité contribue à renforcer la transparence et la traçabilité des opérations de paie.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/consulter_salaires.png}
+    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/CS.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Consulter salaire~»}
 \end{figure}
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation «~Soumettre un congé~»}
 
-Ce diagramme présente le processus de soumission d'une demande de congé par l'employé. Il saisit les dates de début et de fin ainsi que le motif, le système enregistre la demande et la transmet au Responsable RH pour traitement.
 
+Ce diagramme présente le processus par lequel un employé soumet une demande de congé. Via les API du module Leaves, l'employé renseigne les informations relatives à sa demande, notamment la période souhaitée et le motif correspondant. Le système procède ensuite aux contrôles requis, consigne la demande en base de données et la transmet au Responsable RH pour qu'il statue sur son approbation ou son rejet. Cette fonctionnalité garantit un traitement organisé et traçable des demandes de congé, dans le respect des procédures internes de l'entreprise.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/demander conges.drawio.png}
+    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/SC.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Soumettre un congé~»}
 \end{figure}
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation «~Déposer document~»}
 
-Ce diagramme décrit le dépôt d'un document justificatif par l'employé. Il sélectionne le fichier à soumettre, saisit les informations nécessaires et le système enregistre le document.
-
+Ce diagramme illustre le processus par lequel un employé soumet un document justificatif. Via les API du module Documents, l'employé télécharge le fichier concerné et renseigne les informations descriptives associées. Le système procède alors aux vérifications nécessaires, archive le document ainsi que ses métadonnées en base de données et l'intègre automatiquement au dossier administratif de l'employé. Cette fonctionnalité permet de centraliser et de structurer la gestion documentaire, tout en simplifiant les opérations de contrôle et de validation menées par le Responsable RH.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/deposer documents.drawio.png}
+    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/dd.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Déposer document~»}
 \end{figure}
 
@@ -684,17 +673,14 @@ Le rapport est généré et disponible pour consultation ou téléchargement. \\
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation «~Visualiser le Dashboard (Administrateur)~»}
 
-Ce diagramme décrit le fonctionnement du tableau de bord administrateur. Celui-ci fournit une vue globale des activités effectuées par les responsables RH au sein du système.. Les informations affichées permettent un suivi en temps réel des activités, facilitent le contrôle administratif et garantissent la transparence des opérations réalisées.
-\begin{figure}[H]
+Ce diagramme présente le fonctionnement du tableau de bord administrateur. En s'appuyant sur plusieurs API de type GET, le système collecte et consolide les données relatives aux actions entreprises par les responsables RH. Ces informations, extraites de différentes tables de la base de données, offrent une vue d'ensemble synthétique des activités RH en cours. Les données ainsi restituées permettent un suivi en temps réel des opérations effectuées, renforcent le contrôle administratif et assurent une traçabilité complète des interventions des responsables RH au sein du système.\begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{projet/images/digf/ss4/da.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Visualiser le Dashboard (Responsable Administrateur )»}
 \end{figure}
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation «~Visualiser le Dashboard (Responsable RH)~»}
-
-Ce cas d’utilisation permet au Responsable RH de consulter un tableau de bord centralisant les principales informations relatives aux employés. Il affiche notamment le nombre total d’employés présents ainsi que les dernières activités effectuées par les employés au sein du système. Ces indicateurs offrent une vue synthétique de l’état des ressources humaines et facilitent le suivi quotidien des activités de l’entreprise.
-
+Ce cas d'utilisation illustre la consultation du tableau de bord par le Responsable RH. Le système s'appuie sur plusieurs API de type GET pour collecter et consolider les données issues de différentes tables de la base de données, couvrant notamment les employés, les présences, les congés, les documents et les activités récentes. Les informations ainsi agrégées sont restituées sous forme d'indicateurs et de statistiques, offrant au Responsable RH une vision globale et actualisée de l'état des ressources humaines. Cette centralisation des données favorise une prise de décision éclairée, un suivi opérationnel rigoureux et un pilotage efficace des activités quotidiennes de l'entreprise.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{projet/images/digf/ss4/dr.drawio.png}
@@ -703,8 +689,7 @@ Ce cas d’utilisation permet au Responsable RH de consulter un tableau de bord 
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation «Consulter historique »}
 
-Ce diagramme de séquence illustre les interactions permettant au Responsable RH de consulter une vue globale de la présence au sein de l’entreprise. Le système récupère les données enregistrées dans la base de données, notamment le nombre d’employés présents, absents , puis les affiche sous forme d’informations synthétiques. Cette fonctionnalité permet au Responsable RH de suivre l’état global des effectifs et d’obtenir une vision claire de la présence des employés au sein de l’entreprise.
-
+Ce diagramme présente le processus par lequel le Responsable RH consulte les statistiques de présence. En s'appuyant sur les API du module Attendance Records, le système extrait les données relatives aux présences, absences et retards des employés enregistrées dans la base de données. Ces informations sont ensuite consolidées et restituées sous forme d'indicateurs synthétiques, permettant au Responsable RH d'évaluer rapidement la situation des effectifs. Cette fonctionnalité simplifie le suivi quotidien des présences et contribue à une gestion plus efficace et plus réactive des ressources humaines.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{projet/images/digf/ss4/ch.drawio.png}
@@ -713,8 +698,7 @@ Ce diagramme de séquence illustre les interactions permettant au Responsable RH
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation «~Générer rapport~»}
 
-Ce diagramme de séquence dépeint la procédure de création d'un rapport par le Responsable des Ressources Humaines. L'utilisateur choisit les paramètres du rapport désiré puis soumet une requête au système. Il extrait les données nécessaires de la base de données, les analyse et produit le rapport approprié. Finalement, le rapport est présenté ou diffusé pour permettre son utilisation et son analyse.
-
+Ce diagramme illustre le processus de génération d'un rapport par le Responsable RH. En s'appuyant sur plusieurs API de type GET, le système collecte les données issues de différentes tables de la base de données en fonction des critères préalablement définis par l'utilisateur. Les informations ainsi extraites sont ensuite agrégées, traitées et structurées afin de produire un rapport, synthétique ou détaillé, répondant aux besoins de suivi et d'aide à la décision. Une fois généré, le rapport est mis à disposition du Responsable RH ou exporté dans un format approprié, facilitant son exploitation, son partage et son analyse ultérieure.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{projet/images/digf/ss4/gr.drawio.png}

@@ -529,7 +529,7 @@ Ce diagramme représente le processus de consultation des absences et des retard
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation « Pointage facial »}
 
-Le diagramme de pointage facial illustre le processus d'enregistrement de la présence des employés via la reconnaissance faciale, depuis la capture du visage par la caméra jusqu'à la vérification de l'identité et l'enregistrement des heures d'entrée et de sortie dans le système.
+Ce diagramme décrit le processus de pointage des employés en télétravail via un mécanisme de reconnaissance faciale. L’employé consomme l’API telework/recognize afin d’enregistrer son arrivée ou son départ. Le système analyse le visage capturé par la caméra, vérifie son identité à partir des données biométriques stockées, puis crée un enregistrement de présence. Une fois le pointage validé, les informations de présence sont sauvegardées et les éventuels calculs liés à la paie, aux retards ou aux heures supplémentaires sont automatiquement appliqués.
 
 \begin{figure}[H]
     \centering

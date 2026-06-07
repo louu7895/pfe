@@ -42,7 +42,12 @@ outer=2.5cm
 \usepackage{tabularx}
 \usepackage{microtype}
 \usepackage{titlesec}
-
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{tabulary}
+\usepackage[most]{tcolorbox}
+\usepackage{setspace}
+\usepackage{booktabs}
 %----------------------------------------------------------------
 %  3. En-têtes et pieds de page
 %----------------------------------------------------------------
@@ -162,6 +167,8 @@ outer=2.5cm
 \cleardoublepage
 \pagenumbering{arabic}
 \pagestyle{fancy}
+\input{projet/abbreviations}
+\mtcaddchapter
 
 \input{projet/introduction}
 \mtcaddchapter
@@ -187,5 +194,7 @@ outer=2.5cm
 
 \cleardoublepage
 \input{projet/references}
+
+\input{projet/Abstract.tex}
 
 \end{document}
