@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.30)  7 JUN 2026 15:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.30)  7 JUN 2026 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1400,18 +1400,23 @@ Package pdftex.def Info: projet/images/logo_unibro-removebg-preview.png  used o
 n input line 20.
 (pdftex.def)             Requested size: 150.56366pt x 150.56366pt.
  [5 <./projet/images/logo_unibro-removebg-preview.png>] [6] [7]
-Overfull \hbox (23.37355pt too wide) in alignment at lines 107--112
+Overfull \hbox (9.14717pt too wide) in alignment at lines 107--112
  [] [] [] 
  []
 
 
-Underfull \hbox (badness 6284) in paragraph at lines 119--119
-[]|\T1/ptm/m/n/12 (+20) Organisation du
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]|\T1/ptm/m/n/12 (+20) Organisation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
-[]|\T1/ptm/m/n/12 (+20) Implication du
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\T1/ptm/m/n/12 (+20) Gestion des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+[]|\T1/ptm/m/n/12 (+20) Livraison du
  []
 
 
@@ -1420,7 +1425,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--144
  []
 
 
-Overfull \hbox (23.37355pt too wide) in alignment at lines 112--154
+Overfull \hbox (4.66052pt too wide) in paragraph at lines 149--149
+[]|\T1/ptm/m/n/12 (-20) Communication| 
+ []
+
+
+Overfull \hbox (9.14717pt too wide) in alignment at lines 112--154
  [] [] [] 
  []
 
@@ -1430,7 +1440,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--163
  []
 
 
-Overfull \hbox (35.77356pt too wide) in alignment at lines 159--164
+Overfull \hbox (7.3208pt too wide) in alignment at lines 159--164
  [] [] [] [] 
  []
 
@@ -1445,8 +1455,8 @@ Underfull \hbox (badness 2538) in paragraph at lines 167--167
  []
 
 
-Underfull \hbox (badness 6284) in paragraph at lines 172--172
-[]|\T1/ptm/m/n/12 (+20) Organisation du
+Overfull \hbox (3.57014pt too wide) in paragraph at lines 172--172
+[]|\T1/ptm/m/n/12 (-20) Organisation
  []
 
 
@@ -1462,11 +1472,6 @@ Underfull \hbox (badness 1342) in paragraph at lines 175--176
 
 Underfull \hbox (badness 10000) in paragraph at lines 175--176
 \T1/ptm/m/n/12 (+20) avec li-vrai-sons fré-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
-[]|\T1/ptm/m/n/12 (+20) Gestion des
  []
 
 
@@ -1505,8 +1510,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--194
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]|\T1/ptm/m/n/12 (+20) Gestion
+ []
+
+
 Underfull \hbox (badness 2735) in paragraph at lines 197--197
 []|\T1/ptm/m/n/12 (+20) Changements in-té-grés
+ []
+
+
+Overfull \hbox (4.44283pt too wide) in paragraph at lines 202--202
+[]|\T1/ptm/m/n/12 (-20) Visualisation| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+[]|\T1/ptm/m/n/12 (+20) Limitation
  []
 
 
@@ -1520,8 +1540,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 211--212
  []
 
 
+Underfull \hbox (badness 3058) in paragraph at lines 214--214
+[]|\T1/ptm/m/n/12 (+20) Qualité du
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 220--220
-[]|\T1/ptm/m/n/12 (+20) Pratiques tech-
+[]|\T1/ptm/m/n/12 (+20) Pratiques
  []
 
 
@@ -1537,6 +1562,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
 Underfull \hbox (badness 10000) in paragraph at lines 223--224
 \T1/ptm/m/n/12 (+20) conti-nue et tests
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--226
+[]|\T1/ptm/m/n/12 (+20) Projets
  []
 
 
@@ -1560,7 +1590,7 @@ Underfull \hbox (badness 7925) in paragraph at lines 229--230
  []
 
 
-Overfull \hbox (35.77356pt too wide) in alignment at lines 164--232
+Overfull \hbox (7.3208pt too wide) in alignment at lines 164--232
  [] [] [] [] 
  []
 
@@ -2293,10 +2323,6 @@ Package minitoc(hints) Warning: W0024
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 8FA561118BA11619B40488E88EF53B6E;10850.
  ) 
@@ -2312,7 +2338,7 @@ Here is how much of TeX's memory you used:
 /courier/ucrr8a.pfb><D:/latex/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/latex/fon
 ts/type1/urw/times/utmb8a.pfb><D:/latex/fonts/type1/urw/times/utmr8a.pfb><D:/la
 tex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (116 pages, 11212101 bytes).
+Output written on main.pdf (116 pages, 11212115 bytes).
 PDF statistics:
  1368 PDF objects out of 1440 (max. 8388607)
  324 named destinations out of 1000 (max. 500000)
