@@ -18,7 +18,7 @@ Ce chapitre est essentiel pour le déroulement du projet, puisqu'il présente en
 L'objectif de ce sprint, qui s'est déroulé du 14 février 2026 au 11 mars 2026, était d'établir les bases du système en concevant les processus d'authentification et de contrôle d'accès. Cela inclut la gestion des comptes utilisateurs pour divers profils (Administrateur, Responsable RH et Employé), ainsi que les fonctionnalités pour créer, modifier et supprimer les comptes. Ce sprint a aussi pour objectif d'assurer un accès sécurisé à la plateforme à travers un contrôle strict des droits et des autorisations.
 
 \subsection{Backlog du sprint 1}
-Ce tableau présente les neuf user stories retenues pour le sprint 1, couvrant la gestion des comptes Administrateur, Responsable RH et Employé, ainsi que l'authentification et la réinitialisation du mot de passe. Chaque user story est accompagnée de sa priorité (P) et de sa complexité estimée (C).
+Ce tableau présente les neuf user stories retenues pour le sprint 1, couvrant la gestion des comptes Administrateur, Responsable RH et Employé, ainsi que l'authentification . Chaque user story est accompagnée de sa priorité (P) et de sa complexité estimée (C).
 
 Le sprint backlog du sprint 1 est présenté dans le tableau suivant :
 
@@ -52,7 +52,7 @@ Le sprint backlog du sprint 1 est présenté dans le tableau suivant :
 
 \subsubsection*{Diagramme de cas d'utilisation du sprint 1}
 
-Ce diagramme illustre les interactions entre les trois acteurs principaux — Administrateur, Responsable RH et Employé — et les fonctionnalités du sprint 1, notamment la gestion des comptes et l'authentification.
+Ce diagramme illustre les interactions entre les trois acteurs principaux — Administrateur, Responsable RH et les fonctionnalités du sprint 1, notamment la gestion des comptes et l'authentification.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{projet/images/usecase/sprint1/use_case_sprint1.png}
@@ -62,10 +62,10 @@ Ce diagramme illustre les interactions entre les trois acteurs principaux — Ad
 
 \subsubsection*{Description textuelle : cas d'utilisation « S'authentifier »}
 Ce tableau présente le scénario d'authentification d'un utilisateur, depuis l'accès à la page de connexion jusqu'à la redirection vers le tableau de bord, ainsi que le cas d'exception lié à des identifiants invalides.
-\begin{longtable}{|p{5cm}|p{11cm}|}
+\begin{longtable}{|p{5cm}|p{9cm}|}
 \hline
 \textbf{Nom du cas d'utilisation} & \textbf{S'authentifier} \\ \hline
-\textbf{Acteurs}                  & Utilisateur \\ \hline
+\textbf{Acteurs}                  & Utilisateur (Employé + Responsable RH + Administrateur) \\ \hline
 \textbf{Objectif}                 & Permettre à l'utilisateur d'accéder au système \\ \hline
 \textbf{Préconditions}            & L'utilisateur possède un compte valide \\ \hline
 \textbf{Scénario nominal} &
@@ -87,7 +87,7 @@ Le système affiche un message d'erreur. \\ \hline
 \subsubsection*{Description textuelle : cas d'utilisation « S'inscrire »}
 Ce tableau détaille le processus d'inscription d'un nouveau Responsable RH, en présentant les étapes de saisie des informations, de vérification par le système et de création du compte, ainsi que le scénario d'exception en cas d'échec.
 
-\begin{longtable}{|p{5cm}|p{11cm}|}
+\begin{longtable}{|p{5cm}|p{9cm}|}
 \hline
 \textbf{Nom du cas d'utilisation} & \textbf{S'inscrire} \\ \hline
 \textbf{Acteurs}                  & Responsable RH \\ \hline
@@ -116,9 +116,9 @@ Ce diagramme raffine le cas d'utilisation « Gérer compte employé » en décom
 \end{figure}
 
 \subsubsection*{Description textuelle : cas d'utilisation « Gérer compte employé »}
-Ce tableau décrit les scénarios de création, modification et suppression d'un compte employé, incluant le processus d'envoi d'un lien d'activation par e-mail et les exceptions liées à des données invalides.
+Ce tableau décrit les scénarios de création, modification et suppression d'un compte employé, incluant le processus d'envoi de mon mot de passe temporaire par e-mail et les exceptions liées à des données invalides.
 
-\begin{longtable}{|p{5cm}|p{11cm}|}
+\begin{longtable}{|p{5cm}|p{9cm}|}
 \hline
 \textbf{Nom du cas d'utilisation} & \textbf{Gérer compte employé} \\ \hline
 \textbf{Acteurs}                  & Responsable RH \\ \hline
@@ -131,7 +131,7 @@ Ce tableau décrit les scénarios de création, modification et suppression d'un
 3. Il saisit les informations de l'employé. \newline
 4. Il valide la création. \newline
 5. Le système crée le compte. \newline
-6. Le système envoie un email contenant son  mot de pass temporaire. \newline
+6. Le système envoie un email contenant son  mot de passe temporaire. \newline
 
 \textbf{Modification :} \newline
 9. Le Responsable RH accède à la liste des employés. \newline
@@ -164,7 +164,7 @@ Ce diagramme raffine le cas d'utilisation « Gérer compte Responsable RH » en 
 \subsubsection*{Description textuelle : cas d'utilisation « Gérer compte Responsable RH »}
 Ce tableau présente les étapes détaillées de gestion d'un compte Responsable RH par l'Administrateur, avec les scénarios d'exception associés, notamment la vérification des doublons lors de la création et la demande de confirmation avant suppression.
 
-\begin{longtable}{|p{5cm}|p{11cm}|}
+\begin{longtable}{|p{5cm}|p{9cm}|}
 \hline
 \textbf{Nom du cas d'utilisation} & \textbf{Gérer compte Responsable RH} \\ \hline
 \textbf{Acteurs}                  & Administrateur \\ \hline
@@ -362,7 +362,7 @@ Ce diagramme présente les interactions entre le Responsable RH et l'Employé av
 \subsubsection*{Description textuelle : cas d'utilisation « Connecter la plateforme aux caméras »}
 Ce tableau décrit les étapes de configuration et de connexion des caméras par le Responsable RH, depuis l'accès au module jusqu'à l'activation du pointage automatique, ainsi que le scénario d'exception en cas d'échec de connexion.
 
-\begin{longtable}{|p{5cm}|p{11cm}|}
+\begin{longtable}{|p{5cm}|p{9cm}|}
 \hline
 \textbf{Nom du cas d'utilisation} & \textbf{Connecter la plateforme aux caméras} \\ \hline
 \textbf{Acteurs}                  & Responsable RH \\ \hline
@@ -383,7 +383,7 @@ Ce tableau décrit les étapes de configuration et de connexion des caméras par
 \subsubsection*{Description textuelle : cas d'utilisation « Enregistrer le visage »}
 Ce tableau présente le processus d'enregistrement biométrique du visage d'un employé lors de sa première connexion, incluant la capture par caméra et le stockage des données faciales dans le système pour permettre le pointage automatique.
 
-\begin{longtable}{|p{5cm}|p{11cm}|}
+\begin{longtable}{|p{5cm}|p{9cm}|}
 \hline
 \textbf{Nom du cas d'utilisation} & \textbf{Enregistrer le visage} \\ \hline
 \textbf{Acteurs}                  & Employé \\ \hline
@@ -406,7 +406,7 @@ Ce tableau présente le processus d'enregistrement biométrique du visage d'un e
 \subsubsection*{Description textuelle : cas d'utilisation « Modifier infos personnelles »}
 Ce tableau décrit les étapes permettant à l'employé de consulter et de mettre à jour ses informations personnelles depuis son profil, ainsi que le scénario d'exception déclenché en cas de saisie de données invalides.
 
-\begin{longtable}{|p{5cm}|p{11cm}|}
+\begin{longtable}{|p{5cm}|p{9cm}|}
 \hline
 \textbf{Nom du cas d'utilisation} & \textbf{Modifier infos personnelles} \\ \hline
 \textbf{Acteurs}                  & Employé \\ \hline
@@ -427,7 +427,7 @@ Ce tableau décrit les étapes permettant à l'employé de consulter et de mettr
 \subsubsection*{Description textuelle : cas d'utilisation « Consulter mes absences »}
 Ce tableau présente le scénario de consultation par l'employé de son historique d'absences et de retards depuis son tableau de bord, avec le cas d'exception affiché en l'absence de données disponibles dans le système.
 
-\begin{longtable}{|p{5cm}|p{11cm}|}
+\begin{longtable}{|p{5cm}|p{9cm}|}
 \hline
 \textbf{Nom du cas d'utilisation} & \textbf{Consulter mes absences} \\ \hline
 \textbf{Acteurs}                  & Employé \\ \hline
@@ -447,7 +447,7 @@ Ce tableau présente le scénario de consultation par l'employé de son historiq
 Ce tableau détaille le scénario nominal du pointage facial en mode télétravail, couvrant les opérations de check-in et check-out via reconnaissance faciale, ainsi que l'exception déclenchée en cas d'échec d'identification du visage par le système.
 
 \begin{center}
-\begin{longtable}{|p{5cm}|p{11cm}|}
+\begin{longtable}{|p{5cm}|p{9cm}|}
 \hline
 \textbf{Nom du cas d'utilisation} & \textbf{Pointage Facial} \\ \hline
 

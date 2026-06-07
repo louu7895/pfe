@@ -46,12 +46,11 @@ outer=2.5cm
 \usepackage{amsmath}
 \usepackage{tabulary}
 \usepackage[most]{tcolorbox}
-\usepackage{setspace}
 \usepackage{booktabs}
+
 %----------------------------------------------------------------
 %  3. En-têtes et pieds de page
 %----------------------------------------------------------------
-\usepackage{fancyhdr}
 
 \setlength{\headheight}{15.5pt}
 \addtolength{\topmargin}{-3.5pt}
@@ -59,25 +58,31 @@ outer=2.5cm
 \pagestyle{fancy}
 \fancyhf{}
 
-% Header
-\fancyhead[LE,RO]{\nouppercase{\leftmark}}
+% En-tête : titre du chapitre
+\fancyhead[L]{\nouppercase{\leftmark}}
 
-% Footer
-\fancyfoot[LE,RO]{\thepage}
+% Pied de page
 \fancyfoot[L]{HR FaceTime --- Rapport PFE}
+\fancyfoot[R]{\thepage}
 
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
 
-% Style des pages "plain"
+% Style des pages de chapitre
 \fancypagestyle{plain}{
     \fancyhf{}
-    \fancyhead[LE,RO]{\nouppercase{\leftmark}}
-    \fancyfoot[LE,RO]{\thepage}
+
+    \fancyhead[L]{\nouppercase{\leftmark}}
+
     \fancyfoot[L]{HR FaceTime --- Rapport PFE}
+    \fancyfoot[R]{\thepage}
+
     \renewcommand{\headrulewidth}{0.4pt}
     \renewcommand{\footrulewidth}{0.4pt}
 }
+
+% Évite les pages blanches non numérotées
+\let\cleardoublepage\clearpage
 
 %----------------------------------------------------------------
 %  4. Espacement et typographie
@@ -108,7 +113,7 @@ outer=2.5cm
     parsep=0pt
 }
 
-% Captions professionnelles
+% Captions
 \captionsetup{
     font=small,
     labelfont=bf,
@@ -126,13 +131,15 @@ outer=2.5cm
 \titlespacing*{\subsection}
 {0pt}{14pt}{6pt}
 
-% Évite les grandes zones blanches
 \raggedbottom
 
 %----------------------------------------------------------------
 %  5. DOCUMENT
 %----------------------------------------------------------------
+
 \begin{document}
+
+\pagestyle{fancy}
 
 \dominitoc
 
@@ -140,22 +147,20 @@ outer=2.5cm
 % FRONT MATTER
 %==============================================================
 
-\cleardoublepage
 \pagenumbering{roman}
-\pagestyle{fancy}
 
 \input{front_matter/dedicaces}
 
-\cleardoublepage
+\clearpage
 \input{front_matter/remerciements}
 
-\cleardoublepage
+\clearpage
 \tableofcontents
 
-\cleardoublepage
+\clearpage
 \listoffigures
 
-\cleardoublepage
+\clearpage
 \listoftables
 
 \mtcaddchapter
@@ -164,9 +169,9 @@ outer=2.5cm
 % MAIN MATTER
 %==============================================================
 
-\cleardoublepage
+\clearpage
 \pagenumbering{arabic}
-\pagestyle{fancy}
+
 \input{projet/abbreviations}
 \mtcaddchapter
 
@@ -185,16 +190,21 @@ outer=2.5cm
 % CONCLUSION
 %==============================================================
 
-\cleardoublepage
+\clearpage
 \input{projet/conclusion}
 
 %==============================================================
 % RÉFÉRENCES
 %==============================================================
 
-\cleardoublepage
+\clearpage
 \input{projet/references}
 
-\input{projet/Abstract.tex}
+%==============================================================
+% ABSTRACT
+%==============================================================
+
+\clearpage
+\input{projet/Abstract}
 
 \end{document}

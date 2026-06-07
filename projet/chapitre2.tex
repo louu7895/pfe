@@ -88,16 +88,17 @@ Pour chaque acteur, les objectifs et fonctionnalités du système sont les suiva
 
 \subsubsection{Diagramme de cas d'utilisation global}
 
+
+
 Toutes les fonctionnalités mentionnées précédemment pour les différents acteurs (Employé,
 Responsable RH et Administrateur du logiciel) ont été regroupées dans un diagramme de cas
 d'utilisation. Ce diagramme structuré permet de visualiser les interactions entre les
-acteurs et le système. La figure~\ref{fig:usecase} présente ce diagramme de cas d'utilisation.
-
+acteurs et le système. La figure ci-dessous~\ref{fig:usecase}  présente ce diagramme de cas d’utilisation.
 \begin{figure}[H]
   \centering
   \includegraphics[
     width=0.8\paperwidth,
-    height=1\textheight,
+    height=0.8\textheight,
     keepaspectratio
   ]{projet/images/usecase/use.pdf}
   \caption{Diagramme de cas d'utilisation du système}
@@ -235,10 +236,10 @@ Le sprint backlog du projet et présenté par le tableau suivant :
 
 La première release, du 14/02/2026 au 06/04/2026, regroupe les deux premiers sprints et constitue la base fonctionnelle du système. Elle couvre la gestion des accès, l’authentification sécurisée, l’administration des comptes ainsi que la mise en place du pointage intelligent par reconnaissance faciale. Cette phase permet de stabiliser l’architecture et de valider les fonctionnalités essentielles.
 La répartition des user stories est détaillée dans le tableau suivant :
-\begin{longtable}{|c|>{\raggedright\arraybackslash}p{4.2cm}|
+\begin{longtable}{|c|>{\raggedright\arraybackslash}p{2.5cm}|
     >{\centering\arraybackslash}p{2.5cm}|
-    >{\centering\arraybackslash}p{3.5cm}|
-    >{\raggedright\arraybackslash}p{5.5cm}|}
+    >{\centering\arraybackslash}p{3cm}|
+    >{\raggedright\arraybackslash}p{5cm}|}
 \hline
 \textbf{ID} & \textbf{Nom Sprint} & \textbf{Story ID} & \textbf{Durée} & \textbf{Objectif} \\
 \hline
@@ -249,13 +250,13 @@ La répartition des user stories est détaillée dans le tableau suivant :
 \endhead
 1 & Gestion des Accès et Administration des Comptes
   & 1-2-3-5-7-8-9-31
-  & 14/02/2026 -- 11/03/2026
+  & \centering 14/02/2026\\-\\11/03/2026
   & Mettre en place l'authentification du système, la gestion des comptes
     (Administrateur, Responsable RH et Employé), la réinitialisation du mot de
     passe ainsi que le contrôle d'accès sécurisé à la plateforme. \\ \hline
 2 & Pointage Intelligent et Suivi de Présence
   & 10-22-23-24-30
-  & 12/03/2026 -- 06/04/2026
+  & \centering 12/03/2026\\-\\06/04/2026
   & Implémenter le pointage automatique par reconnaissance faciale, connecter
     les caméras et permettre le suivi des présences, absences et informations
     personnelles des employés. \\ \hline
@@ -265,10 +266,10 @@ La répartition des user stories est détaillée dans le tableau suivant :
 \subsubsection*{Release 2 : Gestion RH Complète et Pilotage}
 La deuxième release, du 07/04/2026 au 29/05/2026, regroupe les sprints suivants et introduit les fonctionnalités avancées. Elle inclut la gestion des congés, des documents administratifs et de la paie, ainsi que les modules de reporting, de traçabilité et de pilotage RH via tableaux de bord. Cette phase finalise le système en enrichissant ses capacités fonctionnelles et décisionnelles.
 La répartition des user stories est détaillée dans le tableau suivant :
-\begin{longtable}{|c|>{\raggedright\arraybackslash}p{4.2cm}|
+\begin{longtable}{|c|>{\raggedright\arraybackslash}p{2.5cm}|
     >{\centering\arraybackslash}p{2.5cm}|
-    >{\centering\arraybackslash}p{3.5cm}|
-    >{\raggedright\arraybackslash}p{5.5cm}|}
+    >{\centering\arraybackslash}p{3cm}|
+    >{\raggedright\arraybackslash}p{5cm}|}
 \hline
 \textbf{ID} & \textbf{Nom Sprint} & \textbf{Story ID} & \textbf{Durée} & \textbf{Objectif} \\
 \hline
@@ -276,14 +277,14 @@ La répartition des user stories est détaillée dans le tableau suivant :
 
 3 & Gestion  des Congés et des Documents Administratifs
   & 11-12-13-14-15-16-17-18-19-25-26-27-28-29
-  & 07/04/2026 -- 02/05/2026
+  & \centering07/04/2026 \\-\\02/05/2026
   & Développer les fonctionnalités liées à la gestion des congés, documents,
     primes, déductions et salaires, ainsi que la validation, le rejet et le
     dépôt des documents administratifs. \\ \hline
 4 & Pilotage RH, Reporting et Traçabilité
   & 4-6-20-21
-  & 03/05/2026 -- 29/05/2026
-  & Implémenter les tableaux de bord (Administrateur et Responsable RH),
+  & \centering 03/05/2026\\-\\29/05/2026
+  & Implémenter les tableaux de board (Administrateur et Responsable RH),
     la génération des rapports, la consultation de l'historique des actions
     RH. \\ \hline
 \caption{Release 2}
@@ -350,13 +351,13 @@ langages, frameworks et bibliothèques employés.
 
 Lors de la conception de notre site, nous avons utilisé les logiciels suivants :
 
-\begin{table}[H]
-\centering
 \renewcommand{\arraystretch}{1.5}
-\begin{tabular}{|m{3cm}|m{10cm}|}
+
+\begin{longtable}{|m{3cm}|m{10cm}|}
+
 \hline
+
 \centering
-\vspace{0.2cm}
 \includegraphics[height=2cm]{projet/images/Figma-logo.png}
 &
 \textbf{Figma :} Figma est un outil de conception d'interfaces graphiques permettant de
@@ -364,16 +365,16 @@ créer, partager et tester des designs pour les sites web, les applications mobi
 d'autres produits numériques. Il facilite également la collaboration en temps réel entre
 les membres d'une équipe.\cite{figma}
 \\ \hline
+
 \centering
-\vspace{0.2cm}
 \includegraphics[height=2cm]{projet/images/ps adobe.png}
 &
 \textbf{Adobe Photoshop :} Adobe Photoshop est un logiciel de retouche et de traitement
 d'images numériques. Il permet la modification, la création et l'amélioration des images
 et des supports graphiques professionnels.\cite{photoshop}
 \\ \hline
+
 \centering
-\vspace{0.2cm}
 \includegraphics[height=2cm]{projet/images/draw io.png}
 &
 \textbf{draw.io :} draw.io est un outil de création de diagrammes en ligne permettant de
@@ -382,17 +383,15 @@ représentations graphiques de manière simple et efficace.\cite{drawio}
 \\ \hline
 
 \centering
-\vspace{0.2cm}
 \includegraphics[height=2cm]{projet/images/overlef.png}
 &
-\textbf{Overleaf :}  outil de rédaction de documents scientifiques en LaTeX
+\textbf{Overleaf :} outil de rédaction de documents scientifiques en LaTeX
 en ligne, utilisé pour la rédaction et la mise en forme du rapport de
 stage.\cite{overleaf}
 \\ \hline
 
-\end{tabular}
 \caption{Environnement logiciel de conception}
-\end{table}
+\end{longtable}
 
 \subsubsection{Logiciels de développement}
 
