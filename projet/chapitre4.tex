@@ -1,5 +1,14 @@
 \chapter{Release 2}
+\setlength{\intextsep}{8pt}
+\setlength{\textfloatsep}{10pt}
+\setlength{\floatsep}{8pt}
+\setlength{\abovecaptionskip}{4pt}
+\setlength{\belowcaptionskip}{2pt}
+\setlength{\LTpre}{6pt}
+\setlength{\LTpost}{6pt}
 
+\setlength\LTleft{0pt}
+\setlength\LTright{0pt}
 
 \newpage
 
@@ -13,32 +22,47 @@ Ce sprint programmé du 07/04/2026 au 02/05/2026, vise à élaborer les fonction
 
 \subsection{Backlog de sprint 3}
 Le backlog du sprint 3 regroupe l’ensemble des user stories liées à la gestion des congés, des documents administratifs ainsi qu’aux éléments de paie tels que les primes, les déductions et les salaires. Il permet de prioriser les fonctionnalités à implémenter en fonction de leur importance métier et de leur complexité, tout en assurant une meilleure organisation du travail de développement.
-\begin{longtable}{|>{\centering\arraybackslash}m{0.5cm}|
-    >{\centering\arraybackslash}m{3cm}|
-    >{\centering\arraybackslash}m{2.5cm}|
-    >{\centering\arraybackslash}m{3cm}|
-    >{\centering\arraybackslash}m{3cm}|
-    >{\centering\arraybackslash}m{0.7cm}|
-    >{\centering\arraybackslash}m{0.9cm}|}
+
+  % optionnel mais recommandé
+
+% Dans le document :
+\setlength{\LTcapwidth}{\textwidth}  % caption pleine largeur
+\setlength{\extrarowheight}{2pt}
+\interlinepenalty=10000
+
+\begin{longtable}{|
+    >{\centering\arraybackslash}p{0.7cm}|
+    >{\centering\arraybackslash}p{2.8cm}|
+    >{\centering\arraybackslash}p{2.2cm}|
+    >{\RaggedRight\arraybackslash}p{3.5cm}|
+    >{\RaggedRight\arraybackslash}p{3.5cm}|
+    >{\centering\arraybackslash}p{0.6cm}|
+    >{\centering\arraybackslash}p{0.6cm}|}
+
 \hline
 \textbf{ID} & \textbf{User Story} & \textbf{En tant que} & \textbf{Je veux} & \textbf{Afin de} & \textbf{P} & \textbf{C} \\
 \hline
-11 & Valider congé & Responsable RH & valider une demande de congé & autoriser l'absence & 5 & 2 \\ \hline
-12 & Refuser congé & Responsable RH & refuser une demande de congé & gérer les absences & 5 & 2 \\ \hline
-13 & Attribuer prime & Responsable RH & attribuer une prime à un employé & récompenser les employés & 3 & 2 \\ \hline
-14 & Attribuer déduction & Responsable RH & appliquer une déduction à un employé & gérer la paie avec précision & 4 & 3 \\ \hline
-15 & Mettre à jour status salaire & Responsable RH & mettre à jour le statut du salaire & assurer la paie & 5 & 3 \\ \hline
-16 & Consulter documents & Responsable RH & consulter les documents envoyés & vérifier les pièces & 3 & 2 \\ \hline
-17 & Valider document & Responsable RH & valider un document & contrôler les absences & 4 & 2 \\ \hline
-18 & Rejeter document & Responsable RH & rejeter un document & contrôler les absences & 4 & 2 \\ \hline
-19 & Modifer salaire & Responsable RH & modifier un salaire à un employé & assurer une gestion correcte de la paie & 3 & 3 \\ \hline
-25 & Consulter primes & Employé & consulter mes primes & connaître mes avantages & 2 & 1 \\ \hline
-26 & Consulter déductions & Employé & voir mes déductions & comprendre ma paie & 2 & 1 \\ \hline
-27 & Consulter salaire & Employé & voir mon salaire & vérifier paiement & 3 & 1 \\ \hline
-28 & Soumettre un congé & Employé & envoyer une demande & obtenir une absence & 5 & 2 \\ \hline
-29 & Déposer document & Employé & déposer un document & justifier une absence & 4 & 3 \\ \hline
+\endfirsthead
+11 & Valider congé & Responsable RH & Valider une demande de congé & Autoriser l'absence & 5 & 2 \\ \hline
+12 & Refuser congé & Responsable RH & Refuser une demande de congé & Gérer les absences & 5 & 2 \\ \hline
+13 & Attribuer prime & Responsable RH & Attribuer une prime à un employé & Récompenser les employés & 3 & 2 \\ \hline
+
+14 & Attribuer déduction & Responsable RH & Appliquer une déduction à un employé & Gérer la paie avec précision & 4 & 3 \\ \hline
+15 & Mettre à jour statut salaire & Responsable RH & Mettre à jour le statut du salaire & Assurer la paie & 5 & 3 \\ \hline
+16 & Consulter documents & Responsable RH & Consulter les documents envoyés & Vérifier les pièces & 3 & 2 \\ \hline
+17 & Valider document & Responsable RH & Valider un document & Contrôler les absences & 4 & 2 \\ \hline
+18 & Rejeter document & Responsable RH & Rejeter un document & Contrôler les absences & 4 & 2 \\ \hline
+19 & Modifier salaire & Responsable RH & Modifier le salaire d'un employé & Assurer une gestion correcte de la paie & 3 & 3 \\ \hline
+25 & Consulter primes & Employé & Consulter mes primes & Connaître mes avantages & 2 & 1 \\ \hline
+26 & Consulter déductions & Employé & Voir mes déductions & Comprendre ma paie & 2 & 1 \\ \hline
+27 & Consulter salaire & Employé & Voir mon salaire & Vérifier le paiement & 3 & 1 \\ \hline
+28 & Soumettre un congé & Employé & Envoyer une demande de congé & Obtenir une absence & 5 & 2 \\ \hline
+29 & Déposer document & Employé & Déposer un document & Justifier une absence & 4 & 3 \\ \hline
+
 \caption{Backlog Sprint 3}
+\label{tab:sprint3}
 \end{longtable}
+
 
 \subsection{Spécification fonctionnelle détaillée}
 
@@ -382,7 +406,7 @@ Cette section présente les différents diagrammes UML réalisés afin de modél
 
 Ce diagramme décrit le processus de traitement des demandes de congé par le Responsable RH. En utilisant les API du module Leaves, le Responsable RH accède aux demandes soumises par les employés, consulte leurs détails puis décide de les approuver ou de les rejeter. Une fois la décision prise, le système met à jour automatiquement le statut de la demande dans la base de données et conserve une trace de l’opération afin d’assurer un suivi fiable des congés au sein de l’entreprise.\begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/gR.drawio.png}
+    \includegraphics[width=1\textwidth]{projet/images/digf/ss3/gR.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Valider ou Refuser un congé~»}
 \end{figure}
 
@@ -390,7 +414,7 @@ Ce diagramme décrit le processus de traitement des demandes de congé par le Re
 
 Le présent diagramme illustre le processus d’allocation d’une prime par le Responsable RH. Grâce aux API du module Primes, le responsable RH attribue la prime en question à un ou plusieurs employés. Cette opération est contrôlée au niveau de la validité des informations saisies, et les données relatives à la prime sont sauvegardées dans la base de données et incorporées dans les informations salariales correspondantes.\begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/ap.drawio.png}
+    \includegraphics[width=1\textwidth]{projet/images/digf/ss3/ap.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Attribuer prime~»}
 \end{figure}
 
@@ -398,7 +422,7 @@ Le présent diagramme illustre le processus d’allocation d’une prime par le 
 
 Cet exemple montre comment le processus de gestion du statut de la rémunération du travailleur est effectué par le Responsable RH. Le Responsable RH sélectionne l’employé auquel il s’agit de payer et utilise l’API du module Salaries pour mettre à jour le statut de son salaire. Cette information est enregistrée par le système dans la base de données avec la mise à jour correspondante de la rémunération, et elle devient accessible au travailleur via son espace personnel.\begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/Ms.drawio.png}
+    \includegraphics[width=1\textwidth]{projet/images/digf/ss3/Ms.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Mettre à jour statut salaire~»}
 \end{figure}
 
@@ -406,7 +430,7 @@ Cet exemple montre comment le processus de gestion du statut de la rémunératio
 
 Cet organigramme explique le flux de processus qui se passe pour mettre à jour le salaire de base d’un employé par le responsable RH. Par l’intermédiaire des interfaces de programmation de l’API du module Salaries, le responsable RH se connecte à l’information du salaire de l’employé, saisit le nouveau salaire de base et valide la transaction. Le système réalise des contrôles appropriés et effectue la mise à jour des informations sur la paie en base de données.\begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/MODS.drawio.png}
+    \includegraphics[width=1\textwidth]{projet/images/digf/ss3/MODS.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Modifier salaire~»}
 \end{figure}
 
@@ -415,7 +439,7 @@ Cet organigramme explique le flux de processus qui se passe pour mettre à jour 
 Ce diagramme illustre la procédure de consultation des documents envoyés par les employés. Avec l’aide des API Documents Module, le Responsable RH accède à la liste de tous les documents disponibles dans le système et choisi le document qu'il veut consulter. Le système effectue une vérification pour savoir si le document existe ou non. Les informations liées au document sont ensuite récoltées et affichées. En l'absence de ce dernier, il renvoie un message d'erreur.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/Cd.drawio.png}
+    \includegraphics[width=1\textwidth]{projet/images/digf/ss3/Cd.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Consulter documents~»}
 \end{figure}
 
@@ -424,7 +448,7 @@ Ce diagramme illustre la procédure de consultation des documents envoyés par l
  Ce diagramme qui montre la manière dont les documents des employés sont traités par la plateforme. À travers les APIs du module Documents, le Responsable RH a accès aux documents à valider, examine les informations qui leur sont liées avant de prendre une décision de validation ou non. Le document est ensuite mis à jour en base de données et, en cas de validation, est intégré au dossier administratif de l’employé.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/gd.drawio.png}
+    \includegraphics[width=1\textwidth]{projet/images/digf/ss3/gd.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Valider ou Rejeter document~»}
 \end{figure}
 
@@ -433,7 +457,7 @@ Ce diagramme illustre la procédure de consultation des documents envoyés par l
 Le présent diagramme montre le processus de consultation des primes par l'employé. Avec l'aide des API du module de primes, l'employé peut se connecter à son profil personnel pour consulter l'historique des primes qu'il a reçues. Le système enregistre ces données provenant de la base de données et montre les détails, qui incluent les montants des primes ainsi que leur date de distribution. C'est une caractéristique importante car elle permet à l'employé de vérifier toutes les primes dont il a bénéficié en raison de son travail.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/cp.drawio.png}
+    \includegraphics[width=1\textwidth]{projet/images/digf/ss3/cp.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Consulter prime~»}
 \end{figure}
 
@@ -444,7 +468,7 @@ Le présent diagramme montre le processus de consultation des primes par l'emplo
 Ce diagramme illustre le processus par lequel un employé consulte le statut de paiement de son salaire. Via les API du module Salaires, l'employé se connecte à son espace personnel pour vérifier l'état de sa rémunération mensuelle. Le système effectue alors une requête en base de données, extrait les informations de paiement correspondantes et restitue le statut associé — indiquant ainsi à l'employé si son salaire a bien été versé ou s'il demeure en attente de traitement. Cette fonctionnalité contribue à renforcer la transparence et la traçabilité des opérations de paie.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/CS.drawio.png}
+    \includegraphics[width=1\textwidth]{projet/images/digf/ss3/CS.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Consulter  statut salaire~»}
 \end{figure}
 
@@ -454,7 +478,7 @@ Ce diagramme illustre le processus par lequel un employé consulte le statut de 
 Ce diagramme présente le processus par lequel un employé soumet une demande de congé. Via les API du module Leaves, l'employé renseigne les informations relatives à sa demande, notamment la période souhaitée et le motif correspondant. Le système procède ensuite aux contrôles requis, consigne la demande en base de données et la transmet au Responsable RH pour qu'il statue sur son approbation ou son rejet. Cette fonctionnalité garantit un traitement organisé et traçable des demandes de congé, dans le respect des procédures internes de l'entreprise.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/SC.drawio.png}
+    \includegraphics[width=1\textwidth]{projet/images/digf/ss3/SC.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Soumettre un congé~»}
 \end{figure}
 
@@ -463,7 +487,7 @@ Ce diagramme présente le processus par lequel un employé soumet une demande de
 Ce diagramme illustre le processus par lequel un employé soumet un document justificatif. Via les API du module Documents, l'employé télécharge le fichier concerné et renseigne les informations descriptives associées. Le système procède alors aux vérifications nécessaires, archive le document ainsi que ses métadonnées en base de données et l'intègre automatiquement au dossier administratif de l'employé. Cette fonctionnalité permet de centraliser et de structurer la gestion documentaire, tout en simplifiant les opérations de contrôle et de validation menées par le Responsable RH.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss3/dd.drawio.png}
+    \includegraphics[width=1\textwidth]{projet/images/digf/ss3/dd.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Déposer document~»}
 \end{figure}
 
@@ -566,6 +590,7 @@ Ce sprint, prévu du 03/05/2026 au 29/05/2026, vise à mettre en place les capac
 
 \subsection{Backlog de sprint 4}
 Le backlog du sprint 4 regroupe les user stories relatives au pilotage RH, au reporting et à la traçabilité. Il met l’accent sur les fonctionnalités de supervision du système à travers les tableaux de bord, la génération de rapports et la consultation de l’historique des actions.
+\begin{center}
 \begin{longtable}{|>{\centering\arraybackslash}m{0.5cm}|
     >{\centering\arraybackslash}m{3cm}|
     >{\centering\arraybackslash}m{2.5cm}|
@@ -584,9 +609,9 @@ Le backlog du sprint 4 regroupe les user stories relatives au pilotage RH, au re
 
 \caption{Backlog Sprint 4 --- Pilotage RH, Reporting \& Gestion des Paiements}
 \end{longtable}
+\end{center}
 
 \subsection{Spécification fonctionnelle détaillée}
-
 \subsubsection*{Diagramme de cas d'utilisation du sprint 4}
 Ce diagramme illustre les fonctionnalités de supervision et de pilotage du système RH. Il met en évidence les interactions entre les acteurs et le système pour la visualisation des tableaux de bord, la génération de rapports et la consultation de l’historique des opérations.
 \begin{figure}[H]
@@ -675,7 +700,7 @@ Le rapport est généré et disponible pour consultation ou téléchargement. \\
 
 Ce diagramme présente le fonctionnement du tableau de bord administrateur. En s'appuyant sur plusieurs API de type GET, le système collecte et consolide les données relatives aux actions entreprises par les responsables RH. Ces informations, extraites de différentes tables de la base de données, offrent une vue d'ensemble synthétique des activités RH en cours. Les données ainsi restituées permettent un suivi en temps réel des opérations effectuées, renforcent le contrôle administratif et assurent une traçabilité complète des interventions des responsables RH au sein du système.\begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss4/da.drawio.png}
+    \includegraphics[width=1\textwidth]{projet/images/digf/ss4/da.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Visualiser le Dashboard (Responsable Administrateur )»}
 \end{figure}
 
@@ -683,7 +708,7 @@ Ce diagramme présente le fonctionnement du tableau de bord administrateur. En s
 Ce cas d'utilisation illustre la consultation du tableau de bord par le Responsable RH. Le système s'appuie sur plusieurs API de type GET pour collecter et consolider les données issues de différentes tables de la base de données, couvrant notamment les employés, les présences, les congés, les documents et les activités récentes. Les informations ainsi agrégées sont restituées sous forme d'indicateurs et de statistiques, offrant au Responsable RH une vision globale et actualisée de l'état des ressources humaines. Cette centralisation des données favorise une prise de décision éclairée, un suivi opérationnel rigoureux et un pilotage efficace des activités quotidiennes de l'entreprise.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss4/dr.drawio.png}
+    \includegraphics[width=1\textwidth]{projet/images/digf/ss4/dr.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Visualiser le Dashboard (Responsable RH)~»}
 \end{figure}
 
@@ -692,7 +717,7 @@ Ce cas d'utilisation illustre la consultation du tableau de bord par le Responsa
 Ce diagramme présente le processus par lequel le Responsable RH consulte les statistiques de présence. En s'appuyant sur les API du module Attendance Records, le système extrait les données relatives aux présences, absences et retards des employés enregistrées dans la base de données. Ces informations sont ensuite consolidées et restituées sous forme d'indicateurs synthétiques, permettant au Responsable RH d'évaluer rapidement la situation des effectifs. Cette fonctionnalité simplifie le suivi quotidien des présences et contribue à une gestion plus efficace et plus réactive des ressources humaines.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss4/ch.drawio.png}
+    \includegraphics[width=1\textwidth]{projet/images/digf/ss4/ch.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Consulter historique~»}
 \end{figure}
 
@@ -701,7 +726,7 @@ Ce diagramme présente le processus par lequel le Responsable RH consulte les st
 Ce diagramme illustre le processus de génération d'un rapport par le Responsable RH. En s'appuyant sur plusieurs API de type GET, le système collecte les données issues de différentes tables de la base de données en fonction des critères préalablement définis par l'utilisateur. Les informations ainsi extraites sont ensuite agrégées, traitées et structurées afin de produire un rapport, synthétique ou détaillé, répondant aux besoins de suivi et d'aide à la décision. Une fois généré, le rapport est mis à disposition du Responsable RH ou exporté dans un format approprié, facilitant son exploitation, son partage et son analyse ultérieure.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/digf/ss4/gr.drawio.png}
+    \includegraphics[width=1\textwidth]{projet/images/digf/ss4/gr.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Générer rapport~»}
 \end{figure}
 \subsubsection{Diagramme du sprint 4}
@@ -710,7 +735,7 @@ Ce diagramme illustre le processus de génération d'un rapport par le Responsab
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/classe finale/s4.png}
+    \includegraphics[width=1\textwidth]{projet/images/classe finale/s4.png}
     \caption{Diagramme de classe de sprint 4 (final)}
     \label{fig:classe_finale}
 \end{figure}

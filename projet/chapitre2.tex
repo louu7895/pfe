@@ -1,11 +1,11 @@
 \chapter{Analyse et spécification des besoins}
-\setlength{\intextsep}{6pt}
-\setlength{\textfloatsep}{8pt}
-\setlength{\floatsep}{6pt}
-\setlength{\abovecaptionskip}{3pt}
-\setlength{\belowcaptionskip}{1pt}
-\setlength{\LTpre}{3pt}
-\setlength{\LTpost}{3pt}
+\setlength{\intextsep}{8pt}
+\setlength{\textfloatsep}{10pt}
+\setlength{\floatsep}{8pt}
+\setlength{\abovecaptionskip}{4pt}
+\setlength{\belowcaptionskip}{2pt}
+\setlength{\LTpre}{6pt}
+\setlength{\LTpost}{6pt}
 
 \newpage
 
@@ -175,6 +175,7 @@ Le sprint backlog du projet et présenté par le tableau suivant :
 
 \renewcommand{\arraystretch}{1.5}
   % un peu à gauche
+\begin{center}
 \begin{longtable}{|>{\centering\arraybackslash}m{0.5cm}|
     >{\centering\arraybackslash}m{3cm}|
     >{\centering\arraybackslash}m{2.5cm}|
@@ -229,6 +230,7 @@ Le sprint backlog du projet et présenté par le tableau suivant :
 \caption{Backlog de produit}
 \label{tab:backlog}
 \end{longtable}
+\end{center}
 
 
 \subsection{Planification de releases}
@@ -239,6 +241,7 @@ Le sprint backlog du projet et présenté par le tableau suivant :
 
 La première release, du 14/02/2026 au 06/04/2026, regroupe les deux premiers sprints et constitue la base fonctionnelle du système. Elle couvre la gestion des accès, l’authentification sécurisée, l’administration des comptes ainsi que la mise en place du pointage intelligent par reconnaissance faciale. Cette phase permet de stabiliser l’architecture et de valider les fonctionnalités essentielles.
 La répartition des user stories est détaillée dans le tableau suivant :
+\begin{center}
 \begin{longtable}{|c|>{\raggedright\arraybackslash}p{2.5cm}|
     >{\centering\arraybackslash}p{2.5cm}|
     >{\centering\arraybackslash}p{3cm}|
@@ -265,10 +268,12 @@ La répartition des user stories est détaillée dans le tableau suivant :
     personnelles des employés. \\ \hline
 \caption{Release 1}
 \end{longtable}
+\end{center}
 
 \subsubsection*{Release 2 : Gestion RH Complète et Pilotage}
 La deuxième release, du 07/04/2026 au 29/05/2026, regroupe les sprints suivants et introduit les fonctionnalités avancées. Elle inclut la gestion des congés, des documents administratifs et de la paie, ainsi que les modules de reporting, de traçabilité et de pilotage RH via tableaux de bord. Cette phase finalise le système en enrichissant ses capacités fonctionnelles et décisionnelles.
 La répartition des user stories est détaillée dans le tableau suivant :
+\begin{center}
 \begin{longtable}{|c|>{\raggedright\arraybackslash}p{2.5cm}|
     >{\centering\arraybackslash}p{2.5cm}|
     >{\centering\arraybackslash}p{3cm}|
@@ -292,6 +297,7 @@ La répartition des user stories est détaillée dans le tableau suivant :
     RH. \\ \hline
 \caption{Release 2}
 \end{longtable}
+\end{center}
 
 \subsection{Diagramme de Gantt}
 
@@ -356,6 +362,7 @@ Lors de la conception de notre site, nous avons utilisé les logiciels suivants 
 
 \renewcommand{\arraystretch}{1.5}
 
+\begin{center}
 \begin{longtable}{|m{3cm}|m{10cm}|}
 
 \hline
@@ -395,6 +402,7 @@ stage.\cite{overleaf}
 
 \caption{Environnement logiciel de conception}
 \end{longtable}
+\end{center}
 
 \subsubsection{Logiciels de développement}
 
@@ -435,6 +443,7 @@ Lors du développement de notre site, nous avons utilisé les langages suivants 
 \renewcommand{\arraystretch}{1.4}
 \setlength{\LTleft}{\fill}
 \setlength{\LTright}{\fill}
+\begin{center}
 \begin{longtable}{|m{14cm}|}
 \hline
 \textbf{HTML :} HTML (HyperText Markup Language) est le langage de base du Web qui
@@ -452,12 +461,14 @@ et le serveur backend.\cite{Python} \\ \hline
 \textbf{SQL :} Langage utilisé pour gérer la base de données.\cite{SQL} \\ \hline
 \caption{Langages de développement}
 \end{longtable}
+\end{center}
 
 \subsubsection{Frameworks et bibliothèques}
 
 Lors du développement de notre site, nous avons utilisé les frameworks et bibliothèques
 suivants :
 
+\begin{center}
 \begin{longtable}{|m{14cm}|}
 \hline
 \textbf{Next.js :} Framework React full-stack permettant de développer le frontend et
@@ -474,6 +485,7 @@ caractéristiques.\cite{MediaPipe} \\ \hline
 l'entraînement du modèle.\cite{TensorFlow} \\ \hline
 \caption{Frameworks et bibliothèques}
 \end{longtable}
+\end{center}
 
 %============================================================
 \section{Architecture de la solution}
