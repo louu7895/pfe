@@ -30,15 +30,14 @@ Le backlog du sprint 3 regroupe l’ensemble des user stories liées à la gesti
 \setlength{\extrarowheight}{2pt}
 \interlinepenalty=10000
 
-\begin{longtable}{|
-    >{\centering\arraybackslash}p{0.7cm}|
-    >{\centering\arraybackslash}p{2.8cm}|
-    >{\centering\arraybackslash}p{2.2cm}|
-    >{\RaggedRight\arraybackslash}p{3.5cm}|
-    >{\RaggedRight\arraybackslash}p{3.5cm}|
-    >{\centering\arraybackslash}p{0.6cm}|
-    >{\centering\arraybackslash}p{0.6cm}|}
-
+\begin{center}
+\begin{longtable}{|>{\centering\arraybackslash}m{0.5cm}|
+    >{\centering\arraybackslash}m{3cm}|
+    >{\centering\arraybackslash}m{2.5cm}|
+    >{\centering\arraybackslash}m{2.5cm}|
+    >{\centering\arraybackslash}m{3cm}|
+    >{\centering\arraybackslash}m{0.5cm}|
+    >{\centering\arraybackslash}m{0.5cm}|}
 \hline
 \textbf{ID} & \textbf{User Story} & \textbf{En tant que} & \textbf{Je veux} & \textbf{Afin de} & \textbf{P} & \textbf{C} \\
 \hline
@@ -62,14 +61,14 @@ Le backlog du sprint 3 regroupe l’ensemble des user stories liées à la gesti
 \caption{Backlog Sprint 3}
 \label{tab:sprint3}
 \end{longtable}
-
+\end{center}
 
 \subsection{Spécification fonctionnelle détaillée}
 
 \subsubsection*{Diagramme de cas d'utilisation du sprint 3}
 Ce diagramme représente les principales fonctionnalités du sprint 3, qui sont centrées sur la gestion des ressources humaines. Il met en évidence les interactions entre les acteurs, notamment le Responsable RH et l’Employé, et le système, à travers les processus de gestion des congés, des documents administratifs ainsi que des éléments de paie.
 \begin{figure}[H]
-    \centering
+   
     \includegraphics[width=0.9\textwidth]{projet/images/usecase/sprint 3/use_case_s3.png}
     \caption{Diagramme de Cas d'utilisation du Sprint 3}
     \label{fig:usecase_sprint3}
@@ -78,7 +77,7 @@ Ce diagramme représente les principales fonctionnalités du sprint 3, qui sont 
 \subsubsection*{Raffinement du cas d'utilisation "Gérer congé"}
 Ce diagramme détaille les différentes fonctionnalités associées à la gestion des congésIl illustre notamment les opérations de validation et de refus de congé.
 \begin{figure}[H]
-    \centering
+    
     \includegraphics[width=0.9\textwidth]{projet/images/usecase/sprint 3/raffinement_gerer_conges.png}
     \caption{Raffinement du cas d'utilisation "Gérer les congés"}
     \label{fig:raffinement_gerer_conge}
@@ -86,7 +85,8 @@ Ce diagramme détaille les différentes fonctionnalités associées à la gestio
 
 \subsubsection*{Description textuelle : cas d'utilisation «~Valider congé~»}
 Ce cas d'utilisation décrit le processus permettant au Responsable RH d'examiner une demande de congé soumise par un employé et de l'approuver. Cette fonctionnalité garantit une gestion structurée des absences tout en assurant la mise à jour du statut de la demande dans le système.
-\begin{center}
+\setlength{\LTleft}{\fill}
+\setlength{\LTright}{\fill}
 \begin{longtable}{|p{5cm}|p{9cm}|}
 \hline
 \textbf{Nom du cas d'utilisation} & Valider congé \\ \hline
@@ -102,11 +102,12 @@ Ce cas d'utilisation décrit le processus permettant au Responsable RH d'examine
 \textbf{Post-condition} & La demande est validée. \\ \hline
 \caption{Description textuelle du cas d'utilisation «~Valider congé~»}
 \end{longtable}
-\end{center}
+
+
 
 \subsubsection*{Description textuelle : cas d'utilisation «~Refuser congé~»}
 Ce cas d'utilisation présente les étapes permettant au Responsable RH de refuser une demande de congé lorsqu'elle ne respecte pas les conditions requises. Le système enregistre le motif du refus afin d'assurer la transparence du processus.
-\begin{center}
+
 \begin{longtable}{|p{5cm}|p{9cm}|}
 \hline
 \textbf{Nom du cas d'utilisation} & Refuser congé \\ \hline
@@ -123,19 +124,20 @@ Ce cas d'utilisation présente les étapes permettant au Responsable RH de refus
 \textbf{Post-condition} & La demande est refusée. \\ \hline
 \caption{Description textuelle du cas d'utilisation «~Refuser congé~»}
 \end{longtable}
-\end{center}
+
 
 \subsubsection*{Raffinement du cas d'utilisation "Gérer les salaires"}
 Ce diagramme présente les fonctionnalités liées à la gestion des salaires. Il met en évidence les opérations d’attribution de primes, de déductions ainsi que la mise à jour du salaire des employés, réalisées par le Responsable RH dans le cadre de la gestion de la paie.
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/usecase/sprint 3/refinnement_gere_salaire.png}
+   
+    \includegraphics[width=0.9\textwidth, height=0.4\textwidth]{projet/images/usecase/sprint 3/refinnement_gere_salaire.png}
     \caption{Raffinement du cas d'utilisation "Gérer les salaires"}
     \label{fig:raffinement_gerer_salaires1}
 \end{figure}
 
 \subsubsection*{Description textuelle : cas d'utilisation «~Attribuer déduction~»}
 Ce cas d'utilisation permet au Responsable RH d'appliquer une déduction sur le salaire d'un employé. Cette fonctionnalité contribue à une gestion précise de la paie en prenant en compte les retenues justifiées.
+\vspace{1cm}
 \begin{center}
 \begin{longtable}{|p{5cm}|p{9cm}|}
 \hline
@@ -397,10 +399,10 @@ Ce cas d'utilisation permet à l'employé de transmettre des documents administr
 \end{longtable}
 \end{center}
 
-\subsection{Conception}
-Cette section présente les différents diagrammes UML réalisés afin de modéliser le fonctionnement du système, notamment les diagrammes de séquence et les diagrammes de classes, permettant de décrire les interactions entre les acteurs ainsi que la structure globale de l'application.
+\subsubsection{Diagrammes de séquence du sprint 3}
 
-\subsubsection{Diagramme de séquence du sprint 3}
+
+Dans cette section, nous présentons quelques diagrammes de séquence du sprint 3.
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation «~Valider ou Refuser un congé~»}
 
@@ -497,7 +499,7 @@ Le diagramme de classe montre la structure des fonctionnalités de gestion des r
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{projet/images/classe finale/s3.png}
+    \includegraphics[width=0.9\textwidth,height=0.1\textheight]{projet/images/classe finale/s3.png}
     \caption{Diagramme de classe du sprint 3}
     \label{fig:classe_sprint3}
 \end{figure}
@@ -693,8 +695,10 @@ Le rapport est généré et disponible pour consultation ou téléchargement. \\
 \end{longtable}
 \end{center}
 
-\subsection{Conception}
-\subsubsection{Diagrammes de séquence}
+\subsubsection{Diagrammes de séquence du sprint 4}
+
+Dans cette section, nous présentons quelques diagrammes de séquence relatifs au sprint 4, afin de
+mettre en évidence les différentes interactions entre les acteurs et le système.
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation «~Visualiser le Dashboard (Administrateur)~»}
 
@@ -729,13 +733,13 @@ Ce diagramme illustre le processus de génération d'un rapport par le Responsab
     \includegraphics[width=1\textwidth]{projet/images/digf/ss4/gr.drawio.png}
     \caption{Diagramme de séquence du cas d'utilisation «~Générer rapport~»}
 \end{figure}
-\subsubsection{Diagramme du sprint 4}
+\subsubsection{Diagramme de classe du sprint 4}
 
 À l’issue de l’implémentation des fonctionnalités du Sprint 4, l’ensemble des modules du système a été stabilisé, permettant ainsi de finaliser le diagramme de classes. Ce dernier représente de manière cohérente et intégrée l’architecture globale de l’application, en tenant compte des évolutions apportées durant les différents sprints et en reflétant la structure définitive du système.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{projet/images/classe finale/s4.png}
+    \includegraphics[width=1\textwidth ,height=0.95\textheight]{projet/images/classe finale/s4.png}
     \caption{Diagramme de classe de sprint 4 (final)}
     \label{fig:classe_finale}
 \end{figure}
