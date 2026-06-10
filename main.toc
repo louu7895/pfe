@@ -1,7 +1,7 @@
 \babel@toc {french}{}\relax 
-\contentsline {chapter}{Dédicaces}{i}{Doc-Start}%
-\contentsline {chapter}{Remerciements}{ii}{Doc-Start}%
-\contentsline {xchapter}{}{x}{Doc-Start}%
+\contentsline {chapter}{Dédicaces}{ii}{Doc-Start}%
+\contentsline {chapter}{Remerciements}{iii}{Doc-Start}%
+\contentsline {xchapter}{}{xi}{Doc-Start}%
 \contentsline {chapter}{Liste des abréviations}{1}{Doc-Start}%
 \contentsline {xchapter}{}{2}{table.caption.1}%
 \contentsline {chapter}{Introduction Générale}{2}{table.caption.1}%
@@ -79,4 +79,3 @@
 \contentsline {subsection}{\numberline {4.3.3}Interfaces réalisées pour le sprint 4}{100}{subsection.4.3.3}%
 \contentsline {section}{\numberline {4.4}Conclusion}{103}{section.4.4}%
 \contentsline {chapter}{Conclusion générale et Perspectives}{104}{section.4.4}%
-\contentsline {chapter}{Résumé et Abstract}{108}{section.4.4}%
