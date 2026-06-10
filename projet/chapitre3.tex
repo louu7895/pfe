@@ -533,7 +533,7 @@ du système et facilitent l’analyse des fonctionnalités développées durant 
 
 \subsubsection*{Diagramme de séquence du cas d'utilisation « Connecter la plateforme aux caméras »}
 
-Ce diagramme illustre la configuration et la connexion des caméras à la plateforme par le Responsable RH. Il saisit les paramètres de connexion, le système établit la liaison avec les caméras et active le module de pointage automatique par reconnaissance faciale.
+Ce diagramme de séquence illustre comment le Responsable RH configure et connecte les caméras à la plateforme. Il sélectionne les caméras d’entrée et de sortie via la page de configuration, qui communique avec l’API /terminal/recognize pour détecter les périphériques USB et initialiser le pointage automatique. Selon le résultat, le système confirme l’activation ou signale une erreur de connexion.
 
 \begin{figure}[H]
     \centering
