@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.30)  10 JUN 2026 18:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.30)  10 JUN 2026 23:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1799,12 +1799,17 @@ Package pdftex.def Info: projet/images/usecase/sprint1/gere_compte_rh.png  used
  on input line 191.
 (pdftex.def)             Requested size: 396.91325pt x 118.38902pt.
  [34 <./projet/images/usecase/sprint1/gere_compte_rh.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 215--221
+Underfull \hbox (badness 10000) in paragraph at lines 207--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 214--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
@@ -1813,7 +1818,7 @@ ignored error: Infinite glue shrinkage found in box being split [35]
 File: projet/images/digf/ss1/auth.drawio.png Graphic file (type png)
 <use projet/images/digf/ss1/auth.drawio.png>
 Package pdftex.def Info: projet/images/digf/ss1/auth.drawio.png  used on input 
-line 250.
+line 249.
 (pdftex.def)             Requested size: 441.01773pt x 503.9505pt.
  [36]
 <projet/images/digf/ss1/sinscrire.drawio.png, id=833, 2129.9575pt x 2051.665pt>
@@ -1821,7 +1826,7 @@ line 250.
 File: projet/images/digf/ss1/sinscrire.drawio.png Graphic file (type png)
 <use projet/images/digf/ss1/sinscrire.drawio.png>
 Package pdftex.def Info: projet/images/digf/ss1/sinscrire.drawio.png  used on i
-nput line 261.
+nput line 260.
 (pdftex.def)             Requested size: 441.01773pt x 424.78903pt.
 
 [37 <./projet/images/digf/ss1/auth.drawio.png>]
@@ -1830,21 +1835,21 @@ t>
 File: projet/images/digf/ss1/creer_compte_employe.png Graphic file (type png)
 <use projet/images/digf/ss1/creer_compte_employe.png>
 Package pdftex.def Info: projet/images/digf/ss1/creer_compte_employe.png  used 
-on input line 270.
+on input line 269.
 (pdftex.def)             Requested size: 441.01773pt x 340.4052pt.
  [38 <./projet/images/digf/ss1/sinscrire.drawio.png>]
 <projet/images/digf/ss1/sup.drawio.png, id=845, 1346.02875pt x 1085.05376pt>
 File: projet/images/digf/ss1/sup.drawio.png Graphic file (type png)
 <use projet/images/digf/ss1/sup.drawio.png>
 Package pdftex.def Info: projet/images/digf/ss1/sup.drawio.png  used on input l
-ine 279.
+ine 278.
 (pdftex.def)             Requested size: 441.01773pt x 355.50258pt.
  [39 <./projet/images/digf/ss1/creer_compte_employe.png>]
 <projet/images/digf/ss1/mrc.drawio.png, id=852, 2812.5075pt x 2250.4075pt>
 File: projet/images/digf/ss1/mrc.drawio.png Graphic file (type png)
 <use projet/images/digf/ss1/mrc.drawio.png>
 Package pdftex.def Info: projet/images/digf/ss1/mrc.drawio.png  used on input l
-ine 288.
+ine 287.
 (pdftex.def)             Requested size: 440.99817pt x 441.0082pt.
 
 [40 <./projet/images/digf/ss1/sup.drawio.png>]
@@ -1854,27 +1859,27 @@ File: projet/images/classe finale/diagramme_de_classe_s1.png Graphic file (type
  png)
 <use projet/images/classe finale/diagramme_de_classe_s1.png>
 Package pdftex.def Info: projet/images/classe finale/diagramme_de_classe_s1.png
-  used on input line 298.
+  used on input line 297.
 (pdftex.def)             Requested size: 396.88506pt x 485.10768pt.
  [41 <./projet/images/digf/ss1/mrc.drawio.png>]
 <projet/images/interface/s1/connexion.jpeg, id=865, 1606.0pt x 892.33376pt>
 File: projet/images/interface/s1/connexion.jpeg Graphic file (type jpg)
 <use projet/images/interface/s1/connexion.jpeg>
 Package pdftex.def Info: projet/images/interface/s1/connexion.jpeg  used on inp
-ut line 313.
+ut line 312.
 (pdftex.def)             Requested size: 396.91325pt x 220.53671pt.
  [42 <./projet/images/classe finale/diagramme_de_classe_s1.png>]
 <projet/images/interface/s1/ins.jpeg, id=871, 1606.0pt x 1119.18124pt>
 File: projet/images/interface/s1/ins.jpeg Graphic file (type jpg)
 <use projet/images/interface/s1/ins.jpeg>
 Package pdftex.def Info: projet/images/interface/s1/ins.jpeg  used on input lin
-e 324.
+e 323.
 (pdftex.def)             Requested size: 396.91325pt x 276.60117pt.
 <projet/images/interface/s1/gestion employe.jpeg, id=872, 1606.0pt x 762.85pt>
 File: projet/images/interface/s1/gestion employe.jpeg Graphic file (type jpg)
 <use projet/images/interface/s1/gestion employe.jpeg>
 Package pdftex.def Info: projet/images/interface/s1/gestion employe.jpeg  used 
-on input line 335.
+on input line 334.
 (pdftex.def)             Requested size: 396.91647pt x 220.49915pt.
 
 [43 <./projet/images/interface/s1/connexion.jpeg> <./projet/images/interface/s1
@@ -1883,21 +1888,21 @@ on input line 335.
 File: projet/images/interface/s1/gestion rh.jpeg Graphic file (type jpg)
 <use projet/images/interface/s1/gestion rh.jpeg>
 Package pdftex.def Info: projet/images/interface/s1/gestion rh.jpeg  used on in
-put line 346.
+put line 345.
 (pdftex.def)             Requested size: 396.91325pt x 188.53532pt.
  [44 <./projet/images/interface/s1/gestion employe.jpeg> <./projet/images/inter
 face/s1/gestion rh.jpeg>]
-Overfull \hbox (1.8416pt too wide) in alignment at lines 367--371
+Overfull \hbox (1.8416pt too wide) in alignment at lines 366--370
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.8416pt too wide) in alignment at lines 371--375
+Overfull \hbox (1.8416pt too wide) in alignment at lines 370--374
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.8416pt too wide) in alignment at lines 375--382
+Overfull \hbox (1.8416pt too wide) in alignment at lines 374--381
  [] [] [] [] [] [] [] 
  []
 
@@ -1908,7 +1913,7 @@ File: projet/images/usecase/sprint2/sprint2.drawio.png.png Graphic file (type p
 ng)
 <use projet/images/usecase/sprint2/sprint2.drawio.png.png>
 Package pdftex.def Info: projet/images/usecase/sprint2/sprint2.drawio.png.png  
-used on input line 393.
+used on input line 392.
 (pdftex.def)             Requested size: 396.91325pt x 262.01045pt.
 
 ignored error: Infinite glue shrinkage found in box being split [46 <./projet/i
@@ -1920,7 +1925,7 @@ ignored error: Infinite glue shrinkage found in box being split [49]
 File: projet/images/digf/ss2/connecter_cameras.png Graphic file (type png)
 <use projet/images/digf/ss2/connecter_cameras.png>
 Package pdftex.def Info: projet/images/digf/ss2/connecter_cameras.png  used on 
-input line 541.
+input line 540.
 (pdftex.def)             Requested size: 374.86191pt x 374.86032pt.
  [50]
 <projet/images/digf/ss2/enregister_visage.png, id=911, 2692.0575pt x 2230.3325p
@@ -1928,7 +1933,7 @@ t>
 File: projet/images/digf/ss2/enregister_visage.png Graphic file (type png)
 <use projet/images/digf/ss2/enregister_visage.png>
 Package pdftex.def Info: projet/images/digf/ss2/enregister_visage.png  used on 
-input line 551.
+input line 550.
 (pdftex.def)             Requested size: 374.8316pt x 374.86346pt.
 
 [51 <./projet/images/digf/ss2/connecter_cameras.png>]
@@ -1936,7 +1941,7 @@ input line 551.
 File: projet/images/digf/ss2/modifier_infos.png Graphic file (type png)
 <use projet/images/digf/ss2/modifier_infos.png>
 Package pdftex.def Info: projet/images/digf/ss2/modifier_infos.png  used on inp
-ut line 560.
+ut line 559.
 (pdftex.def)             Requested size: 374.85406pt x 396.894pt.
  [52 <./projet/images/digf/ss2/enregister_visage.png>]
 <projet/images/digf/ss2/consulter_retard.png, id=924, 2712.1325pt x 1989.4325pt
@@ -1944,7 +1949,7 @@ ut line 560.
 File: projet/images/digf/ss2/consulter_retard.png Graphic file (type png)
 <use projet/images/digf/ss2/consulter_retard.png>
 Package pdftex.def Info: projet/images/digf/ss2/consulter_retard.png  used on i
-nput line 570.
+nput line 569.
 (pdftex.def)             Requested size: 374.85406pt x 374.86942pt.
  [53 <./projet/images/digf/ss2/modifier_infos.png>]
 <projet/images/digf/ss2/pointage_facial.png, id=930, 2330.7075pt x 2872.7325pt>
@@ -1952,7 +1957,7 @@ nput line 570.
 File: projet/images/digf/ss2/pointage_facial.png Graphic file (type png)
 <use projet/images/digf/ss2/pointage_facial.png>
 Package pdftex.def Info: projet/images/digf/ss2/pointage_facial.png  used on in
-put line 580.
+put line 579.
 (pdftex.def)             Requested size: 374.84126pt x 374.8272pt.
 [54 <./projet/images/digf/ss2/consulter_retard.png>]
 <projet/images/classe finale/daigramme_de_classe_s2.png, id=936, 2700.0875pt x 
@@ -1961,7 +1966,7 @@ File: projet/images/classe finale/daigramme_de_classe_s2.png Graphic file (type
  png)
 <use projet/images/classe finale/daigramme_de_classe_s2.png>
 Package pdftex.def Info: projet/images/classe finale/daigramme_de_classe_s2.png
-  used on input line 590.
+  used on input line 589.
 (pdftex.def)             Requested size: 374.83728pt x 440.98843pt.
  [55 <./projet/images/digf/ss2/pointage_facial.png>]
 <projet/images/interface/s2/connecter camera.jpeg, id=943, 1606.0pt x 1244.65pt
@@ -1969,7 +1974,7 @@ Package pdftex.def Info: projet/images/classe finale/daigramme_de_classe_s2.png
 File: projet/images/interface/s2/connecter camera.jpeg Graphic file (type jpg)
 <use projet/images/interface/s2/connecter camera.jpeg>
 Package pdftex.def Info: projet/images/interface/s2/connecter camera.jpeg  used
- on input line 605.
+ on input line 604.
 (pdftex.def)             Requested size: 396.91325pt x 307.61026pt.
  [56 <./projet/images/classe finale/daigramme_de_classe_s2.png>]
 <projet/images/interface/s2/enregister visage.png, id=949, 1139.75812pt x 637.6
@@ -1977,14 +1982,14 @@ Package pdftex.def Info: projet/images/interface/s2/connecter camera.jpeg  used
 File: projet/images/interface/s2/enregister visage.png Graphic file (type png)
 <use projet/images/interface/s2/enregister visage.png>
 Package pdftex.def Info: projet/images/interface/s2/enregister visage.png  used
- on input line 616.
+ on input line 615.
 (pdftex.def)             Requested size: 396.91325pt x 222.04599pt.
 <projet/images/interface/s2/modifier profile.jpeg, id=950, 1606.0pt x 762.85pt>
 
 File: projet/images/interface/s2/modifier profile.jpeg Graphic file (type jpg)
 <use projet/images/interface/s2/modifier profile.jpeg>
 Package pdftex.def Info: projet/images/interface/s2/modifier profile.jpeg  used
- on input line 627.
+ on input line 626.
 (pdftex.def)             Requested size: 396.91325pt x 188.53532pt.
  [57 <./projet/images/interface/s2/connecter camera.jpeg> <./projet/images/inte
 rface/s2/enregister visage.png>]
@@ -1992,14 +1997,14 @@ rface/s2/enregister visage.png>]
 File: projet/images/interface/s2/absence.jpeg Graphic file (type jpg)
 <use projet/images/interface/s2/absence.jpeg>
 Package pdftex.def Info: projet/images/interface/s2/absence.jpeg  used on input
- line 638.
+ line 637.
 (pdftex.def)             Requested size: 396.91325pt x 287.2683pt.
 <projet/images/interface/s2/pointage_facial.jpeg, id=958, 1523.6925pt x 1606.0p
 t>
 File: projet/images/interface/s2/pointage_facial.jpeg Graphic file (type jpg)
 <use projet/images/interface/s2/pointage_facial.jpeg>
 Package pdftex.def Info: projet/images/interface/s2/pointage_facial.jpeg  used 
-on input line 649.
+on input line 648.
 (pdftex.def)             Requested size: 396.91325pt x 418.33434pt.
  [58 <./projet/images/interface/s2/modifier profile.jpeg> <./projet/images/inte
 rface/s2/absence.jpeg>])
@@ -2361,15 +2366,8 @@ Package minitoc(hints) Warning: W0024
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: FAE18B2BAF81DBCEEEA6D619DA468BE8;10437
-(rerunfilecheck)             After:  ABBF3DA2BFAC01BB7A280484278F1ADE;10382.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: ABBF3DA2BFAC01BB7A280484278F1ADE;10382.
  ) 
 Here is how much of TeX's memory you used:
  39841 strings out of 467871
@@ -2383,7 +2381,7 @@ Here is how much of TeX's memory you used:
 /courier/ucrr8a.pfb><D:/latex/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/latex/fon
 ts/type1/urw/times/utmb8a.pfb><D:/latex/fonts/type1/urw/times/utmr8a.pfb><D:/la
 tex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (118 pages, 11259502 bytes).
+Output written on main.pdf (118 pages, 11259450 bytes).
 PDF statistics:
  1355 PDF objects out of 1440 (max. 8388607)
  324 named destinations out of 1000 (max. 500000)
