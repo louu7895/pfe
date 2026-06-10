@@ -152,7 +152,7 @@ outer=2.5cm
 
 \pagenumbering{roman}
 \includepdf[pages=1]{projet/garde.pdf}
-\input{projet/sing.tex}
+
 \input{front_matter/dedicaces}
 
 \clearpage
@@ -174,11 +174,13 @@ outer=2.5cm
 %==============================================================
 
 \clearpage
-\pagenumbering{arabic}
+
 
 \input{projet/abbreviations}
 \mtcaddchapter
-
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
 \input{projet/introduction}
 \mtcaddchapter
 

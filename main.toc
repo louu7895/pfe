@@ -1,79 +1,78 @@
 \babel@toc {french}{}\relax 
-\contentsline {xchapter}{}{ix}{Doc-Start}%
-\contentsline {chapter}{Liste des abréviations}{1}{Doc-Start}%
-\contentsline {xchapter}{}{2}{table.caption.1}%
-\contentsline {chapter}{Introduction Générale}{2}{table.caption.1}%
-\contentsline {xchapter}{}{4}{table.caption.1}%
-\contentsline {xchapter}{}{4}{table.caption.1}%
-\contentsline {chapter}{\numberline {1}Présentation du cadre du projet}{4}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Introduction}{5}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Présentation de l'organisme d'accueil}{5}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Domaines d’activités}{5}{subsection.1.2.1}%
-\contentsline {section}{\numberline {1.3}Contexte du projet}{6}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Etude de l'existant}{6}{subsection.1.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.1.1}Description de l'existant}{6}{subsubsection.1.3.1.1}%
-\contentsline {subsubsection}{\numberline {1.3.1.2}Critique de l'existant et problématique}{6}{subsubsection.1.3.1.2}%
-\contentsline {subsection}{\numberline {1.3.2}Solution proposée}{7}{subsection.1.3.2}%
-\contentsline {section}{\numberline {1.4}Méthodologie de travail}{7}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Étude comparative}{8}{subsection.1.4.1}%
-\contentsline {subsubsection}{\numberline {1.4.1.1}Choix de l’approche}{10}{subsubsection.1.4.1.1}%
-\contentsline {subsubsection}{\numberline {1.4.1.2}L’approche SCRUM pour le développement du projet}{10}{subsubsection.1.4.1.2}%
-\contentsline {section}{\numberline {1.5}Conclusion}{11}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Analyse et spécification des besoins}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{13}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Analyse des besoins}{13}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Besoins fonctionnels}{13}{subsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.1}Identification des acteurs}{13}{subsubsection.2.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.2}Identification des cas d'utilisation}{13}{subsubsection.2.2.1.2}%
-\contentsline {paragraph}{\numberline {2.2.1.2.1}Fonctionnalités pour l'employé}{13}{paragraph.2.2.1.2.1}%
-\contentsline {paragraph}{\numberline {2.2.1.2.2}Fonctionnalités pour le responsable RH}{14}{paragraph.2.2.1.2.2}%
-\contentsline {paragraph}{\numberline {2.2.1.2.3}Fonctionnalités pour l'administrateur}{14}{paragraph.2.2.1.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.1.3}Diagramme de cas d'utilisation global}{15}{subsubsection.2.2.1.3}%
-\contentsline {subsection}{\numberline {2.2.2}Besoins non fonctionnels}{16}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Pilotage de projet avec Scrum}{16}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Affectation des rôles Scrum}{16}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Le Backlog de produit}{17}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Planification de releases}{20}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Diagramme de Gantt}{22}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}Étude technique}{22}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Environnement matériel}{23}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Environnement logiciel}{23}{subsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.2.1}Logiciels de conception}{23}{subsubsection.2.4.2.1}%
-\contentsline {subsubsection}{\numberline {2.4.2.2}Logiciels de développement}{24}{subsubsection.2.4.2.2}%
-\contentsline {subsubsection}{\numberline {2.4.2.3}Langages de développement}{24}{subsubsection.2.4.2.3}%
-\contentsline {subsubsection}{\numberline {2.4.2.4}Frameworks et bibliothèques}{25}{subsubsection.2.4.2.4}%
-\contentsline {section}{\numberline {2.5}Architecture de la solution}{26}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Architecture logique}{26}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Architecture logicielle}{26}{subsection.2.5.2}%
-\contentsline {section}{\numberline {2.6}Conclusion}{27}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Release 1}{28}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{29}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Sprint 1 : Gestion des Accès et Administration des Comptes}{29}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Backlog du sprint 1}{29}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Spécification fonctionnelle détaillée}{30}{subsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.2.1}Diagrammes de séquence du sprint 1}{36}{subsubsection.3.2.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2.2}Diagramme de classe du sprint 1}{41}{subsubsection.3.2.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Interfaces réalisées pour le sprint 1}{42}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Sprint 2 : Pointage Intelligent et Suivi de Présence}{45}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Backlog du sprint 2}{45}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Spécification fonctionnelle détaillée}{46}{subsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.2.1}Diagrammes de séquence du sprint 2}{50}{subsubsection.3.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.3.2.2}Diagramme de classe du sprint 2}{55}{subsubsection.3.3.2.2}%
-\contentsline {subsection}{\numberline {3.3.3}Interfaces réalisées pour le sprint 2}{56}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Conclusion}{59}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Release 2}{60}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{61}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Sprint 3: Gestion des Congés et des Documents Administratifs}{61}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Backlog de sprint 3}{61}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Spécification fonctionnelle détaillée}{63}{subsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.1}Diagrammes de séquence du sprint 3}{74}{subsubsection.4.2.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2.2}Diagramme de classe de sprint 3}{84}{subsubsection.4.2.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Interfaces réalisées pour le sprint 3}{85}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Sprint 4: Pilotage RH, Reporting, Paiement et Traçabilité}{89}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Backlog de sprint 4}{89}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Spécification fonctionnelle détaillée}{90}{subsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.2.1}Diagrammes de séquence du sprint 4}{93}{subsubsection.4.3.2.1}%
-\contentsline {subsubsection}{\numberline {4.3.2.2}Diagramme de classe du sprint 4}{98}{subsubsection.4.3.2.2}%
-\contentsline {subsection}{\numberline {4.3.3}Interfaces réalisées pour le sprint 4}{100}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Conclusion}{103}{section.4.4}%
-\contentsline {chapter}{Conclusion générale et Perspectives}{104}{section.4.4}%
+\contentsline {xchapter}{}{viii}{Doc-Start}%
+\contentsline {xchapter}{}{1}{table.caption.1}%
+\contentsline {chapter}{Introduction Générale}{1}{table.caption.1}%
+\contentsline {xchapter}{}{3}{table.caption.1}%
+\contentsline {xchapter}{}{3}{table.caption.1}%
+\contentsline {chapter}{\numberline {1}Présentation du cadre du projet}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Présentation de l'organisme d'accueil}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Domaines d’activités}{4}{subsection.1.2.1}%
+\contentsline {section}{\numberline {1.3}Contexte du projet}{5}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Etude de l'existant}{5}{subsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.1.1}Description de l'existant}{5}{subsubsection.1.3.1.1}%
+\contentsline {subsubsection}{\numberline {1.3.1.2}Critique de l'existant et problématique}{5}{subsubsection.1.3.1.2}%
+\contentsline {subsection}{\numberline {1.3.2}Solution proposée}{6}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Méthodologie de travail}{6}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Étude comparative}{7}{subsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.1.1}Choix de l’approche}{9}{subsubsection.1.4.1.1}%
+\contentsline {subsubsection}{\numberline {1.4.1.2}L’approche SCRUM pour le développement du projet}{9}{subsubsection.1.4.1.2}%
+\contentsline {section}{\numberline {1.5}Conclusion}{10}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Analyse et spécification des besoins}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{12}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Analyse des besoins}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Besoins fonctionnels}{12}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Identification des acteurs}{12}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Identification des cas d'utilisation}{12}{subsubsection.2.2.1.2}%
+\contentsline {paragraph}{\numberline {2.2.1.2.1}Fonctionnalités pour l'employé}{12}{paragraph.2.2.1.2.1}%
+\contentsline {paragraph}{\numberline {2.2.1.2.2}Fonctionnalités pour le responsable RH}{13}{paragraph.2.2.1.2.2}%
+\contentsline {paragraph}{\numberline {2.2.1.2.3}Fonctionnalités pour l'administrateur}{13}{paragraph.2.2.1.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Diagramme de cas d'utilisation global}{14}{subsubsection.2.2.1.3}%
+\contentsline {subsection}{\numberline {2.2.2}Besoins non fonctionnels}{15}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Pilotage de projet avec Scrum}{15}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Affectation des rôles Scrum}{15}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Le Backlog de produit}{16}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Planification de releases}{19}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Diagramme de Gantt}{21}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Étude technique}{21}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Environnement matériel}{22}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Environnement logiciel}{22}{subsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.2.1}Logiciels de conception}{22}{subsubsection.2.4.2.1}%
+\contentsline {subsubsection}{\numberline {2.4.2.2}Logiciels de développement}{23}{subsubsection.2.4.2.2}%
+\contentsline {subsubsection}{\numberline {2.4.2.3}Langages de développement}{23}{subsubsection.2.4.2.3}%
+\contentsline {subsubsection}{\numberline {2.4.2.4}Frameworks et bibliothèques}{24}{subsubsection.2.4.2.4}%
+\contentsline {section}{\numberline {2.5}Architecture de la solution}{25}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Architecture logique}{25}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Architecture logicielle}{25}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Conclusion}{26}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Release 1}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{28}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Sprint 1 : Gestion des Accès et Administration des Comptes}{28}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Backlog du sprint 1}{28}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Spécification fonctionnelle détaillée}{29}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}Diagrammes de séquence du sprint 1}{35}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}Diagramme de classe du sprint 1}{40}{subsubsection.3.2.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Interfaces réalisées pour le sprint 1}{41}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Sprint 2 : Pointage Intelligent et Suivi de Présence}{44}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Backlog du sprint 2}{44}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Spécification fonctionnelle détaillée}{45}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Diagrammes de séquence du sprint 2}{49}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Diagramme de classe du sprint 2}{54}{subsubsection.3.3.2.2}%
+\contentsline {subsection}{\numberline {3.3.3}Interfaces réalisées pour le sprint 2}{55}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Conclusion}{58}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Release 2}{59}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{60}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Sprint 3: Gestion des Congés et des Documents Administratifs}{60}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Backlog de sprint 3}{60}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Spécification fonctionnelle détaillée}{62}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Diagrammes de séquence du sprint 3}{73}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}Diagramme de classe de sprint 3}{83}{subsubsection.4.2.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Interfaces réalisées pour le sprint 3}{84}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Sprint 4: Pilotage RH, Reporting, Paiement et Traçabilité}{88}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Backlog de sprint 4}{88}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Spécification fonctionnelle détaillée}{89}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}Diagrammes de séquence du sprint 4}{92}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}Diagramme de classe du sprint 4}{97}{subsubsection.4.3.2.2}%
+\contentsline {subsection}{\numberline {4.3.3}Interfaces réalisées pour le sprint 4}{99}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Conclusion}{102}{section.4.4}%
+\contentsline {chapter}{Conclusion générale et Perspectives}{103}{section.4.4}%
